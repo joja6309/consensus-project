@@ -1,0 +1,2718 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ef0480a4-83a0-481b-8962-3c2150408347" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change beforePath="$PROJECT_DIR$/../Dockerfile" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../LICENSE" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../UsefulCommands.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../build.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_01_Basic_Trivial/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_01_Basic_Trivial/clean.sh" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_01_Basic_Trivial/compile.sh" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_01_Basic_Trivial/run.sh" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_01_Basic_Trivial/src/net.codetojoy/module-info.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_01_Basic_Trivial/src/net.codetojoy/net/codetojoy/Main.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_02_Basic_Dependency/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_02_Basic_Dependency/clean.sh" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_02_Basic_Dependency/compile.sh" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_02_Basic_Dependency/list_net.codetojoy.db.sh" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_02_Basic_Dependency/list_net.codetojoy.service.sh" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_02_Basic_Dependency/run_UserDao.sh" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_02_Basic_Dependency/run_UserService.sh" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_02_Basic_Dependency/src/net.codetojoy.db/module-info.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_02_Basic_Dependency/src/net.codetojoy.db/net/codetojoy/db/api/UserDao.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_02_Basic_Dependency/src/net.codetojoy.db/net/codetojoy/db/impl/UserDaoImpl.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_02_Basic_Dependency/src/net.codetojoy.db/net/codetojoy/db/utils/DaoUtils.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_02_Basic_Dependency/src/net.codetojoy.service/module-info.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_02_Basic_Dependency/src/net.codetojoy.service/net/codetojoy/service/api/UserService.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_02_Basic_Dependency/src/net.codetojoy.service/net/codetojoy/service/impl/UserServiceImpl.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_03_Transitive_Export/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_03_Transitive_Export/clean.sh" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_03_Transitive_Export/compile.sh" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_03_Transitive_Export/list_net.codetojoy.db.sh" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_03_Transitive_Export/list_net.codetojoy.service.sh" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_03_Transitive_Export/run_UserDao.sh" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_03_Transitive_Export/run_UserService.sh" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_03_Transitive_Export/src/net.codetojoy.db/module-info.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_03_Transitive_Export/src/net.codetojoy.db/net/codetojoy/db/api/UserDao.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_03_Transitive_Export/src/net.codetojoy.db/net/codetojoy/db/impl/UserDaoImpl.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_03_Transitive_Export/src/net.codetojoy.db/net/codetojoy/db/utils/DaoUtils.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_03_Transitive_Export/src/net.codetojoy.service/module-info.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_03_Transitive_Export/src/net.codetojoy.service/net/codetojoy/service/api/UserService.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_03_Transitive_Export/src/net.codetojoy.service/net/codetojoy/service/impl/UserServiceImpl.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_04_Open_Module/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_04_Open_Module/clean.sh" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_04_Open_Module/compile.sh" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_04_Open_Module/list_net.codetojoy.db.sh" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_04_Open_Module/list_net.codetojoy.service.sh" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_04_Open_Module/run_UserDao.sh" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_04_Open_Module/run_UserService.sh" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_04_Open_Module/src/net.codetojoy.db/module-info.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_04_Open_Module/src/net.codetojoy.db/net/codetojoy/db/api/UserDao.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_04_Open_Module/src/net.codetojoy.db/net/codetojoy/db/impl/UserDaoImpl.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_04_Open_Module/src/net.codetojoy.db/net/codetojoy/db/utils/DaoUtils.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_04_Open_Module/src/net.codetojoy.service/module-info.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_04_Open_Module/src/net.codetojoy.service/net/codetojoy/service/api/UserService.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_04_Open_Module/src/net.codetojoy.service/net/codetojoy/service/impl/UserServiceImpl.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_05a_Automatic_Module/3rdparty/commons.lang.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_05a_Automatic_Module/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_05a_Automatic_Module/clean.sh" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_05a_Automatic_Module/compile.sh" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_05a_Automatic_Module/list_net.codetojoy.db.sh" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_05a_Automatic_Module/list_net.codetojoy.service.sh" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_05a_Automatic_Module/mlib/net.codetojoy.db@1.0.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_05a_Automatic_Module/mlib/net.codetojoy.service@1.0.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_05a_Automatic_Module/run_UserDao.sh" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_05a_Automatic_Module/run_UserService.sh" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_05a_Automatic_Module/src/net.codetojoy.db/module-info.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_05a_Automatic_Module/src/net.codetojoy.db/net/codetojoy/db/api/UserDao.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_05a_Automatic_Module/src/net.codetojoy.db/net/codetojoy/db/impl/UserDaoImpl.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_05a_Automatic_Module/src/net.codetojoy.db/net/codetojoy/db/utils/DaoUtils.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_05a_Automatic_Module/src/net.codetojoy.service/module-info.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_05a_Automatic_Module/src/net.codetojoy.service/net/codetojoy/service/api/UserService.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_05a_Automatic_Module/src/net.codetojoy.service/net/codetojoy/service/impl/UserServiceImpl.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_05b_Automatic_Module/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_05b_Automatic_Module/clean.sh" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_05b_Automatic_Module/compile.sh" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_05b_Automatic_Module/list_net.codetojoy.db.sh" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_05b_Automatic_Module/list_net.codetojoy.service.sh" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_05b_Automatic_Module/run_UserDao.sh" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_05b_Automatic_Module/run_UserService.sh" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_05b_Automatic_Module/src/net.codetojoy.db/module-info.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_05b_Automatic_Module/src/net.codetojoy.db/net/codetojoy/db/api/UserDao.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_05b_Automatic_Module/src/net.codetojoy.db/net/codetojoy/db/impl/UserDaoImpl.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_05b_Automatic_Module/src/net.codetojoy.db/net/codetojoy/db/utils/DaoUtils.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_05b_Automatic_Module/src/net.codetojoy.service/module-info.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_05b_Automatic_Module/src/net.codetojoy.service/net/codetojoy/service/api/UserService.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_05b_Automatic_Module/src/net.codetojoy.service/net/codetojoy/service/impl/UserServiceImpl.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_05b_Automatic_Module/utils/3rdparty/commons-lang3-3.5.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_05b_Automatic_Module/utils/build.gradle" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_05b_Automatic_Module/utils/src/main/java/net/codetojoy/utils/StringUtils.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_05c_AutomaticModule_Jar_Attribute/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_05c_AutomaticModule_Jar_Attribute/clean.sh" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_05c_AutomaticModule_Jar_Attribute/compile.sh" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_05c_AutomaticModule_Jar_Attribute/list_net.codetojoy.db.sh" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_05c_AutomaticModule_Jar_Attribute/list_net.codetojoy.service.sh" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_05c_AutomaticModule_Jar_Attribute/run_UserDao.sh" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_05c_AutomaticModule_Jar_Attribute/run_UserService.sh" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_05c_AutomaticModule_Jar_Attribute/src/net.codetojoy.db/module-info.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_05c_AutomaticModule_Jar_Attribute/src/net.codetojoy.db/net/codetojoy/db/api/UserDao.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_05c_AutomaticModule_Jar_Attribute/src/net.codetojoy.db/net/codetojoy/db/impl/UserDaoImpl.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_05c_AutomaticModule_Jar_Attribute/src/net.codetojoy.db/net/codetojoy/db/utils/DaoUtils.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_05c_AutomaticModule_Jar_Attribute/src/net.codetojoy.service/module-info.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_05c_AutomaticModule_Jar_Attribute/src/net.codetojoy.service/net/codetojoy/service/api/UserService.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_05c_AutomaticModule_Jar_Attribute/src/net.codetojoy.service/net/codetojoy/service/impl/UserServiceImpl.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_05c_AutomaticModule_Jar_Attribute/utils/3rdparty/commons-lang3-3.5.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_05c_AutomaticModule_Jar_Attribute/utils/build.gradle" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_05c_AutomaticModule_Jar_Attribute/utils/src/main/java/net/codetojoy/utils/StringUtils.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_06_Services/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_06_Services/clean.sh" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_06_Services/compile.sh" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_06_Services/list_net.codetojoy.dao.sh" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_06_Services/list_net.codetojoy.db.sh" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_06_Services/run_Dao.sh" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_06_Services/src/net.codetojoy.dao/module-info.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_06_Services/src/net.codetojoy.dao/net/codetojoy/dao/Dao.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_06_Services/src/net.codetojoy.dao/net/codetojoy/dao/spi/DaoProvider.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_06_Services/src/net.codetojoy.db/module-info.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_06_Services/src/net.codetojoy.db/net/codetojoy/db/DaoImpl.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_06_Services/src/net.codetojoy.db/net/codetojoy/db/DaoProviderImpl.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_07_Unnamed_Module_Classpath_Driver/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_07_Unnamed_Module_Classpath_Driver/clean.sh" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_07_Unnamed_Module_Classpath_Driver/compile.sh" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_07_Unnamed_Module_Classpath_Driver/list_net.codetojoy.db.sh" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_07_Unnamed_Module_Classpath_Driver/list_service.sh" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_07_Unnamed_Module_Classpath_Driver/run_UserDao.sh" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_07_Unnamed_Module_Classpath_Driver/run_UserService.sh" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_07_Unnamed_Module_Classpath_Driver/service/src/main/java/net/codetojoy/service/api/UserService.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_07_Unnamed_Module_Classpath_Driver/service/src/main/java/net/codetojoy/service/impl/UserServiceImpl.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_07_Unnamed_Module_Classpath_Driver/src/net.codetojoy.db/module-info.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_07_Unnamed_Module_Classpath_Driver/src/net.codetojoy.db/net/codetojoy/db/api/UserDao.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_07_Unnamed_Module_Classpath_Driver/src/net.codetojoy.db/net/codetojoy/db/impl/UserDaoImpl.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_07_Unnamed_Module_Classpath_Driver/src/net.codetojoy.db/net/codetojoy/db/utils/DaoUtils.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_08_AntiExample_Unnamed_Module_Module_Driver/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_08_AntiExample_Unnamed_Module_Module_Driver/clean.sh" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_08_AntiExample_Unnamed_Module_Module_Driver/compile.sh" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_08_AntiExample_Unnamed_Module_Module_Driver/db/src/main/java/net/codetojoy/db/api/UserDao.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_08_AntiExample_Unnamed_Module_Module_Driver/db/src/main/java/net/codetojoy/db/impl/UserDaoImpl.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_08_AntiExample_Unnamed_Module_Module_Driver/db/src/main/java/net/codetojoy/db/utils/DaoUtils.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_08_AntiExample_Unnamed_Module_Module_Driver/src/net.codetojoy.service/module-info.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_08_AntiExample_Unnamed_Module_Module_Driver/src/net.codetojoy.service/net/codetojoy/service/api/UserService.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_08_AntiExample_Unnamed_Module_Module_Driver/src/net.codetojoy.service/net/codetojoy/service/impl/UserServiceImpl.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_09_Patch_Module/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_09_Patch_Module/clean.sh" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_09_Patch_Module/compile.sh" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_09_Patch_Module/patch/build_patch.sh" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_09_Patch_Module/patch/src/net.codetojoy/net/codetojoy/service/impl/UserServiceImpl.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_09_Patch_Module/run.sh" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_09_Patch_Module/run_with_patch.sh" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_09_Patch_Module/src/net.codetojoy/module-info.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_09_Patch_Module/src/net.codetojoy/net/codetojoy/Main.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_09_Patch_Module/src/net.codetojoy/net/codetojoy/service/api/UserService.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_09_Patch_Module/src/net.codetojoy/net/codetojoy/service/impl/UserServiceImpl.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_10_illegal_access_classpath/clean.sh" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_10_illegal_access_classpath/compile.sh" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_10_illegal_access_classpath/run.sh" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_10_illegal_access_classpath/src/net/codetojoy/App.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_11_illegal_access_modulepath/clean.sh" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_11_illegal_access_modulepath/compile.sh" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_11_illegal_access_modulepath/run.sh" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_11_illegal_access_modulepath/src/net.codetojoy/module-info.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_11_illegal_access_modulepath/src/net.codetojoy/net/codetojoy/App.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_20_JLink/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_20_JLink/clean.sh" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_20_JLink/compile.sh" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_20_JLink/link.sh" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_20_JLink/list_net.codetojoy.db.sh" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_20_JLink/list_net.codetojoy.service.sh" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_20_JLink/src/net.codetojoy.db/module-info.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_20_JLink/src/net.codetojoy.db/net/codetojoy/db/api/UserDao.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_20_JLink/src/net.codetojoy.db/net/codetojoy/db/impl/UserDaoImpl.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_20_JLink/src/net.codetojoy.db/net/codetojoy/db/utils/DaoUtils.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_20_JLink/src/net.codetojoy.service/module-info.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_20_JLink/src/net.codetojoy.service/net/codetojoy/service/api/UserService.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_20_JLink/src/net.codetojoy.service/net/codetojoy/service/impl/UserServiceImpl.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_21_JLink_With_Converted_Jar/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_21_JLink_With_Converted_Jar/build.sh" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_21_JLink_With_Converted_Jar/build_foo_app.sh" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_21_JLink_With_Converted_Jar/build_foo_domain.sh" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_21_JLink_With_Converted_Jar/clean.sh" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_21_JLink_With_Converted_Jar/convert/build.sh" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_21_JLink_With_Converted_Jar/convert/gen.sh" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_21_JLink_With_Converted_Jar/convert/in/commons-lang3-3.5.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_21_JLink_With_Converted_Jar/foo.app/src/main/java/foo.app/module-info.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_21_JLink_With_Converted_Jar/foo.app/src/main/java/foo.app/net/codetojoy/app/App.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_21_JLink_With_Converted_Jar/foo.domain/src/main/java/foo.domain/module-info.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_21_JLink_With_Converted_Jar/foo.domain/src/main/java/foo.domain/net/codetojoy/domain/User.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_21_JLink_With_Converted_Jar/link.sh" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_21_JLink_With_Converted_Jar/run_foo_app.sh" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_21_JLink_With_Converted_Jar/run_foo_app_runtime.sh" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_22_JLink_Cross_Platform/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_22_JLink_Cross_Platform/clean.sh" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_22_JLink_Cross_Platform/compile.sh" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_22_JLink_Cross_Platform/link.sh" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_22_JLink_Cross_Platform/list.sh" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_22_JLink_Cross_Platform/run.sh" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_22_JLink_Cross_Platform/src/net.codetojoy.db/module-info.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_22_JLink_Cross_Platform/src/net.codetojoy.db/net/codetojoy/db/api/UserDao.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_22_JLink_Cross_Platform/src/net.codetojoy.db/net/codetojoy/db/impl/UserDaoImpl.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_22_JLink_Cross_Platform/src/net.codetojoy.db/net/codetojoy/db/utils/DaoUtils.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_22_JLink_Cross_Platform/src/net.codetojoy.service/module-info.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_22_JLink_Cross_Platform/src/net.codetojoy.service/net/codetojoy/service/api/UserService.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_22_JLink_Cross_Platform/src/net.codetojoy.service/net/codetojoy/service/impl/UserServiceImpl.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_30_stack_overflow_45508610/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_30_stack_overflow_45508610/clean.sh" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_30_stack_overflow_45508610/com.jdojo.address/src/com.jdojo.address/com/jdojo/address/Address.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_30_stack_overflow_45508610/com.jdojo.address/src/com.jdojo.address/module-info.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_30_stack_overflow_45508610/com.jdojo.person/src/com.jdojo.person/com/jdojo/person/Person.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_30_stack_overflow_45508610/com.jdojo.person/src/com.jdojo.person/module-info.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_30_stack_overflow_45508610/compile.sh" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_30_stack_overflow_45508610/run.sh" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_31_stack_overflow_45166757/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_31_stack_overflow_45166757/classpath/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_31_stack_overflow_45166757/classpath/build_run.sh" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_31_stack_overflow_45166757/classpath/clean.sh" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_31_stack_overflow_45166757/classpath/compile.sh" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_31_stack_overflow_45166757/classpath/run.sh" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_31_stack_overflow_45166757/classpath/src/main/App.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_31_stack_overflow_45166757/classpath/src/net.codetojoy.example/net/codetojoy/example/Composer.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_31_stack_overflow_45166757/modulepath_package_not_open/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_31_stack_overflow_45166757/modulepath_package_not_open/build_run.sh" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_31_stack_overflow_45166757/modulepath_package_not_open/clean.sh" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_31_stack_overflow_45166757/modulepath_package_not_open/compile.sh" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_31_stack_overflow_45166757/modulepath_package_not_open/run.sh" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_31_stack_overflow_45166757/modulepath_package_not_open/src/main/App.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_31_stack_overflow_45166757/modulepath_package_not_open/src/net.codetojoy.example/module-info.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_31_stack_overflow_45166757/modulepath_package_not_open/src/net.codetojoy.example/net/codetojoy/example/Composer.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_31_stack_overflow_45166757/modulepath_package_not_open/src/net.codetojoy.example/net/codetojoy/example/resources/PlaceHolder.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_31_stack_overflow_45166757/modulepath_package_open/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_31_stack_overflow_45166757/modulepath_package_open/build_run.sh" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_31_stack_overflow_45166757/modulepath_package_open/clean.sh" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_31_stack_overflow_45166757/modulepath_package_open/compile.sh" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_31_stack_overflow_45166757/modulepath_package_open/run.sh" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_31_stack_overflow_45166757/modulepath_package_open/src/main/App.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_31_stack_overflow_45166757/modulepath_package_open/src/net.codetojoy.example/module-info.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_31_stack_overflow_45166757/modulepath_package_open/src/net.codetojoy.example/net/codetojoy/example/Composer.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_31_stack_overflow_45166757/modulepath_package_open/src/net.codetojoy.example/net/codetojoy/example/resources/PlaceHolder.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_31_stack_overflow_45166757/resources/640px-Baden.Beethoven01.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_31_stack_overflow_45166757/resources/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_32_stack_overflow_45600351/.gitignore" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_32_stack_overflow_45600351/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_32_stack_overflow_45600351/com.allstate.jigsaw/pom.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_32_stack_overflow_45600351/com.allstate.jigsaw/src/main/java/com/allstate/jigsaw/JigsawTest.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_32_stack_overflow_45600351/com.allstate.jigsaw/src/main/java/com/allstate/jigsaw/ModuleController.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_32_stack_overflow_45600351/com.allstate.jigsaw/src/main/java/module-info.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_32_stack_overflow_45600351/pom.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_33_stack_overflow_45862518/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_33_stack_overflow_45862518/clean.sh" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_33_stack_overflow_45862518/compile.sh" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_33_stack_overflow_45862518/run_Client.sh" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_33_stack_overflow_45862518/src/net.codetojoy.client/module-info.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_33_stack_overflow_45862518/src/net.codetojoy.client/net/codetojoy/client/Client.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_33_stack_overflow_45862518/src/net.codetojoy.db/module-info.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_33_stack_overflow_45862518/src/net.codetojoy.db/net/codetojoy/db/api/UserDao.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_33_stack_overflow_45862518/src/net.codetojoy.db/net/codetojoy/db/foo/Foo.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_33_stack_overflow_45862518/src/net.codetojoy.db/net/codetojoy/db/impl/UserDaoImpl.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_33_stack_overflow_45862518/src/net.codetojoy.db/net/codetojoy/db/utils/DaoUtils.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_33_stack_overflow_45862518/src/net.codetojoy.service/module-info.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_33_stack_overflow_45862518/src/net.codetojoy.service/net/codetojoy/service/api/UserService.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_33_stack_overflow_45862518/src/net.codetojoy.service/net/codetojoy/service/impl/UserServiceImpl.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_34_stack_overflow_47727869/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_34_stack_overflow_47727869/jars/jackson-annotations-2.8.10.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_34_stack_overflow_47727869/jars/jackson-core-2.8.10.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_34_stack_overflow_47727869/jars/jackson-databind-2.8.10.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_34_stack_overflow_47727869/run.sh" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_35_stack_overflow_48725004/java8/build.gradle" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_35_stack_overflow_48725004/java8/src/main/java/net/codetojoy/Example8.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_36_stack_overflow_49694769/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_36_stack_overflow_49694769/build.gradle" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_36_stack_overflow_49694769/slfTest/build.gradle" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_36_stack_overflow_49694769/slfTest/src/main/java/slfTest/module-info.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_36_stack_overflow_49694769/slfTest/src/main/java/slfTest/org/slf/test/Main.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_36_stack_overflow_49694769/slfTest/src/test/java/org/slf4j/test/MainTest.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_37_stack_overflow_50071030/clean.sh" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_37_stack_overflow_50071030/compile.sh" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_37_stack_overflow_50071030/list_deps.sh" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_37_stack_overflow_50071030/run.sh" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_37_stack_overflow_50071030/src/net.codetojoy.a/module-info.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_37_stack_overflow_50071030/src/net.codetojoy.a/net/codetojoy/a/Aoo.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_37_stack_overflow_50071030/src/net.codetojoy.b/module-info.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_37_stack_overflow_50071030/src/net.codetojoy.b/net/codetojoy/b/Boo.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_37_stack_overflow_50071030/src/net.codetojoy.c/module-info.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_37_stack_overflow_50071030/src/net.codetojoy.c/net/codetojoy/c/Coo.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_37_stack_overflow_50071030/src/net.codetojoy.c/net/codetojoy/c/Runner.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_37_stack_overflow_50071030/src/net.codetojoy.x/module-info.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_37_stack_overflow_50071030/src/net.codetojoy.x/net/codetojoy/x/Xoo.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_x0_Error_Fix_With_Add_Exports/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_x0_Error_Fix_With_Add_Exports/clean.sh" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_x0_Error_Fix_With_Add_Exports/compile_break_java9.sh" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_x0_Error_Fix_With_Add_Exports/compile_java8.sh" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_x0_Error_Fix_With_Add_Exports/compile_with_add_exports_java9.sh" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_x0_Error_Fix_With_Add_Exports/jdeps_on_java8_from_java9.sh" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_x0_Error_Fix_With_Add_Exports/run_java8.sh" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_x0_Error_Fix_With_Add_Exports/run_java8_with_java9_v1.sh" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_x0_Error_Fix_With_Add_Exports/run_java8_with_java9_v2.sh" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_x0_Error_Fix_With_Add_Exports/src/net/codetojoy/Example.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_x1_Error_Fix_With_Add_Modules/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_x1_Error_Fix_With_Add_Modules/clean.sh" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_x1_Error_Fix_With_Add_Modules/compile_break_java9.sh" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_x1_Error_Fix_With_Add_Modules/compile_java8.sh" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_x1_Error_Fix_With_Add_Modules/compile_with_add_modules_java9.sh" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_x1_Error_Fix_With_Add_Modules/list_deps_java8.sh" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_x1_Error_Fix_With_Add_Modules/list_deps_java9.sh" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../egg_x1_Error_Fix_With_Add_Modules/src/net/codetojoy/Example.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../run_all.sh" afterPath="" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.gradle/" />
+    <ignored path="$PROJECT_DIR$/build/" />
+    <ignored path="$PROJECT_DIR$/java8/.gradle/" />
+    <ignored path="$PROJECT_DIR$/java8/build/" />
+    <ignored path="$PROJECT_DIR$/java8/out/" />
+    <ignored path="$PROJECT_DIR$/java9main.main/.gradle/" />
+    <ignored path="$PROJECT_DIR$/java9main.main/build/" />
+    <ignored path="$PROJECT_DIR$/java9main.main/out/" />
+    <ignored path="$PROJECT_DIR$/consensus.main/.gradle/" />
+    <ignored path="$PROJECT_DIR$/consensus.main/build/" />
+    <ignored path="$PROJECT_DIR$/consensus.main/out/" />
+    <ignored path="$PROJECT_DIR$/com.consensus.main/.gradle/" />
+    <ignored path="$PROJECT_DIR$/com.consensus.main/build/" />
+    <ignored path="$PROJECT_DIR$/com.consensus.main/out/" />
+    <ignored path="$PROJECT_DIR$/com.consensus.grid/.gradle/" />
+    <ignored path="$PROJECT_DIR$/com.consensus.grid/build/" />
+    <ignored path="$PROJECT_DIR$/com.consensus.grid/out/" />
+    <ignored path="$PROJECT_DIR$/com.consensus.histogram/.gradle/" />
+    <ignored path="$PROJECT_DIR$/com.consensus.histogram/build/" />
+    <ignored path="$PROJECT_DIR$/com.consensus.histogram/out/" />
+    <ignored path="$PROJECT_DIR$/com.consensus.kafka/.gradle/" />
+    <ignored path="$PROJECT_DIR$/com.consensus.kafka/build/" />
+    <ignored path="$PROJECT_DIR$/com.consensus.kafka/out/" />
+    <ignored path="$PROJECT_DIR$/com.consensus.utils/.gradle/" />
+    <ignored path="$PROJECT_DIR$/com.consensus.utils/build/" />
+    <ignored path="$PROJECT_DIR$/com.consensus.utils/out/" />
+    <ignored path="$PROJECT_DIR$/com.consensus.node/.gradle/" />
+    <ignored path="$PROJECT_DIR$/com.consensus.node/build/" />
+    <ignored path="$PROJECT_DIR$/com.consensus.node/out/" />
+    <ignored path="$PROJECT_DIR$/com.consensus.node.test/.gradle/" />
+    <ignored path="$PROJECT_DIR$/com.consensus.node.test/build/" />
+    <ignored path="$PROJECT_DIR$/com.consensus.node.test/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$/java9main.main">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/java8">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/consensus.main">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/com.consensus.main">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/com.consensus.histogram">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/com.consensus.node">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/com.consensus.kafka">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="consensus-repo" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="consensus-repo" type="f1a62948:ProjectNode" />
+                <item name=":com.consensus.kafka" type="2d1252cf:ModuleNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="consensus-repo" type="f1a62948:ProjectNode" />
+                <item name=":com.consensus.kafka" type="2d1252cf:ModuleNode" />
+                <item name="Source Sets" type="e897c970:GradleViewContributor$SourceSetsNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="consensus-repo" type="f1a62948:ProjectNode" />
+                <item name=":com.consensus.kafka" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="consensus-repo" type="f1a62948:ProjectNode" />
+                <item name=":com.consensus.kafka" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="consensus-repo" type="f1a62948:ProjectNode" />
+                <item name=":com.consensus.kafka" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="other" type="c8890929:TasksNode$1" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/com.consensus.kafka/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="18" column="44" lean-forward="false" selection-start-line="18" selection-start-column="44" selection-end-line="18" selection-end-column="44" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="gradle-wrapper.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="settings.gradle" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/settings.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="28" lean-forward="false" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="KafkaConsumerImplTests.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/com.consensus.kafka/src/test/java/KafkaConsumerImplTests.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="65" column="13" lean-forward="false" selection-start-line="65" selection-start-column="13" selection-end-line="65" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/com.consensus.grid/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="36" lean-forward="false" selection-start-line="2" selection-start-column="36" selection-end-line="2" selection-end-column="36" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HistogramTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/com.consensus.histogram/src/test/java/HistogramTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="KafkaProducerImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/com.consensus.kafka/src/main/java/com/consensus/kafka/KafkaProducerImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="419">
+              <caret line="28" column="40" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="KafkaProducerImplTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/com.consensus.kafka/src/test/java/KafkaProducerImplTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="488">
+              <caret line="47" column="13" lean-forward="false" selection-start-line="47" selection-start-column="13" selection-end-line="47" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CustomRecordFormatter.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/com.consensus.kafka/src/test/java/CustomRecordFormatter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="module-info" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="myGradleHomes">
+      <map>
+        <entry key="$PROJECT_DIR$" value="/usr/local/Cellar/gradle/4.5.1/libexec" />
+      </map>
+    </option>
+    <option name="myGradleVersions">
+      <map>
+        <entry key="$PROJECT_DIR$" value="4.5.1" />
+      </map>
+    </option>
+    <option name="availableProjects">
+      <map>
+        <entry>
+          <key>
+            <ExternalProjectPojo>
+              <option name="name" value="consensus-repo" />
+              <option name="path" value="$PROJECT_DIR$" />
+            </ExternalProjectPojo>
+          </key>
+          <value>
+            <list>
+              <ExternalProjectPojo>
+                <option name="name" value="consensus-repo" />
+                <option name="path" value="$PROJECT_DIR$" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value=":com.consensus.grid" />
+                <option name="path" value="$PROJECT_DIR$/com.consensus.grid" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value=":com.consensus.histogram" />
+                <option name="path" value="$PROJECT_DIR$/com.consensus.histogram" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value=":com.consensus.kafka" />
+                <option name="path" value="$PROJECT_DIR$/com.consensus.kafka" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value=":com.consensus.main" />
+                <option name="path" value="$PROJECT_DIR$/com.consensus.main" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value=":com.consensus.node" />
+                <option name="path" value="$PROJECT_DIR$/com.consensus.node" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value=":com.consensus.node.test" />
+                <option name="path" value="$PROJECT_DIR$/com.consensus.node.test" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value=":com.consensus.utils" />
+                <option name="path" value="$PROJECT_DIR$/com.consensus.utils" />
+              </ExternalProjectPojo>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="availableTasks">
+      <map>
+        <entry key="$PROJECT_DIR$">
+          <value>
+            <list>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the components produced by root project 'consensus-repo'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="components" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the sub-projects of root project 'consensus-repo'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="projects" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project and all projects that depend on it." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="buildDependents" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the dependent components of components in root project 'consensus-repo'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="dependentComponents" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles main classes." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="classes" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays all buildscript dependencies declared in root project 'consensus-repo'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="buildEnvironment" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Generates Gradle wrapper files." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="wrapper" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Runs this project as a JVM application" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="run" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles test classes." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="testClasses" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Generates Javadoc API documentation for the main source code." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="javadoc" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Creates OS specific scripts to run the project as a JVM application." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="startScripts" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the configuration model of root project 'consensus-repo'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="model" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles a jar archive containing the main classes." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="jar" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Processes main resources." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="processResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Installs the project as a distribution as-is." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="installDist" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the tasks runnable from root project 'consensus-repo' (some of the displayed tasks may belong to subprojects)." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="tasks" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles the main distributions" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="assembleDist" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Initializes a new Gradle build." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="init" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Runs the unit tests." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="test" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Compiles main Java source." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="compileJava" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="runDebug" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the insight into a specific dependency in root project 'consensus-repo'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="dependencyInsight" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Runs all checks." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="check" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="runProducer" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles the outputs of this project." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="assemble" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Deletes the build directory." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="clean" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Compiles test Java source." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="compileTestJava" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays all dependencies declared in root project 'consensus-repo'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="dependencies" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Processes test resources." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="processTestResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays a help message." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="help" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="build" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="debugProducer" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project and all projects it depends on." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="buildNeeded" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Bundles the project as a distribution." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="distTar" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Bundles the project as a distribution." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="distZip" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the properties of root project 'consensus-repo'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="properties" />
+              </ExternalTaskPojo>
+            </list>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/com.consensus.grid">
+          <value>
+            <list>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the components produced by project ':com.consensus.grid'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.grid" />
+                <option name="name" value="components" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project and all projects that depend on it." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.grid" />
+                <option name="name" value="buildDependents" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the sub-projects of project ':com.consensus.grid'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.grid" />
+                <option name="name" value="projects" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles main classes." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.grid" />
+                <option name="name" value="classes" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the dependent components of components in project ':com.consensus.grid'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.grid" />
+                <option name="name" value="dependentComponents" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays all buildscript dependencies declared in project ':com.consensus.grid'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.grid" />
+                <option name="name" value="buildEnvironment" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles test classes." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.grid" />
+                <option name="name" value="testClasses" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Generates Javadoc API documentation for the main source code." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.grid" />
+                <option name="name" value="javadoc" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles a jar archive containing the main classes." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.grid" />
+                <option name="name" value="jar" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the configuration model of project ':com.consensus.grid'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.grid" />
+                <option name="name" value="model" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Processes main resources." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.grid" />
+                <option name="name" value="processResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the tasks runnable from project ':com.consensus.grid'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.grid" />
+                <option name="name" value="tasks" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Runs the unit tests." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.grid" />
+                <option name="name" value="test" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Compiles main Java source." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.grid" />
+                <option name="name" value="compileJava" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the insight into a specific dependency in project ':com.consensus.grid'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.grid" />
+                <option name="name" value="dependencyInsight" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Runs all checks." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.grid" />
+                <option name="name" value="check" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles the outputs of this project." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.grid" />
+                <option name="name" value="assemble" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Deletes the build directory." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.grid" />
+                <option name="name" value="clean" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Compiles test Java source." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.grid" />
+                <option name="name" value="compileTestJava" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays all dependencies declared in project ':com.consensus.grid'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.grid" />
+                <option name="name" value="dependencies" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Processes test resources." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.grid" />
+                <option name="name" value="processTestResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays a help message." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.grid" />
+                <option name="name" value="help" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.grid" />
+                <option name="name" value="build" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project and all projects it depends on." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.grid" />
+                <option name="name" value="buildNeeded" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the properties of project ':com.consensus.grid'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.grid" />
+                <option name="name" value="properties" />
+              </ExternalTaskPojo>
+            </list>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/com.consensus.histogram">
+          <value>
+            <list>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the components produced by project ':com.consensus.histogram'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.histogram" />
+                <option name="name" value="components" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project and all projects that depend on it." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.histogram" />
+                <option name="name" value="buildDependents" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the sub-projects of project ':com.consensus.histogram'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.histogram" />
+                <option name="name" value="projects" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles main classes." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.histogram" />
+                <option name="name" value="classes" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the dependent components of components in project ':com.consensus.histogram'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.histogram" />
+                <option name="name" value="dependentComponents" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays all buildscript dependencies declared in project ':com.consensus.histogram'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.histogram" />
+                <option name="name" value="buildEnvironment" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Runs this project as a JVM application" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.histogram" />
+                <option name="name" value="run" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles test classes." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.histogram" />
+                <option name="name" value="testClasses" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Generates Javadoc API documentation for the main source code." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.histogram" />
+                <option name="name" value="javadoc" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Creates OS specific scripts to run the project as a JVM application." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.histogram" />
+                <option name="name" value="startScripts" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles a jar archive containing the main classes." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.histogram" />
+                <option name="name" value="jar" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the configuration model of project ':com.consensus.histogram'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.histogram" />
+                <option name="name" value="model" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Installs the project as a distribution as-is." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.histogram" />
+                <option name="name" value="installDist" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Processes main resources." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.histogram" />
+                <option name="name" value="processResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the tasks runnable from project ':com.consensus.histogram'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.histogram" />
+                <option name="name" value="tasks" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles the main distributions" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.histogram" />
+                <option name="name" value="assembleDist" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Runs the unit tests." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.histogram" />
+                <option name="name" value="test" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Compiles main Java source." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.histogram" />
+                <option name="name" value="compileJava" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.histogram" />
+                <option name="name" value="runDebug" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the insight into a specific dependency in project ':com.consensus.histogram'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.histogram" />
+                <option name="name" value="dependencyInsight" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Runs all checks." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.histogram" />
+                <option name="name" value="check" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles the outputs of this project." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.histogram" />
+                <option name="name" value="assemble" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Deletes the build directory." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.histogram" />
+                <option name="name" value="clean" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Compiles test Java source." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.histogram" />
+                <option name="name" value="compileTestJava" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays all dependencies declared in project ':com.consensus.histogram'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.histogram" />
+                <option name="name" value="dependencies" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Processes test resources." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.histogram" />
+                <option name="name" value="processTestResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays a help message." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.histogram" />
+                <option name="name" value="help" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.histogram" />
+                <option name="name" value="build" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project and all projects it depends on." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.histogram" />
+                <option name="name" value="buildNeeded" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Bundles the project as a distribution." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.histogram" />
+                <option name="name" value="distTar" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Bundles the project as a distribution." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.histogram" />
+                <option name="name" value="distZip" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the properties of project ':com.consensus.histogram'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.histogram" />
+                <option name="name" value="properties" />
+              </ExternalTaskPojo>
+            </list>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/com.consensus.kafka">
+          <value>
+            <list>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the components produced by project ':com.consensus.kafka'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.kafka" />
+                <option name="name" value="components" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project and all projects that depend on it." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.kafka" />
+                <option name="name" value="buildDependents" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the sub-projects of project ':com.consensus.kafka'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.kafka" />
+                <option name="name" value="projects" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles main classes." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.kafka" />
+                <option name="name" value="classes" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the dependent components of components in project ':com.consensus.kafka'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.kafka" />
+                <option name="name" value="dependentComponents" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays all buildscript dependencies declared in project ':com.consensus.kafka'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.kafka" />
+                <option name="name" value="buildEnvironment" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Runs this project as a JVM application" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.kafka" />
+                <option name="name" value="run" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles test classes." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.kafka" />
+                <option name="name" value="testClasses" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Generates Javadoc API documentation for the main source code." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.kafka" />
+                <option name="name" value="javadoc" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Creates OS specific scripts to run the project as a JVM application." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.kafka" />
+                <option name="name" value="startScripts" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles a jar archive containing the main classes." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.kafka" />
+                <option name="name" value="jar" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the configuration model of project ':com.consensus.kafka'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.kafka" />
+                <option name="name" value="model" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Installs the project as a distribution as-is." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.kafka" />
+                <option name="name" value="installDist" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Processes main resources." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.kafka" />
+                <option name="name" value="processResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the tasks runnable from project ':com.consensus.kafka'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.kafka" />
+                <option name="name" value="tasks" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles the main distributions" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.kafka" />
+                <option name="name" value="assembleDist" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Runs the unit tests." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.kafka" />
+                <option name="name" value="test" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Compiles main Java source." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.kafka" />
+                <option name="name" value="compileJava" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the insight into a specific dependency in project ':com.consensus.kafka'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.kafka" />
+                <option name="name" value="dependencyInsight" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Runs all checks." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.kafka" />
+                <option name="name" value="check" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.kafka" />
+                <option name="name" value="runProducer" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles the outputs of this project." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.kafka" />
+                <option name="name" value="assemble" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Deletes the build directory." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.kafka" />
+                <option name="name" value="clean" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Compiles test Java source." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.kafka" />
+                <option name="name" value="compileTestJava" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays all dependencies declared in project ':com.consensus.kafka'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.kafka" />
+                <option name="name" value="dependencies" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Processes test resources." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.kafka" />
+                <option name="name" value="processTestResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays a help message." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.kafka" />
+                <option name="name" value="help" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.kafka" />
+                <option name="name" value="build" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.kafka" />
+                <option name="name" value="debugProducer" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project and all projects it depends on." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.kafka" />
+                <option name="name" value="buildNeeded" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Bundles the project as a distribution." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.kafka" />
+                <option name="name" value="distTar" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Bundles the project as a distribution." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.kafka" />
+                <option name="name" value="distZip" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the properties of project ':com.consensus.kafka'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.kafka" />
+                <option name="name" value="properties" />
+              </ExternalTaskPojo>
+            </list>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/com.consensus.main">
+          <value>
+            <list>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the components produced by project ':com.consensus.main'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.main" />
+                <option name="name" value="components" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the sub-projects of project ':com.consensus.main'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.main" />
+                <option name="name" value="projects" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the dependent components of components in project ':com.consensus.main'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.main" />
+                <option name="name" value="dependentComponents" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays all buildscript dependencies declared in project ':com.consensus.main'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.main" />
+                <option name="name" value="buildEnvironment" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the insight into a specific dependency in project ':com.consensus.main'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.main" />
+                <option name="name" value="dependencyInsight" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays all dependencies declared in project ':com.consensus.main'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.main" />
+                <option name="name" value="dependencies" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays a help message." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.main" />
+                <option name="name" value="help" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the configuration model of project ':com.consensus.main'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.main" />
+                <option name="name" value="model" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the properties of project ':com.consensus.main'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.main" />
+                <option name="name" value="properties" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the tasks runnable from project ':com.consensus.main'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.main" />
+                <option name="name" value="tasks" />
+              </ExternalTaskPojo>
+            </list>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/com.consensus.node">
+          <value>
+            <list>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the components produced by project ':com.consensus.node'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.node" />
+                <option name="name" value="components" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project and all projects that depend on it." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.node" />
+                <option name="name" value="buildDependents" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the sub-projects of project ':com.consensus.node'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.node" />
+                <option name="name" value="projects" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles main classes." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.node" />
+                <option name="name" value="classes" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the dependent components of components in project ':com.consensus.node'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.node" />
+                <option name="name" value="dependentComponents" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays all buildscript dependencies declared in project ':com.consensus.node'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.node" />
+                <option name="name" value="buildEnvironment" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Runs this project as a JVM application" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.node" />
+                <option name="name" value="run" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles test classes." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.node" />
+                <option name="name" value="testClasses" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Generates Javadoc API documentation for the main source code." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.node" />
+                <option name="name" value="javadoc" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Creates OS specific scripts to run the project as a JVM application." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.node" />
+                <option name="name" value="startScripts" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles a jar archive containing the main classes." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.node" />
+                <option name="name" value="jar" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the configuration model of project ':com.consensus.node'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.node" />
+                <option name="name" value="model" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Installs the project as a distribution as-is." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.node" />
+                <option name="name" value="installDist" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Processes main resources." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.node" />
+                <option name="name" value="processResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the tasks runnable from project ':com.consensus.node'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.node" />
+                <option name="name" value="tasks" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles the main distributions" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.node" />
+                <option name="name" value="assembleDist" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Runs the unit tests." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.node" />
+                <option name="name" value="test" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Compiles main Java source." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.node" />
+                <option name="name" value="compileJava" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the insight into a specific dependency in project ':com.consensus.node'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.node" />
+                <option name="name" value="dependencyInsight" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Runs all checks." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.node" />
+                <option name="name" value="check" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles the outputs of this project." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.node" />
+                <option name="name" value="assemble" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Deletes the build directory." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.node" />
+                <option name="name" value="clean" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Compiles test Java source." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.node" />
+                <option name="name" value="compileTestJava" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays all dependencies declared in project ':com.consensus.node'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.node" />
+                <option name="name" value="dependencies" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Processes test resources." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.node" />
+                <option name="name" value="processTestResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays a help message." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.node" />
+                <option name="name" value="help" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.node" />
+                <option name="name" value="build" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project and all projects it depends on." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.node" />
+                <option name="name" value="buildNeeded" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Bundles the project as a distribution." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.node" />
+                <option name="name" value="distTar" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Bundles the project as a distribution." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.node" />
+                <option name="name" value="distZip" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the properties of project ':com.consensus.node'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.node" />
+                <option name="name" value="properties" />
+              </ExternalTaskPojo>
+            </list>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/com.consensus.node.test">
+          <value>
+            <list>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the components produced by project ':com.consensus.node.test'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.node.test" />
+                <option name="name" value="components" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the sub-projects of project ':com.consensus.node.test'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.node.test" />
+                <option name="name" value="projects" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the dependent components of components in project ':com.consensus.node.test'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.node.test" />
+                <option name="name" value="dependentComponents" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays all buildscript dependencies declared in project ':com.consensus.node.test'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.node.test" />
+                <option name="name" value="buildEnvironment" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the insight into a specific dependency in project ':com.consensus.node.test'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.node.test" />
+                <option name="name" value="dependencyInsight" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays all dependencies declared in project ':com.consensus.node.test'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.node.test" />
+                <option name="name" value="dependencies" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays a help message." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.node.test" />
+                <option name="name" value="help" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the configuration model of project ':com.consensus.node.test'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.node.test" />
+                <option name="name" value="model" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the properties of project ':com.consensus.node.test'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.node.test" />
+                <option name="name" value="properties" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the tasks runnable from project ':com.consensus.node.test'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.node.test" />
+                <option name="name" value="tasks" />
+              </ExternalTaskPojo>
+            </list>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/com.consensus.utils">
+          <value>
+            <list>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the components produced by project ':com.consensus.utils'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.utils" />
+                <option name="name" value="components" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project and all projects that depend on it." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.utils" />
+                <option name="name" value="buildDependents" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the sub-projects of project ':com.consensus.utils'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.utils" />
+                <option name="name" value="projects" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles main classes." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.utils" />
+                <option name="name" value="classes" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the dependent components of components in project ':com.consensus.utils'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.utils" />
+                <option name="name" value="dependentComponents" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays all buildscript dependencies declared in project ':com.consensus.utils'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.utils" />
+                <option name="name" value="buildEnvironment" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Runs this project as a JVM application" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.utils" />
+                <option name="name" value="run" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles test classes." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.utils" />
+                <option name="name" value="testClasses" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Generates Javadoc API documentation for the main source code." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.utils" />
+                <option name="name" value="javadoc" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Creates OS specific scripts to run the project as a JVM application." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.utils" />
+                <option name="name" value="startScripts" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles a jar archive containing the main classes." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.utils" />
+                <option name="name" value="jar" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the configuration model of project ':com.consensus.utils'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.utils" />
+                <option name="name" value="model" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Installs the project as a distribution as-is." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.utils" />
+                <option name="name" value="installDist" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Processes main resources." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.utils" />
+                <option name="name" value="processResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the tasks runnable from project ':com.consensus.utils'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.utils" />
+                <option name="name" value="tasks" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles the main distributions" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.utils" />
+                <option name="name" value="assembleDist" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Runs the unit tests." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.utils" />
+                <option name="name" value="test" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Compiles main Java source." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.utils" />
+                <option name="name" value="compileJava" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the insight into a specific dependency in project ':com.consensus.utils'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.utils" />
+                <option name="name" value="dependencyInsight" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Runs all checks." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.utils" />
+                <option name="name" value="check" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles the outputs of this project." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.utils" />
+                <option name="name" value="assemble" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Deletes the build directory." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.utils" />
+                <option name="name" value="clean" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Compiles test Java source." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.utils" />
+                <option name="name" value="compileTestJava" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays all dependencies declared in project ':com.consensus.utils'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.utils" />
+                <option name="name" value="dependencies" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Processes test resources." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.utils" />
+                <option name="name" value="processTestResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays a help message." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.utils" />
+                <option name="name" value="help" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.utils" />
+                <option name="name" value="build" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project and all projects it depends on." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.utils" />
+                <option name="name" value="buildNeeded" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Bundles the project as a distribution." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.utils" />
+                <option name="name" value="distTar" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Bundles the project as a distribution." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.utils" />
+                <option name="name" value="distZip" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the properties of project ':com.consensus.utils'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.utils" />
+                <option name="name" value="properties" />
+              </ExternalTaskPojo>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="modificationStamps">
+      <map>
+        <entry key="$USER_HOME$/.gradle/gradle.properties" value="3020531835" />
+        <entry key="$PROJECT_DIR$" value="12205777522000" />
+        <entry key="$PROJECT_DIR$/.gradle" value="0" />
+        <entry key="$PROJECT_DIR$/build.gradle" value="0" />
+        <entry key="$PROJECT_DIR$/com.consensus.grid/build.gradle" value="2997592795" />
+        <entry key="$PROJECT_DIR$/com.consensus.histogram/build.gradle" value="2983676715" />
+        <entry key="$PROJECT_DIR$/com.consensus.kafka/build.gradle" value="854943027" />
+        <entry key="$PROJECT_DIR$/com.consensus.main/build.gradle" value="3478279643" />
+        <entry key="$PROJECT_DIR$/com.consensus.node.test/build.gradle" value="1971620415" />
+        <entry key="$PROJECT_DIR$/com.consensus.node/build.gradle" value="3235975599" />
+        <entry key="$PROJECT_DIR$/com.consensus.utils/build.gradle" value="4011995994" />
+        <entry key="$PROJECT_DIR$/consensus.main/build.gradle" value="122919428" />
+        <entry key="$PROJECT_DIR$/java8/build.gradle" value="219214898" />
+        <entry key="$PROJECT_DIR$/java9main.main/build.gradle" value="3552525747" />
+        <entry key="$PROJECT_DIR$/settings.gradle" value="2175249174" />
+      </map>
+    </option>
+    <option name="projectBuildClasspath">
+      <map>
+        <entry key="$PROJECT_DIR$">
+          <value>
+            <ExternalProjectBuildClasspathPojo>
+              <option name="modulesBuildClasspath">
+                <map>
+                  <entry key="$PROJECT_DIR$">
+                    <value>
+                      <ExternalModuleBuildClasspathPojo>
+                        <option name="path" value="$PROJECT_DIR$" />
+                      </ExternalModuleBuildClasspathPojo>
+                    </value>
+                  </entry>
+                  <entry key="$PROJECT_DIR$/com.consensus.grid">
+                    <value>
+                      <ExternalModuleBuildClasspathPojo>
+                        <option name="path" value="$PROJECT_DIR$/com.consensus.grid" />
+                      </ExternalModuleBuildClasspathPojo>
+                    </value>
+                  </entry>
+                  <entry key="$PROJECT_DIR$/com.consensus.histogram">
+                    <value>
+                      <ExternalModuleBuildClasspathPojo>
+                        <option name="path" value="$PROJECT_DIR$/com.consensus.histogram" />
+                      </ExternalModuleBuildClasspathPojo>
+                    </value>
+                  </entry>
+                  <entry key="$PROJECT_DIR$/com.consensus.kafka">
+                    <value>
+                      <ExternalModuleBuildClasspathPojo>
+                        <option name="path" value="$PROJECT_DIR$/com.consensus.kafka" />
+                      </ExternalModuleBuildClasspathPojo>
+                    </value>
+                  </entry>
+                  <entry key="$PROJECT_DIR$/com.consensus.main">
+                    <value>
+                      <ExternalModuleBuildClasspathPojo>
+                        <option name="path" value="$PROJECT_DIR$/com.consensus.main" />
+                      </ExternalModuleBuildClasspathPojo>
+                    </value>
+                  </entry>
+                  <entry key="$PROJECT_DIR$/com.consensus.node">
+                    <value>
+                      <ExternalModuleBuildClasspathPojo>
+                        <option name="entries">
+                          <list>
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-gradle-plugin/2.0.0.BUILD-SNAPSHOT/3983d0694c0ae383045dac8b5f02330087d84359/spring-boot-gradle-plugin-2.0.0.BUILD-SNAPSHOT-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-gradle-plugin/2.0.0.BUILD-SNAPSHOT/fc88aa40a7a9cab1103a417f295a7e94d1cb50a6/spring-boot-gradle-plugin-2.0.0.BUILD-SNAPSHOT.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-loader-tools/2.0.0.BUILD-SNAPSHOT/346179dda875390358e31c6e9bf3d86760abd860/spring-boot-loader-tools-2.0.0.BUILD-SNAPSHOT-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-loader-tools/2.0.0.BUILD-SNAPSHOT/c90134f88d98cf7c12adaa137fe75e40e9ccac06/spring-boot-loader-tools-2.0.0.BUILD-SNAPSHOT.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.spring.gradle/dependency-management-plugin/1.0.4.RELEASE/f56e13eea5c5d3640efb34dc0f55b1369000fe32/dependency-management-plugin-1.0.4.RELEASE-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.spring.gradle/dependency-management-plugin/1.0.4.RELEASE/f5b1df47ed5f708faa4d2fe0a71eb7fd36e11696/dependency-management-plugin-1.0.4.RELEASE.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-compress/1.14/43a23e357fa7b187c261520914c0b001ea1a62a2/commons-compress-1.14-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-compress/1.14/7b18320d668ab080758bf5383d6d8fcf750babce/commons-compress-1.14.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-core/5.0.4.RELEASE/4c83662d0a602b46635de6562750d44c397aad41/spring-core-5.0.4.RELEASE-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-core/5.0.4.RELEASE/2221a957b5561a34f044350ba4e30ef5870254a3/spring-core-5.0.4.RELEASE.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-jcl/5.0.4.RELEASE/1d86d46692a78817d638e5a9e524400a8db13c34/spring-jcl-5.0.4.RELEASE-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-jcl/5.0.4.RELEASE/3053e2bad0a18571bdbb9596ce51f9d458f5934f/spring-jcl-5.0.4.RELEASE.jar" />
+                          </list>
+                        </option>
+                        <option name="path" value="$PROJECT_DIR$/com.consensus.node" />
+                      </ExternalModuleBuildClasspathPojo>
+                    </value>
+                  </entry>
+                  <entry key="$PROJECT_DIR$/com.consensus.node.test">
+                    <value>
+                      <ExternalModuleBuildClasspathPojo>
+                        <option name="path" value="$PROJECT_DIR$/com.consensus.node.test" />
+                      </ExternalModuleBuildClasspathPojo>
+                    </value>
+                  </entry>
+                  <entry key="$PROJECT_DIR$/com.consensus.utils">
+                    <value>
+                      <ExternalModuleBuildClasspathPojo>
+                        <option name="path" value="$PROJECT_DIR$/com.consensus.utils" />
+                      </ExternalModuleBuildClasspathPojo>
+                    </value>
+                  </entry>
+                  <entry key="$PROJECT_DIR$/consensus.main">
+                    <value>
+                      <ExternalModuleBuildClasspathPojo>
+                        <option name="path" value="$PROJECT_DIR$/consensus.main" />
+                      </ExternalModuleBuildClasspathPojo>
+                    </value>
+                  </entry>
+                  <entry key="$PROJECT_DIR$/java8">
+                    <value>
+                      <ExternalModuleBuildClasspathPojo>
+                        <option name="path" value="$PROJECT_DIR$/java8" />
+                      </ExternalModuleBuildClasspathPojo>
+                    </value>
+                  </entry>
+                  <entry key="$PROJECT_DIR$/java9main.main">
+                    <value>
+                      <ExternalModuleBuildClasspathPojo>
+                        <option name="path" value="$PROJECT_DIR$/java9main.main" />
+                      </ExternalModuleBuildClasspathPojo>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+              <option name="name" value="consensus-repo" />
+              <option name="projectBuildClasspath">
+                <list>
+                  <option value="/usr/local/Cellar/gradle/4.5.1/libexec/lib/gradle-resources-4.5.1.jar" />
+                  <option value="/usr/local/Cellar/gradle/4.5.1/libexec/lib/gradle-core-4.5.1.jar" />
+                  <option value="/usr/local/Cellar/gradle/4.5.1/libexec/lib/gradle-base-services-4.5.1.jar" />
+                  <option value="/usr/local/Cellar/gradle/4.5.1/libexec/lib/gradle-model-core-4.5.1.jar" />
+                  <option value="/usr/local/Cellar/gradle/4.5.1/libexec/lib/gradle-core-api-4.5.1.jar" />
+                  <option value="/usr/local/Cellar/gradle/4.5.1/libexec/lib/gradle-persistent-cache-4.5.1.jar" />
+                  <option value="/usr/local/Cellar/gradle/4.5.1/libexec/lib/gradle-kotlin-dsl-tooling-builders-0.14.2.jar" />
+                  <option value="/usr/local/Cellar/gradle/4.5.1/libexec/lib/gradle-build-option-4.5.1.jar" />
+                  <option value="/usr/local/Cellar/gradle/4.5.1/libexec/lib/groovy-all-2.4.12.jar" />
+                  <option value="/usr/local/Cellar/gradle/4.5.1/libexec/lib/gradle-cli-4.5.1.jar" />
+                  <option value="/usr/local/Cellar/gradle/4.5.1/libexec/lib/ant-launcher-1.9.9.jar" />
+                  <option value="/usr/local/Cellar/gradle/4.5.1/libexec/lib/ant-1.9.9.jar" />
+                  <option value="/usr/local/Cellar/gradle/4.5.1/libexec/lib/gradle-process-services-4.5.1.jar" />
+                  <option value="/usr/local/Cellar/gradle/4.5.1/libexec/lib/gradle-docs-4.5.1.jar" />
+                  <option value="/usr/local/Cellar/gradle/4.5.1/libexec/lib/gradle-tooling-api-4.5.1.jar" />
+                  <option value="/usr/local/Cellar/gradle/4.5.1/libexec/lib/gradle-messaging-4.5.1.jar" />
+                  <option value="/usr/local/Cellar/gradle/4.5.1/libexec/lib/gradle-build-cache-4.5.1.jar" />
+                  <option value="/usr/local/Cellar/gradle/4.5.1/libexec/lib/gradle-wrapper-4.5.1.jar" />
+                  <option value="/usr/local/Cellar/gradle/4.5.1/libexec/lib/gradle-model-groovy-4.5.1.jar" />
+                  <option value="/usr/local/Cellar/gradle/4.5.1/libexec/lib/gradle-kotlin-dsl-tooling-models-0.14.2.jar" />
+                  <option value="/usr/local/Cellar/gradle/4.5.1/libexec/lib/gradle-logging-4.5.1.jar" />
+                  <option value="/usr/local/Cellar/gradle/4.5.1/libexec/lib/gradle-runtime-api-info-4.5.1.jar" />
+                  <option value="/usr/local/Cellar/gradle/4.5.1/libexec/lib/gradle-base-services-groovy-4.5.1.jar" />
+                  <option value="/usr/local/Cellar/gradle/4.5.1/libexec/lib/gradle-launcher-4.5.1.jar" />
+                  <option value="/usr/local/Cellar/gradle/4.5.1/libexec/lib/gradle-installation-beacon-4.5.1.jar" />
+                  <option value="/usr/local/Cellar/gradle/4.5.1/libexec/lib/gradle-jvm-services-4.5.1.jar" />
+                  <option value="/usr/local/Cellar/gradle/4.5.1/libexec/lib/gradle-kotlin-dsl-0.14.2.jar" />
+                  <option value="/usr/local/Cellar/gradle/4.5.1/libexec/lib/gradle-native-4.5.1.jar" />
+                  <option value="/usr/local/Cellar/gradle/4.5.1/libexec/lib/plugins/gradle-build-init-4.5.1.jar" />
+                  <option value="/usr/local/Cellar/gradle/4.5.1/libexec/lib/plugins/gradle-testing-jvm-4.5.1.jar" />
+                  <option value="/usr/local/Cellar/gradle/4.5.1/libexec/lib/plugins/gradle-build-cache-http-4.5.1.jar" />
+                  <option value="/usr/local/Cellar/gradle/4.5.1/libexec/lib/plugins/gradle-resources-http-4.5.1.jar" />
+                  <option value="/usr/local/Cellar/gradle/4.5.1/libexec/lib/plugins/gradle-testing-base-4.5.1.jar" />
+                  <option value="/usr/local/Cellar/gradle/4.5.1/libexec/lib/plugins/gradle-version-control-4.5.1.jar" />
+                  <option value="/usr/local/Cellar/gradle/4.5.1/libexec/lib/plugins/gradle-plugin-development-4.5.1.jar" />
+                  <option value="/usr/local/Cellar/gradle/4.5.1/libexec/lib/plugins/gradle-diagnostics-4.5.1.jar" />
+                  <option value="/usr/local/Cellar/gradle/4.5.1/libexec/lib/plugins/gradle-dependency-management-4.5.1.jar" />
+                  <option value="/usr/local/Cellar/gradle/4.5.1/libexec/lib/plugins/gradle-antlr-4.5.1.jar" />
+                  <option value="/usr/local/Cellar/gradle/4.5.1/libexec/lib/plugins/gradle-language-groovy-4.5.1.jar" />
+                  <option value="/usr/local/Cellar/gradle/4.5.1/libexec/lib/plugins/gradle-reporting-4.5.1.jar" />
+                  <option value="/usr/local/Cellar/gradle/4.5.1/libexec/lib/plugins/gradle-scala-4.5.1.jar" />
+                  <option value="/usr/local/Cellar/gradle/4.5.1/libexec/lib/plugins/gradle-resources-gcs-4.5.1.jar" />
+                  <option value="/usr/local/Cellar/gradle/4.5.1/libexec/lib/plugins/gradle-resources-sftp-4.5.1.jar" />
+                  <option value="/usr/local/Cellar/gradle/4.5.1/libexec/lib/plugins/gradle-language-java-4.5.1.jar" />
+                  <option value="/usr/local/Cellar/gradle/4.5.1/libexec/lib/plugins/gradle-platform-base-4.5.1.jar" />
+                  <option value="/usr/local/Cellar/gradle/4.5.1/libexec/lib/plugins/gradle-testing-native-4.5.1.jar" />
+                  <option value="/usr/local/Cellar/gradle/4.5.1/libexec/lib/plugins/gradle-ide-4.5.1.jar" />
+                  <option value="/usr/local/Cellar/gradle/4.5.1/libexec/lib/plugins/gradle-ivy-4.5.1.jar" />
+                  <option value="/usr/local/Cellar/gradle/4.5.1/libexec/lib/plugins/gradle-platform-native-4.5.1.jar" />
+                  <option value="/usr/local/Cellar/gradle/4.5.1/libexec/lib/plugins/gradle-maven-4.5.1.jar" />
+                  <option value="/usr/local/Cellar/gradle/4.5.1/libexec/lib/plugins/gradle-code-quality-4.5.1.jar" />
+                  <option value="/usr/local/Cellar/gradle/4.5.1/libexec/lib/plugins/gradle-build-comparison-4.5.1.jar" />
+                  <option value="/usr/local/Cellar/gradle/4.5.1/libexec/lib/plugins/gradle-publish-4.5.1.jar" />
+                  <option value="/usr/local/Cellar/gradle/4.5.1/libexec/lib/plugins/gradle-tooling-api-builders-4.5.1.jar" />
+                  <option value="/usr/local/Cellar/gradle/4.5.1/libexec/lib/plugins/gradle-language-native-4.5.1.jar" />
+                  <option value="/usr/local/Cellar/gradle/4.5.1/libexec/lib/plugins/gradle-platform-play-4.5.1.jar" />
+                  <option value="/usr/local/Cellar/gradle/4.5.1/libexec/lib/plugins/gradle-language-scala-4.5.1.jar" />
+                  <option value="/usr/local/Cellar/gradle/4.5.1/libexec/lib/plugins/gradle-plugins-4.5.1.jar" />
+                  <option value="/usr/local/Cellar/gradle/4.5.1/libexec/lib/plugins/gradle-osgi-4.5.1.jar" />
+                  <option value="/usr/local/Cellar/gradle/4.5.1/libexec/lib/plugins/gradle-signing-4.5.1.jar" />
+                  <option value="/usr/local/Cellar/gradle/4.5.1/libexec/lib/plugins/gradle-test-kit-4.5.1.jar" />
+                  <option value="/usr/local/Cellar/gradle/4.5.1/libexec/lib/plugins/gradle-announce-4.5.1.jar" />
+                  <option value="/usr/local/Cellar/gradle/4.5.1/libexec/lib/plugins/gradle-language-jvm-4.5.1.jar" />
+                  <option value="/usr/local/Cellar/gradle/4.5.1/libexec/lib/plugins/gradle-plugin-use-4.5.1.jar" />
+                  <option value="/usr/local/Cellar/gradle/4.5.1/libexec/lib/plugins/gradle-javascript-4.5.1.jar" />
+                  <option value="/usr/local/Cellar/gradle/4.5.1/libexec/lib/plugins/gradle-ide-native-4.5.1.jar" />
+                  <option value="/usr/local/Cellar/gradle/4.5.1/libexec/lib/plugins/gradle-composite-builds-4.5.1.jar" />
+                  <option value="/usr/local/Cellar/gradle/4.5.1/libexec/lib/plugins/gradle-platform-jvm-4.5.1.jar" />
+                  <option value="/usr/local/Cellar/gradle/4.5.1/libexec/lib/plugins/gradle-workers-4.5.1.jar" />
+                  <option value="/usr/local/Cellar/gradle/4.5.1/libexec/lib/plugins/gradle-jacoco-4.5.1.jar" />
+                  <option value="/usr/local/Cellar/gradle/4.5.1/libexec/lib/plugins/gradle-ear-4.5.1.jar" />
+                  <option value="/usr/local/Cellar/gradle/4.5.1/libexec/lib/plugins/gradle-ide-play-4.5.1.jar" />
+                  <option value="/usr/local/Cellar/gradle/4.5.1/libexec/lib/plugins/gradle-resources-s3-4.5.1.jar" />
+                  <option value="/usr/local/Cellar/gradle/4.5.1/libexec/lib/plugins/ivy-2.2.0.jar" />
+                  <option value="$PROJECT_DIR$/buildSrc/src/main/java" />
+                  <option value="$PROJECT_DIR$/buildSrc/src/main/groovy" />
+                </list>
+              </option>
+            </ExternalProjectBuildClasspathPojo>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="projectSyncType">
+      <map>
+        <entry key="$PROJECT_DIR$/../../../Development/kafka-sandbox/kafka-test" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../Development/kafka-sandbox/kafkatest" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../Development/kafka-sandbox/parent" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../Development/kafka-sandbox/sample-2" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../Development/kafka-sandbox/sample-2/sample-spring-kafka-consumer" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../Development/kafka-sandbox/spring-kafka" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../../Development/sample-spring-kafka-producer-consumer" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../ExploringJava9" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../avro" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../avro-rpc-quickstart" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../bowlcut" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../bowlcut/gryffindor" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../building-java-9-modules" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../building-java-9-modules/src/3-application" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../building-java-9-modules/src/3-application/stresser-java" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../consensus-project/consensus-project/com.consensus.graph.generate" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../consensus-project/java-demo" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$" value="RE_IMPORT" />
+        <entry key="$PROJECT_DIR$/../../gradle-java-modules" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../java9/stresser-java" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../jfun/trunk" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../kafka-consumer-producer-node" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../kafka-gradle-example" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../sample-spring-kafka-producer-consumer" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../sandbox" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../spring-boot-coffee-shop" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../spring-cloud-stream-kafka" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../spring-java9" value="PREVIEW" />
+        <entry key="$USER_HOME$/Downloads/bowlcut-java-examples-master" value="PREVIEW" />
+        <entry key="$USER_HOME$/Downloads/consensus-project" value="PREVIEW" />
+        <entry key="$USER_HOME$/Downloads/demo-2" value="PREVIEW" />
+        <entry key="$USER_HOME$/Downloads/healthcheck" value="PREVIEW" />
+        <entry key="$USER_HOME$/Downloads/meetup_16/jigsaw" value="PREVIEW" />
+        <entry key="$USER_HOME$/Downloads/spring-kafka-avro" value="PREVIEW" />
+      </map>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/java8/build.gradle" />
+        <option value="$PROJECT_DIR$/java9main.main/build.gradle" />
+        <option value="$PROJECT_DIR$/consensus.main/src/main/java/consensus/main/module-info.java" />
+        <option value="$PROJECT_DIR$/consensus.main/build.gradle" />
+        <option value="$PROJECT_DIR$/consensus.main/src/main/java/consensus/main/Main.java" />
+        <option value="$PROJECT_DIR$/com.consensus.grid/src/main/java/com/consensus/grid/Example8.java" />
+        <option value="$PROJECT_DIR$/settings.gradle" />
+        <option value="$PROJECT_DIR$/com.consensus.main/src/test/java/KafkaNodeTests.java" />
+        <option value="$PROJECT_DIR$/com.consensus.grid/src/main/java/com/consensus/grid/GridGraphGeneratorImpl.java" />
+        <option value="$PROJECT_DIR$/com.consensus.grid/src/main/java/com/consensus/grid/Main.java" />
+        <option value="$PROJECT_DIR$/com.consensus.main/build.gradle" />
+        <option value="$PROJECT_DIR$/com.consensus.main/src/main/java/com/consensus/main/module-info.java" />
+        <option value="$PROJECT_DIR$/com.consensus.node/src/main/java/com/consensus/node/module-info.java" />
+        <option value="$PROJECT_DIR$/com.consensus.main/src/main/java/com/consensus/main/Main.java" />
+        <option value="$PROJECT_DIR$/com.consensus.grid/build.gradle" />
+        <option value="$PROJECT_DIR$/com.consensus.node/src/main/java/com/consensus/node/ConsensusNode.java" />
+        <option value="$PROJECT_DIR$/com.consensus.node/src/test/java/com/consensus/node/test/ConsensusNodeTest.java" />
+        <option value="$PROJECT_DIR$/com.consensus.node/src/test/java/module-info.java" />
+        <option value="$PROJECT_DIR$/com.consensus.node/src/module-info.java" />
+        <option value="$PROJECT_DIR$/com.consensus.node/src/main/java/ConsensusNodeTest.java" />
+        <option value="$PROJECT_DIR$/com.consensus.kafka/build.gradle" />
+        <option value="$PROJECT_DIR$/com.consensus.node/build.gradle" />
+        <option value="$PROJECT_DIR$/com.consensus.node/src/main/java/com/consensus/node/Main.java" />
+        <option value="$PROJECT_DIR$/com.consensus.node/src/main/java/module-info.java" />
+        <option value="$PROJECT_DIR$/com.consensus.node/src/test/java/ConsensusNodeTest.java" />
+        <option value="$PROJECT_DIR$/build.gradle" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="38" />
+    <option name="y" value="34" />
+    <option name="width" value="1371" />
+    <option name="height" value="738" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="consensus-repo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="consensus-repo" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="AndroidView" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/com.consensus.node/src/main/com" />
+      <recent name="$PROJECT_DIR$/com.consensus.node/src/main" />
+      <recent name="$PROJECT_DIR$/com.consensus.node/src/main/consensus" />
+      <recent name="$PROJECT_DIR$/com.consensus.node/src/test" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
+      <recent name="com.consensus.node" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/com.consensus.node/src/test/java" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/com.consensus.grid/src/main/java/com/consensus/grid" />
+      <recent name="$PROJECT_DIR$/com.consensus.grid" />
+      <recent name="$PROJECT_DIR$/com.consensus.main" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Gradle.consensus-repo:com.consensus.kafka [processTestResources]">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="WIDTH" value="0" />
+      <option name="HEIGHT" value="0" />
+      <module />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+    </configuration>
+    <configuration name="consensus-repo [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="build" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+    </configuration>
+    <configuration name="consensus-repo:com.consensus.kafka [compileJava]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/com.consensus.kafka" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="compileJava" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+    </configuration>
+    <configuration name="consensus-repo:com.consensus.kafka [compileTestJava]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/com.consensus.kafka" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="compileTestJava" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+    </configuration>
+    <configuration name="consensus-repo:com.consensus.kafka [processResources]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/com.consensus.kafka" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="processResources" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+    </configuration>
+    <configuration name="consensus-repo:com.consensus.kafka [processTestResources]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/com.consensus.kafka" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="processTestResources" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="java8_main" />
+      <envs />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+    </configuration>
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="Gradle.consensus-repo [build]" />
+      <item index="1" class="java.lang.String" itemvalue="Gradle.consensus-repo:com.consensus.kafka [compileJava]" />
+      <item index="2" class="java.lang.String" itemvalue="Gradle.consensus-repo:com.consensus.kafka [compileTestJava]" />
+      <item index="3" class="java.lang.String" itemvalue="Gradle.consensus-repo:com.consensus.kafka [processResources]" />
+      <item index="4" class="java.lang.String" itemvalue="Gradle.consensus-repo:com.consensus.kafka [processTestResources]" />
+    </list>
+    <recent_temporary>
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Gradle.consensus-repo:com.consensus.kafka [processTestResources]" />
+        <item index="1" class="java.lang.String" itemvalue="Gradle.consensus-repo:com.consensus.kafka [processResources]" />
+        <item index="2" class="java.lang.String" itemvalue="Gradle.consensus-repo:com.consensus.kafka [compileTestJava]" />
+        <item index="3" class="java.lang.String" itemvalue="Gradle.consensus-repo:com.consensus.kafka [compileJava]" />
+        <item index="4" class="java.lang.String" itemvalue="Gradle.consensus-repo [build]" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SbtLocalSettings">
+    <option name="lastUpdateTimestamp" value="1526088377830" />
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ef0480a4-83a0-481b-8962-3c2150408347" name="Default" comment="" />
+      <created>1525930638591</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1525930638591</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="ConsensusNodeTest - 2018.05.11 at 08h 50m 37s.xml">
+      <configuration name="ConsensusNodeTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ConsensusNodeTest - 2018.05.11 at 17h 55m 43s.xml">
+      <configuration name="ConsensusNodeTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ConsensusNodeTest_nodeTests - 2018.05.11 at 17h 31m 30s.xml">
+      <configuration name="ConsensusNodeTest.nodeTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HistogramTest_firstTest - 2018.05.11 at 08h 45m 33s.xml">
+      <configuration name="HistogramTest.firstTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HistogramTest_testAppHasAGreeting - 2018.05.11 at 08h 45m 40s.xml">
+      <configuration name="HistogramTest.testAppHasAGreeting" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="KafkaProducerImplTest_testTemplate - 2018.05.10 at 22h 04m 48s.xml">
+      <configuration name="KafkaProducerImplTest.testTemplate" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="38" y="34" width="1371" height="738" extended-state="0" />
+    <layout>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17573872" sideWeight="0.4401806" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17573872" sideWeight="0.5598194" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27527216" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29872084" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1415241" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21294206" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28496504" sideWeight="0.47328818" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/com.consensus.main/src/test/java/KafkaNodeTests.java</url>
+          <line>2</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="2" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/java8/build.gradle" />
+    <entry file="file://$PROJECT_DIR$/java8/src/main/java/com/consensus/grid/Example8.java" />
+    <entry file="file://$PROJECT_DIR$/java9main.main/build.gradle" />
+    <entry file="file://$PROJECT_DIR$/java9main.main/src/main/java/java9main.main/com/thoughtblaze/java9/main/Main.java" />
+    <entry file="file://$PROJECT_DIR$/java8/src/main/java/com/consensus/grid/Example8.java" />
+    <entry file="file://$PROJECT_DIR$/java8/src/main/java/com/consensus/grid/Example8.java" />
+    <entry file="file://$PROJECT_DIR$/java8/build.gradle" />
+    <entry file="file://$PROJECT_DIR$/java9main.main/src/main/java/java9main.main/module-info.java" />
+    <entry file="file://$PROJECT_DIR$/consensus.main/src/main/java/consensus/main/module-info.java" />
+    <entry file="file://$PROJECT_DIR$/java9main.main/build.gradle" />
+    <entry file="file://$PROJECT_DIR$/consensus.main/build.gradle" />
+    <entry file="file://$PROJECT_DIR$/consensus.main/src/main/java/consensus/main/Main.java" />
+    <entry file="file://$PROJECT_DIR$/java9main.main/src/main/java/java9main.main/com/thoughtblaze/java9/main/Main.java" />
+    <entry file="file://$PROJECT_DIR$/com.consensus.grid/src/main/java/com/consensus/grid/Example8.java" />
+    <entry file="file://$PROJECT_DIR$/com.consensus.histogram/src/main/java/com/consensus/histogram/domain/Image.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com.consensus.kafka/src/main/java/com/consensus/kafka/main/ProducerMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com.consensus.grid/src/main/java/com/consensus/grid/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/a6c32b40bf3d76eca54e3c601e5d1470c86fcdfa/junit-4.12-sources.jar!/org/junit/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="65" column="18" lean-forward="false" selection-start-line="65" selection-start-column="18" selection-end-line="65" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com.consensus.node/src/test/java/module-info.java" />
+    <entry file="file://$PROJECT_DIR$/com.consensus.main/build.gradle" />
+    <entry file="file://$PROJECT_DIR$/com.consensus.node/src/main/java/ConsensusNodeTest.java" />
+    <entry file="file://$PROJECT_DIR$/com.consensus.histogram/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-48">
+          <caret line="0" column="8" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com.consensus.kafka/src/main/java/module-info.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com.consensus.main/src/main/java/module-info.java" />
+    <entry file="file://$PROJECT_DIR$/com.consensus.node/src/main/java/com/consensus/node/ConsensusNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="36" column="36" lean-forward="false" selection-start-line="36" selection-start-column="36" selection-end-line="36" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#564#565#0" expanded="false" />
+            <element signature="e#595#596#0" expanded="false" />
+            <element signature="e#654#655#0" expanded="false" />
+            <element signature="e#694#695#0" expanded="false" />
+            <element signature="e#749#750#0" expanded="false" />
+            <element signature="e#780#781#0" expanded="false" />
+            <element signature="e#848#849#0" expanded="false" />
+            <element signature="e#888#889#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com.consensus.kafka/src/main/java/com/consensus/kafka/consumer/IKafkaConsumerContainer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com.consensus.utils/src/main/java/module-info.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com.consensus.utils/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com.consensus.node.test/build.gradle" />
+    <entry file="file://$PROJECT_DIR$/com.consensus.node/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com.consensus.grid/src/main/java/com/consensus/grid/GridGraphGeneratorImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="14" column="38" lean-forward="true" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com.consensus.grid/src/main/java/com/consensus/grid/ConsensusGridGraph.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="49" column="136" lean-forward="true" selection-start-line="49" selection-start-column="11" selection-end-line="49" selection-end-column="136" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com.consensus.utils/src/test/java/TestUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="67">
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com.consensus.node/src/main/java/com/consensus/node/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="32" column="54" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com.consensus.node/src/main/java/module-info.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="26" lean-forward="false" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com.consensus.main/src/main/java/com/consensus/main/Main.java" />
+    <entry file="file://$PROJECT_DIR$/com.consensus.node/build/test-results/test/TEST-ConsensusNodeTest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com.consensus.node/build/reports/tests/test/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="32" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="132" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com.consensus.node/src/test/java/ConsensusNodeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="10" column="9" lean-forward="false" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com.consensus.main/src/test/java/KafkaNodeTests.java" />
+    <entry file="file://$PROJECT_DIR$/com.consensus.kafka/src/main/java/com/consensus/kafka/KafkaConsumerContainerImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com.consensus.kafka/src/main/java/com/consensus/kafka/KafkaProducerImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="419">
+          <caret line="28" column="40" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/settings.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="28" lean-forward="false" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com.consensus.grid/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="36" lean-forward="false" selection-start-line="2" selection-start-column="36" selection-end-line="2" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com.consensus.histogram/src/test/java/HistogramTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com.consensus.kafka/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="44" lean-forward="false" selection-start-line="18" selection-start-column="44" selection-end-line="18" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com.consensus.kafka/src/test/java/KafkaProducerImplTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="488">
+          <caret line="47" column="13" lean-forward="false" selection-start-line="47" selection-start-column="13" selection-end-line="47" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com.consensus.kafka/src/test/java/CustomRecordFormatter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com.consensus.kafka/src/test/java/KafkaConsumerImplTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="65" column="13" lean-forward="false" selection-start-line="65" selection-start-column="13" selection-end-line="65" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>9.0</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>com.consensus.main|com.consensus.main</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>9.0</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Gradle: com.101tec:zkclient:0.10</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

@@ -1,0 +1,8 @@
+include 'com.consensus.main'
+include 'com.consensus.grid'
+include 'com.consensus.histogram'
+include 'com.consensus.kafka'
+include 'com.consensus.utils'
+include 'com.consensus.node'
+include 'com.consensus.node.test'
+

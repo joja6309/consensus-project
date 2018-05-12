@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="distributionType" value="WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="gradleJvm" value="9.0" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/com.consensus.grid" />
+            <option value="$PROJECT_DIR$/com.consensus.histogram" />
+            <option value="$PROJECT_DIR$/com.consensus.kafka" />
+            <option value="$PROJECT_DIR$/com.consensus.main" />
+            <option value="$PROJECT_DIR$/com.consensus.node" />
+            <option value="$PROJECT_DIR$/com.consensus.node.test" />
+            <option value="$PROJECT_DIR$/com.consensus.utils" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

@@ -1,0 +1,75 @@
+
+
+apply plugin: 'java'
+apply plugin: 'application'
+
+mainClassName = 'com.consensus.kafka.KafkaProducerImpl'
+ext.moduleName = 'com.consensus.kafka'
+
+
+repositories {
+    mavenCentral()
+    jcenter()
+    maven { url "http://repo.spring.io/libs-snapshot" }
+    maven { url "https://repo.spring.io/snapshot" }
+    maven { url "https://repo.spring.io/milestone" }
+}
+
+dependencies {
+    compile 'org.jgrapht:jgrapht-core:1.1.0'
+    implementation project(':com.consensus.utils')
+    implementation "org.springframework.kafka:spring-kafka:2.1.4.RELEASE"
+    implementation "org.apache.kafka:kafka-clients:1.0.0"
+    implementation("org.assertj:assertj-core:3.9.1")
+    implementation "org.mockito:mockito-core:1.+"
+
+
+    testCompile "org.springframework.kafka:spring-kafka-test:2.1.4.RELEASE"
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+}
+compileJava {
+    inputs.property("moduleName", moduleName)
+    doFirst {
+        options.compilerArgs = [
+                '--module-path', classpath.asPath,
+        ]
+        classpath = files()
+    }
+}
+
+task(debugProducer, dependsOn: 'classes', type: JavaExec) {
+
+    main = mainClassName
+    classpath = sourceSets.main.runtimeClasspath
+
+    args "-Ptopics=topic1  -BootServer=0.0.0.0:9092 -GroupId=NodeGroup1".split()
+    try{
+        if(project.hasProperty("jvmArgs")){
+            args project.getProperty("jvmArgs").split()
+        }
+
+    }catch(Exception e){
+
+    }
+
+    debug true
+
+}
+task(runProducer, dependsOn: 'classes', type: JavaExec) {
+    main = mainClassName
+    classpath = sourceSets.main.runtimeClasspath
+    args "-Ptopics=topic1  -BootServer=0.0.0.0:9092 -GroupId=NodeGroup1".split()
+    try{
+        if(project.hasProperty("jvmArgs")){
+            args project.getProperty("jvmArgs").split()
+        }
+
+    }catch(Exception e){
+
+    }
+
+    debug false
+
+
+}
+

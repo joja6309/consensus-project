@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel>
+      <module name="com.consensus.grid_main" target="1.9" />
+      <module name="com.consensus.grid_test" target="1.9" />
+      <module name="com.consensus.histogram_main" target="1.9" />
+      <module name="com.consensus.histogram_test" target="1.9" />
+      <module name="com.consensus.kafka_main" target="1.9" />
+      <module name="com.consensus.kafka_test" target="1.9" />
+      <module name="com.consensus.main_main" target="1.9" />
+      <module name="com.consensus.main_test" target="1.9" />
+      <module name="com.consensus.node.test_main" target="1.9" />
+      <module name="com.consensus.node.test_test" target="1.9" />
+      <module name="com.consensus.node_main" target="1.9" />
+      <module name="com.consensus.node_test" target="1.9" />
+      <module name="com.consensus.utils_main" target="1.9" />
+      <module name="com.consensus.utils_test" target="1.9" />
+      <module name="consensus.main_main" target="1.9" />
+      <module name="consensus.main_test" target="1.9" />
+      <module name="java8_main" target="1.9" />
+      <module name="java8_test" target="1.9" />
+      <module name="java9main.main_main" target="1.9" />
+      <module name="java9main.main_test" target="1.9" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
