@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="ConsensusNodeTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2018-05-12T01:03:30" hostname="ip-192-168-0-101.us-west-2.compute.internal" time="0.054">
-  <properties/>
-  <testcase name="nodeTests" classname="ConsensusNodeTest" time="0.054"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[May 11, 2018 6:03:30 PM ConsensusNodeTest nodeTests
-INFO: 1966232971
-]]></system-err>
-</testsuite>

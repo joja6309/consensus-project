@@ -2,24 +2,13 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.consensus.grid.iml" filepath="$PROJECT_DIR$/.idea/modules/com.consensus.grid.iml" group="com.consensus.grid" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.consensus.grid/com.consensus.grid_main.iml" filepath="$PROJECT_DIR$/.idea/modules/com.consensus.grid/com.consensus.grid_main.iml" group="com.consensus.grid" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.consensus.grid/com.consensus.grid_test.iml" filepath="$PROJECT_DIR$/.idea/modules/com.consensus.grid/com.consensus.grid_test.iml" group="com.consensus.grid" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.consensus.histogram/com.consensus.histogram.iml" filepath="$PROJECT_DIR$/.idea/modules/com.consensus.histogram/com.consensus.histogram.iml" group="com.consensus.histogram" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.consensus.histogram/com.consensus.histogram_main.iml" filepath="$PROJECT_DIR$/.idea/modules/com.consensus.histogram/com.consensus.histogram_main.iml" group="com.consensus.histogram" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.consensus.histogram/com.consensus.histogram_test.iml" filepath="$PROJECT_DIR$/.idea/modules/com.consensus.histogram/com.consensus.histogram_test.iml" group="com.consensus.histogram" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.consensus.kafka/com.consensus.kafka.iml" filepath="$PROJECT_DIR$/.idea/modules/com.consensus.kafka/com.consensus.kafka.iml" group="com.consensus.kafka" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.consensus.kafka/com.consensus.kafka_main.iml" filepath="$PROJECT_DIR$/.idea/modules/com.consensus.kafka/com.consensus.kafka_main.iml" group="com.consensus.kafka" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.consensus.kafka/com.consensus.kafka_test.iml" filepath="$PROJECT_DIR$/.idea/modules/com.consensus.kafka/com.consensus.kafka_test.iml" group="com.consensus.kafka" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.consensus.main/com.consensus.main.iml" filepath="$PROJECT_DIR$/.idea/modules/com.consensus.main/com.consensus.main.iml" group="com.consensus.main" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.consensus.node.iml" filepath="$PROJECT_DIR$/.idea/modules/com.consensus.node.iml" group="com.consensus.node" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.consensus.node.test/com.consensus.node.test.iml" filepath="$PROJECT_DIR$/.idea/modules/com.consensus.node.test/com.consensus.node.test.iml" group="com.consensus.node.test" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.consensus.node/com.consensus.node_main.iml" filepath="$PROJECT_DIR$/.idea/modules/com.consensus.node/com.consensus.node_main.iml" group="com.consensus.node" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.consensus.node/com.consensus.node_test.iml" filepath="$PROJECT_DIR$/.idea/modules/com.consensus.node/com.consensus.node_test.iml" group="com.consensus.node" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.consensus.utils/com.consensus.utils.iml" filepath="$PROJECT_DIR$/.idea/modules/com.consensus.utils/com.consensus.utils.iml" group="com.consensus.utils" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.consensus.utils/com.consensus.utils_main.iml" filepath="$PROJECT_DIR$/.idea/modules/com.consensus.utils/com.consensus.utils_main.iml" group="com.consensus.utils" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.consensus.utils/com.consensus.utils_test.iml" filepath="$PROJECT_DIR$/.idea/modules/com.consensus.utils/com.consensus.utils_test.iml" group="com.consensus.utils" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/consensus-repo.iml" filepath="$PROJECT_DIR$/.idea/modules/consensus-repo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.grid.graph.generator.iml" filepath="$PROJECT_DIR$/.idea/modules/com.grid.graph.generator.iml" group="com.grid.graph.generator" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.grid.graph.generator/com.grid.graph.generator_main.iml" filepath="$PROJECT_DIR$/.idea/modules/com.grid.graph.generator/com.grid.graph.generator_main.iml" group="com.grid.graph.generator" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.grid.graph.generator/com.grid.graph.generator_test.iml" filepath="$PROJECT_DIR$/.idea/modules/com.grid.graph.generator/com.grid.graph.generator_test.iml" group="com.grid.graph.generator" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.grid.graph.main/com.grid.graph.main.iml" filepath="$PROJECT_DIR$/.idea/modules/com.grid.graph.main/com.grid.graph.main.iml" group="com.grid.graph.main" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.grid.graph.main/com.grid.graph.main_main.iml" filepath="$PROJECT_DIR$/.idea/modules/com.grid.graph.main/com.grid.graph.main_main.iml" group="com.grid.graph.main" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.grid.graph.main/com.grid.graph.main_test.iml" filepath="$PROJECT_DIR$/.idea/modules/com.grid.graph.main/com.grid.graph.main_test.iml" group="com.grid.graph.main" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/grid-graph-generator.iml" filepath="$PROJECT_DIR$/.idea/modules/grid-graph-generator.iml" />
     </modules>
   </component>
 </project>
