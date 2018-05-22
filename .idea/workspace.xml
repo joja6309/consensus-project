@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ef0480a4-83a0-481b-8962-3c2150408347" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/com.grid.graph.main/src/main/java/com/grid/graph/main/controller/GraphGeneratorController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.grid.graph.main/src/main/java/com/grid/graph/main/domain/GraphGeneratorResponseDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.grid.graph.main/src/test/java/JgraphTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.7/fileContent/annotation-processors.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.7/fileContent/annotation-processors.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.7/fileContent/fileContent.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.7/fileContent/fileContent.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.7/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.7/fileHashes/fileHashes.bin" afterDir="false" />
@@ -10,14 +13,24 @@
       <change beforePath="$PROJECT_DIR$/.gradle/4.7/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.7/taskHistory/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.7/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.7/taskHistory/taskHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apiguardian_apiguardian_api_1_0_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_junit_jupiter_junit_jupiter_api_5_1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_junit_jupiter_junit_jupiter_engine_5_1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_junit_platform_junit_platform_commons_1_1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_junit_platform_junit_platform_engine_1_1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_opentest4j_opentest4j_1_0_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_slf4j_slf4j_simple_1_7_25.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/com.grid.graph.generator/com.grid.graph.generator_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/com.grid.graph.generator/com.grid.graph.generator_test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/com.grid.graph.main/com.grid.graph.main_main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/com.grid.graph.main/com.grid.graph.main_main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/com.grid.graph.main/com.grid.graph.main_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/com.grid.graph.main/com.grid.graph.main_test.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.grid.graph.generator/build/classes/java/main/com/grid/graph/generator/ConsensusGridGraph.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.grid.graph.generator/build/libs/com.grid.graph.generator.jar" beforeDir="false" afterPath="$PROJECT_DIR$/com.grid.graph.generator/build/libs/com.grid.graph.generator.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.grid.graph.generator/src/main/java/com/grid/graph/generator/ConsensusGridGraph.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.grid.graph.generator/src/main/java/com/grid/graph/generator/GridGraphGeneratorImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.grid.graph.generator/src/main/java/com/grid/graph/generator/GridGraphGeneratorImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.grid.graph.main/build/classes/java/main/com/grid/graph/main/controller/GridGraphController.class" beforeDir="false" afterPath="$PROJECT_DIR$/com.grid.graph.main/build/classes/java/main/com/grid/graph/main/controller/GridGraphController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.grid.graph.main/src/main/java/com/grid/graph/main/controller/GridGraphController.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.grid.graph.main/src/main/java/com/grid/graph/main/controller/GridGraphController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/grid-graph-front-end" beforeDir="false" afterPath="$PROJECT_DIR$/grid-graph-front-end" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.grid.graph.generator/src/test/java/ConsensusGridGraphGeneratorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.grid.graph.generator/src/test/java/ConsensusGridGraphGeneratorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.grid.graph.main/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/com.grid.graph.main/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.grid.graph.main/build/libs/com.grid.graph.main-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/com.grid.graph.main/build/libs/com.grid.graph.main-0.0.1-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.grid.graph.main/src/main/java/com/grid/graph/main/controller/ConsenususGridGraphController.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.grid.graph.main/src/main/java/com/grid/graph/main/controller/ConsenususGridGraphController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.grid.graph.main/src/main/java/com/grid/graph/main/domain/ConsensusGraphResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.grid.graph.main/src/main/java/com/grid/graph/main/domain/ConsensusGraphResponseDTO.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -153,6 +166,13 @@
                 <item name="grid-graph-generator" type="f1a62948:ProjectNode" />
                 <item name=":com.grid.graph.main" type="2d1252cf:ModuleNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="grid-graph-generator" type="f1a62948:ProjectNode" />
+                <item name=":com.grid.graph.main" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
                 <item name="other" type="c8890929:TasksNode$1" />
               </path>
             </expand>
@@ -163,125 +183,156 @@
     </system>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/com.grid.graph.main/build.gradle">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
-              <caret line="51" column="32" selection-start-line="51" selection-start-column="32" selection-end-line="51" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GridGraphController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/com.grid.graph.main/src/main/java/com/grid/graph/main/controller/GridGraphController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="515">
-              <caret line="61" selection-start-line="61" selection-end-line="61" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1513#1522#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="gradle-wrapper.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="Application.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/com.grid.graph.main/src/main/java/com/grid/graph/main/Application.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="45" selection-start-line="10" selection-end-line="11" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#243#244#0" expanded="true" />
-                <element signature="e#305#306#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GridGraphImplConfig.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/com.grid.graph.main/src/main/java/com/grid/graph/main/config/GridGraphImplConfig.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#281#282#0" expanded="true" />
-                <element signature="e#332#333#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="module-info.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/com.grid.graph.main/src/main/java/module-info.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="37" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/com.grid.graph.generator/build.gradle">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" selection-start-line="8" selection-end-line="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GridGraphGeneratorImpl.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/com.grid.graph.generator/src/main/java/com/grid/graph/generator/GridGraphGeneratorImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1916">
-              <caret line="138" column="5" lean-forward="true" selection-start-line="138" selection-start-column="5" selection-end-line="138" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GraphResponse.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/com.grid.graph.main/src/main/java/com/grid/graph/main/domain/GraphResponse.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="186">
-              <caret line="17" column="11" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#289#290#0" expanded="true" />
-                <element signature="e#318#319#0" expanded="true" />
-                <element signature="e#359#360#0" expanded="true" />
-                <element signature="e#395#396#0" expanded="true" />
-                <element signature="e#424#425#0" expanded="true" />
-                <element signature="e#452#453#0" expanded="true" />
-                <element signature="e#491#492#0" expanded="true" />
-                <element signature="e#525#526#0" expanded="true" />
-                <element signature="e#565#566#0" expanded="true" />
-                <element signature="e#596#597#0" expanded="true" />
-                <element signature="e#649#650#0" expanded="true" />
-                <element signature="e#689#690#0" expanded="true" />
-                <element signature="e#726#727#0" expanded="true" />
-                <element signature="e#754#755#0" expanded="true" />
-                <element signature="e#801#802#0" expanded="true" />
-                <element signature="e#835#836#0" expanded="true" />
-                <element signature="e#879#880#0" expanded="true" />
-                <element signature="e#913#914#0" expanded="true" />
-                <element signature="e#973#974#0" expanded="true" />
-                <element signature="e#1019#1020#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.62467647">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/com.grid.graph.main/build.gradle">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="232">
+                  <caret line="37" column="44" selection-start-line="37" selection-start-column="44" selection-end-line="37" selection-end-column="44" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="ConsenususGridGraphController.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/com.grid.graph.main/src/main/java/com/grid/graph/main/controller/ConsenususGridGraphController.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="45">
+                  <caret line="18" column="3" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="3" />
+                  <folding>
+                    <element signature="e#1513#1522#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/build.gradle">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="240">
+                  <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="ConsensusGridGraphGeneratorTest.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/com.grid.graph.generator/src/test/java/ConsensusGridGraphGeneratorTest.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="132">
+                  <caret line="31" column="4" selection-start-line="31" selection-start-column="4" selection-end-line="48" selection-end-column="5" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="JgraphTests.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/com.grid.graph.main/src/test/java/JgraphTests.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="141">
+                  <caret line="10" selection-start-line="10" selection-end-line="10" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="GraphGeneratorController.java" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/com.grid.graph.main/src/main/java/com/grid/graph/main/controller/GraphGeneratorController.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="225">
+                  <caret line="15" column="52" selection-start-line="15" selection-start-column="52" selection-end-line="15" selection-end-column="52" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="GraphGeneratorResponseDTO.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/com.grid.graph.main/src/main/java/com/grid/graph/main/domain/GraphGeneratorResponseDTO.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="30">
+                  <caret line="2" column="35" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/com.grid.graph.generator/build.gradle">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="105">
+                  <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="44" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="ConsensusGridGraphGeneratorImpl.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/com.grid.graph.generator/src/main/java/com/grid/graph/generator/ConsensusGridGraphGeneratorImpl.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="1231">
+                  <caret line="138" column="5" selection-start-line="138" selection-start-column="5" selection-end-line="138" selection-end-column="5" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="ConsensusGraphResponseDTO.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/com.grid.graph.main/src/main/java/com/grid/graph/main/domain/ConsensusGraphResponseDTO.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="300">
+                  <caret line="20" column="33" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                    <element signature="e#289#290#0" expanded="true" />
+                    <element signature="e#318#319#0" expanded="true" />
+                    <element signature="e#359#360#0" expanded="true" />
+                    <element signature="e#395#396#0" expanded="true" />
+                    <element signature="e#424#425#0" expanded="true" />
+                    <element signature="e#452#453#0" expanded="true" />
+                    <element signature="e#491#492#0" expanded="true" />
+                    <element signature="e#525#526#0" expanded="true" />
+                    <element signature="e#565#566#0" expanded="true" />
+                    <element signature="e#596#597#0" expanded="true" />
+                    <element signature="e#649#650#0" expanded="true" />
+                    <element signature="e#689#690#0" expanded="true" />
+                    <element signature="e#726#727#0" expanded="true" />
+                    <element signature="e#754#755#0" expanded="true" />
+                    <element signature="e#801#802#0" expanded="true" />
+                    <element signature="e#835#836#0" expanded="true" />
+                    <element signature="e#879#880#0" expanded="true" />
+                    <element signature="e#913#914#0" expanded="true" />
+                    <element signature="e#973#974#0" expanded="true" />
+                    <element signature="e#1019#1020#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file leaf-file-name="ConsenususGridGraphController.java" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/com.grid.graph.main/src/main/java/com/grid/graph/main/controller/ConsenususGridGraphController.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="423">
+                  <caret line="65" column="45" lean-forward="true" selection-start-line="65" selection-start-column="8" selection-end-line="65" selection-end-column="45" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -1729,10 +1780,10 @@
     <option name="modificationStamps">
       <map>
         <entry key="$USER_HOME$/.gradle/gradle.properties" value="3020531835" />
-        <entry key="$PROJECT_DIR$" value="9157222128000" />
+        <entry key="$PROJECT_DIR$" value="9157430047000" />
         <entry key="$PROJECT_DIR$/.gradle" value="0" />
         <entry key="$PROJECT_DIR$/ColoredOutput.gradle" value="2558418440" />
-        <entry key="$PROJECT_DIR$/build.gradle" value="272364078" />
+        <entry key="$PROJECT_DIR$/build.gradle" value="843827278" />
         <entry key="$PROJECT_DIR$/com.consensus.grid/build.gradle" value="1037766437" />
         <entry key="$PROJECT_DIR$/com.consensus.histogram/build.gradle" value="3145335151" />
         <entry key="$PROJECT_DIR$/com.consensus.kafka/build.gradle" value="2304211646" />
@@ -1742,7 +1793,7 @@
         <entry key="$PROJECT_DIR$/com.consensus.utils/build.gradle" value="3822465927" />
         <entry key="$PROJECT_DIR$/com.grid.graph.controller/build.gradle" value="1537381548" />
         <entry key="$PROJECT_DIR$/com.grid.graph.generator/build.gradle" value="4146742202" />
-        <entry key="$PROJECT_DIR$/com.grid.graph.main/build.gradle" value="3366824048" />
+        <entry key="$PROJECT_DIR$/com.grid.graph.main/build.gradle" value="2751577403" />
         <entry key="$PROJECT_DIR$/consensus.main/build.gradle" value="122919428" />
         <entry key="$PROJECT_DIR$/java8/build.gradle" value="219214898" />
         <entry key="$PROJECT_DIR$/java9main.main/build.gradle" value="3552525747" />
@@ -2001,11 +2052,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" />
-        <option value="$PROJECT_DIR$/com.consensus.kafka/src/main/java/com/consensus/kafka/KafkaProducerImpl.java" />
-        <option value="$PROJECT_DIR$/com.consensus.node/src/test/java/DynamicTestsDemo.java" />
-        <option value="$PROJECT_DIR$/com.consensus.node/src/test/java/DisplayNameDemo.java" />
-        <option value="$PROJECT_DIR$/com.consensus.node/src/main/resources/log4j.properties" />
         <option value="$PROJECT_DIR$/com.consensus.kafka/build.gradle" />
         <option value="$PROJECT_DIR$/com.consensus.utils/build.gradle" />
         <option value="$PROJECT_DIR$/com.consensus.kafka/src/test/java/KafkaProducerImplTest.java" />
@@ -2029,7 +2075,6 @@
         <option value="$PROJECT_DIR$/com.consensus.grid/src/main/java/com/consensus/grid/GridGraphGeneratorImpl.java" />
         <option value="$PROJECT_DIR$/com.consensus.grid/src/main/java/module-info.java" />
         <option value="$PROJECT_DIR$/com.consensus.grid/src/test/java/GridGraphGeneratorTest.java" />
-        <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/com.grid.graph.generator/src/main/main/java/module-info.java" />
         <option value="$PROJECT_DIR$/com.grid.graph.generator/src/test/java/java/GridGraphGeneratorTest.java" />
         <option value="$PROJECT_DIR$/com.grid.graph.controller/src/main/java/Main.java" />
@@ -2044,7 +2089,6 @@
         <option value="$PROJECT_DIR$/com.grid.graph.generator/build.gradle" />
         <option value="$PROJECT_DIR$/com.grid.graph.main/src/main/java/com/grid/graph/main/GridGraphController.java" />
         <option value="$PROJECT_DIR$/com.grid.graph.main/src/main/java/module-info.java" />
-        <option value="$PROJECT_DIR$/com.grid.graph.main/build.gradle" />
         <option value="$PROJECT_DIR$/com.grid.graph.main/src/main/java/com/grid/graph/main/service/GridGraphGeneratorService.java" />
         <option value="$PROJECT_DIR$/com.grid.graph.generator/src/main/java/com/grid/graph/generator/ConsensusGridGraph.java" />
         <option value="$PROJECT_DIR$/com.grid.graph.main/src/main/java/com/grid/graph/main/config/GridGraphImplConfig.java" />
@@ -2052,12 +2096,19 @@
         <option value="$PROJECT_DIR$/com.grid.graph.main/src/main/java/com/grid/graph/main/domain/GraphResponse.java" />
         <option value="$PROJECT_DIR$/com.grid.graph.main/src/main/java/com/grid/graph/main/controller/GridGraphController.java" />
         <option value="$PROJECT_DIR$/com.grid.graph.generator/src/main/java/com/grid/graph/generator/GridGraphGeneratorImpl.java" />
+        <option value="$PROJECT_DIR$/com.grid.graph.generator/src/main/java/com/grid/graph/generator/ConsensusGridGraphGeneratorImpl.java" />
+        <option value="$PROJECT_DIR$/com.grid.graph.main/src/main/java/com/grid/graph/main/config/ConsensusGridGraphImplConfig.java" />
+        <option value="$PROJECT_DIR$/com.grid.graph.generator/src/test/java/ConsensusGridGraphGeneratorTest.java" />
+        <option value="$PROJECT_DIR$/com.grid.graph.main/build.gradle" />
+        <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/com.grid.graph.main/src/test/java/JgraphTests.java" />
+        <option value="$PROJECT_DIR$/com.grid.graph.main/src/main/java/com/grid/graph/main/controller/GraphGeneratorController.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="77" />
-    <option name="y" value="27" />
+    <option name="x" value="58" />
+    <option name="y" value="64" />
     <option name="width" value="1384" />
     <option name="height" value="872" />
   </component>
@@ -2201,6 +2252,14 @@
             <path>
               <item name="grid-graph-generator" type="b2602c69:ProjectViewProjectNode" />
               <item name="grid-graph-generator" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="com.grid.graph.main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="grid-graph-generator" type="b2602c69:ProjectViewProjectNode" />
+              <item name="grid-graph-generator" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="gradle" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -2266,7 +2325,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.grid-graph-generator:com.grid.graph.main [bootRun]">
+  <component name="RunManager" selected="Gradle.JgraphTests">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HEIGHT" value="0" />
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
@@ -2275,36 +2334,37 @@
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="GridGraphGeneratorTest (1)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="JgraphTests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/com.grid.graph.generator" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/com.grid.graph.main" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests GridGraphGeneratorTest" />
+        <option name="scriptParameters" value="--tests JgraphTests" />
         <option name="taskDescriptions">
           <list />
         </option>
         <option name="taskNames">
           <list>
-            <option value=":com.grid.graph.generator:cleanTest" />
-            <option value=":com.grid.graph.generator:test" />
+            <option value=":com.grid.graph.main:cleanTest" />
+            <option value=":com.grid.graph.main:test" />
           </list>
         </option>
         <option name="vmOptions" />
       </ExternalSystemSettings>
     </configuration>
-    <configuration name="grid-graph-generator [assemble]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="JgraphTests.hyperCubeGenerator" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/com.grid.graph.main" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
+        <option name="scriptParameters" value="--tests &quot;JgraphTests.hyperCubeGenerator&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
         <option name="taskNames">
           <list>
-            <option value="assemble" />
+            <option value=":com.grid.graph.main:cleanTest" />
+            <option value=":com.grid.graph.main:test" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -2327,10 +2387,10 @@
         <option name="vmOptions" />
       </ExternalSystemSettings>
     </configuration>
-    <configuration name="grid-graph-generator [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="grid-graph-generator:com.grid.graph.main [assemble]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/com.grid.graph.main" />
         <option name="externalSystemIdString" value="GRADLE" />
         <option name="scriptParameters" />
         <option name="taskDescriptions">
@@ -2338,7 +2398,7 @@
         </option>
         <option name="taskNames">
           <list>
-            <option value="clean" />
+            <option value="assemble" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -2422,19 +2482,19 @@
     </configuration>
     <list>
       <item itemvalue="Remote.Remote" />
-      <item itemvalue="Gradle.grid-graph-generator [assemble]" />
-      <item itemvalue="Gradle.GridGraphGeneratorTest (1)" />
-      <item itemvalue="Gradle.grid-graph-generator [clean]" />
       <item itemvalue="Gradle.grid-graph-generator [bootJar]" />
       <item itemvalue="Gradle.grid-graph-generator:com.grid.graph.main [bootRun]" />
+      <item itemvalue="Gradle.grid-graph-generator:com.grid.graph.main [assemble]" />
+      <item itemvalue="Gradle.JgraphTests.hyperCubeGenerator" />
+      <item itemvalue="Gradle.JgraphTests" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.JgraphTests" />
+        <item itemvalue="Gradle.JgraphTests.hyperCubeGenerator" />
+        <item itemvalue="Gradle.grid-graph-generator:com.grid.graph.main [assemble]" />
         <item itemvalue="Gradle.grid-graph-generator:com.grid.graph.main [bootRun]" />
         <item itemvalue="Gradle.grid-graph-generator [bootJar]" />
-        <item itemvalue="Gradle.grid-graph-generator [clean]" />
-        <item itemvalue="Gradle.GridGraphGeneratorTest (1)" />
-        <item itemvalue="Gradle.grid-graph-generator [assemble]" />
       </list>
     </recent_temporary>
   </component>
@@ -2452,15 +2512,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="GridGraphGeneratorTest_testConsensusWeightMatrix - 2018.05.20 at 15h 10m 39s.xml">
-      <configuration name="GridGraphGeneratorTest.testConsensusWeightMatrix" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="GridGraphGeneratorTest_testConsensusWeightMatrix - 2018.05.20 at 15h 12m 20s.xml">
-      <configuration name="GridGraphGeneratorTest.testConsensusWeightMatrix" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="GridGraphGeneratorTest_testConsensusWeightMatrix - 2018.05.20 at 15h 15m 11s.xml">
-      <configuration name="GridGraphGeneratorTest.testConsensusWeightMatrix" configurationId="GradleRunConfiguration" />
-    </history-entry>
     <history-entry file="GridGraphGeneratorTest_testConsensusWeightMatrix - 2018.05.20 at 16h 19m 05s.xml">
       <configuration name="GridGraphGeneratorTest.testConsensusWeightMatrix" configurationId="GradleRunConfiguration" />
     </history-entry>
@@ -2482,6 +2533,15 @@
     <history-entry file="GridGraphGeneratorTest_(1) - 2018.05.20 at 16h 35m 13s.xml">
       <configuration name="GridGraphGeneratorTest (1)" configurationId="GradleRunConfiguration" />
     </history-entry>
+    <history-entry file="JgraphTests_hyperCubeGenerator - 2018.05.21 at 22h 12m 25s.xml">
+      <configuration name="JgraphTests.hyperCubeGenerator" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="JgraphTests - 2018.05.21 at 22h 12m 48s.xml">
+      <configuration name="JgraphTests" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="JgraphTests - 2018.05.21 at 22h 15m 28s.xml">
+      <configuration name="JgraphTests" configurationId="GradleRunConfiguration" />
+    </history-entry>
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -2493,7 +2553,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="77" y="27" width="1384" height="872" extended-state="0" />
+    <frame x="58" y="64" width="1384" height="872" extended-state="0" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3294423" />
@@ -2503,16 +2563,16 @@
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50143063" side_tool="true" weight="0.15272728" />
       <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.8540773" visible="true" weight="0.09677419" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.8540773" weight="0.118709676" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.27496758" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.21943574" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.35171387" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2928465" />
       <window_info anchor="bottom" id="sbt-shell-toolwindow" order="7" weight="0.32969698" />
       <window_info anchor="bottom" x="8" y="302" width="1398" height="192" id="Build" order="7" type="FLOATING" weight="0.37333333" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32791728" />
-      <window_info anchor="right" id="Gradle" order="3" sideWeight="0.7163636" visible="true" weight="0.19672132" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32516128" />
+      <window_info anchor="right" id="Gradle" order="3" sideWeight="0.7163636" visible="true" weight="0.025335321" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
@@ -2673,21 +2733,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/com.consensus.histogram/src/main/java/com/consensus/histogram/App.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="316">
-          <caret line="41" lean-forward="true" selection-start-line="40" selection-start-column="2" selection-end-line="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com.consensus.histogram/src/main/java/com/consensus/histogram/service/HistogramGenerator.java" />
-    <entry file="file://$PROJECT_DIR$/com.consensus.node/src/test/java/DisplayNameDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="9" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/com.consensus.histogram/src/test/java/HistogramTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -2873,17 +2918,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/com.grid.graph.generator/src/test/java/GridGraphGeneratorTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="163">
-          <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
-          <folding>
-            <element signature="e#0#1615#0" expanded="true" />
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/com.grid.graph.controller/src/main/java/Main.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -2923,13 +2957,6 @@
     <entry file="file://$PROJECT_DIR$/com.grid.graph.main/build/tmp/bootJar/MANIFEST.MF">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/settings.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -2961,13 +2988,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/com.grid.graph.main/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="51" column="32" selection-start-line="51" selection-start-column="32" selection-end-line="51" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/com.grid.graph.main/src/main/java/module-info.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -2978,7 +2998,7 @@
     <entry file="file://$PROJECT_DIR$/com.grid.graph.main/src/main/java/com/grid/graph/main/Application.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
-          <caret line="10" column="45" selection-start-line="10" selection-end-line="11" />
+          <caret line="10" column="54" selection-start-line="10" selection-end-line="11" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#243#244#0" expanded="true" />
@@ -2987,10 +3007,93 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/com.grid.graph.main/src/main/java/com/grid/graph/main/domain/GraphResponse.java">
+    <entry file="file://$PROJECT_DIR$/com.grid.graph.generator/src/main/java/com/grid/graph/generator/ConsensusGridGraph.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="17" column="11" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
+        <state relative-caret-position="192">
+          <caret line="62" column="27" selection-start-line="62" selection-start-column="27" selection-end-line="62" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com.grid.graph.main/src/main/java/com/grid/graph/main/config/ConsensusGridGraphImplConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#281#282#0" expanded="true" />
+            <element signature="e#332#333#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com.grid.graph.generator/src/main/java/com/grid/graph/generator/ConsensusGridGraphGeneratorImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1231">
+          <caret line="138" column="5" selection-start-line="138" selection-start-column="5" selection-end-line="138" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com.grid.graph.generator/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com.grid.graph.generator/src/test/java/ConsensusGridGraphGeneratorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="31" column="4" selection-start-line="31" selection-start-column="4" selection-end-line="48" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com.grid.graph.main/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="37" column="44" selection-start-line="37" selection-start-column="44" selection-end-line="37" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com.grid.graph.main/src/test/java/JgraphTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com.grid.graph.main/src/main/java/com/grid/graph/main/domain/GraphGeneratorResponseDTO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="35" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com.grid.graph.main/src/main/java/com/grid/graph/main/domain/ConsensusGraphResponseDTO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="33" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#289#290#0" expanded="true" />
@@ -3017,53 +3120,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/com.grid.graph.generator/src/main/java/com/grid/graph/generator/ConsensusGridGraph.java">
+    <entry file="file://$PROJECT_DIR$/com.grid.graph.main/src/main/java/com/grid/graph/main/controller/ConsenususGridGraphController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="62" column="27" selection-start-line="62" selection-start-column="27" selection-end-line="62" selection-end-column="27" />
+        <state relative-caret-position="45">
+          <caret line="18" column="3" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="3" />
           <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com.grid.graph.main/src/main/java/com/grid/graph/main/config/GridGraphImplConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#281#282#0" expanded="true" />
-            <element signature="e#332#333#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com.grid.graph.main/src/main/java/com/grid/graph/main/controller/GridGraphController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="515">
-          <caret line="61" selection-start-line="61" selection-end-line="61" />
-          <folding>
-            <element signature="imports" expanded="true" />
             <element signature="e#1513#1522#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/com.grid.graph.generator/build.gradle">
+    <entry file="file://$PROJECT_DIR$/com.grid.graph.main/src/main/java/com/grid/graph/main/controller/GraphGeneratorController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com.grid.graph.generator/src/main/java/com/grid/graph/generator/GridGraphGeneratorImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1916">
-          <caret line="138" column="5" lean-forward="true" selection-start-line="138" selection-start-column="5" selection-end-line="138" selection-end-column="5" />
+        <state relative-caret-position="225">
+          <caret line="15" column="52" selection-start-line="15" selection-start-column="52" selection-end-line="15" selection-end-column="52" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -3122,7 +3192,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>com.consensus.histogram_test|com.consensus.histogram</last-edited>
+          <last-edited>com.grid.graph.generator_test|com.grid.graph.generator</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

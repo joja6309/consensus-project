@@ -20,13 +20,13 @@ import static org.junit.Assert.assertFalse;
 
 public class ConsensusGridGraphGeneratorTest {
 
-    @Test
-    public void testGridGraphGenerator() {
-
-        ConsensusGridGraphGeneratorImpl graphGenImpl  = new ConsensusGridGraphGeneratorImpl();
-        graphGenImpl.getDirectedGridGraph(4,4, Arrays.asList(4,6,8));
-//        assertFalse(Objects.isNull(graphGenImpl));
-    }
+//    @Test
+//    public void testGridGraphGenerator() {
+//
+//        ConsensusGridGraphGeneratorImpl graphGenImpl  = new ConsensusGridGraphGeneratorImpl();
+//        graphGenImpl.getDirectedGridGraph(4,4, Arrays.asList(4,6,8));
+////        assertFalse(Objects.isNull(graphGenImpl));
+//    }
 
 
     @Test
