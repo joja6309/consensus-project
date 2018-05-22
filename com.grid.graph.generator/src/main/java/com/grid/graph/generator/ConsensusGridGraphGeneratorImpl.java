@@ -11,9 +11,9 @@ import java.util.*;
 import java.util.stream.Collectors;
 
 
-public class GridGraphGeneratorImpl {
+public class ConsensusGridGraphGeneratorImpl {
 
-    public GridGraphGeneratorImpl(){};
+    public ConsensusGridGraphGeneratorImpl(){};
 
     public GridGraphGenerator<String, String> generator;
     public Graph<String, String> directedGridGraph;
@@ -136,9 +136,6 @@ private Set<String> getNeighborNodes(Collection<String> collection) {
                 .stream()
                 .map(v -> v.toString() + "-"+ String.valueOf(directedGridGraph.degreeOf(v)))
                 .collect(Collectors.toList());
-
-
-
     }
 
 

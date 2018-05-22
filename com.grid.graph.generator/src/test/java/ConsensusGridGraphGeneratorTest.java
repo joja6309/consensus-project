@@ -1,7 +1,8 @@
 //package java;
 
 //import com.grid.graph.generator.ConsensusGridGraph;
-//import com.grid.graph.generator.GridGraphGeneratorImpl;
+//import com.grid.graph.generator.ConsensusGridGraphGeneratorImpl;
+import com.grid.graph.generator.ConsensusGridGraphGeneratorImpl;
 import org.jgrapht.Graph;
 import org.jgrapht.generate.HyperCubeGraphGenerator;
 import org.jgrapht.graph.ClassBasedVertexFactory;
@@ -10,7 +11,6 @@ import org.jgrapht.graph.SimpleGraph;
 import org.junit.Test;
 
 
-import com.grid.graph.generator.GridGraphGeneratorImpl;
 import java.util.*;
 
 import static junit.framework.TestCase.assertTrue;
@@ -18,12 +18,12 @@ import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertFalse;
 
 
-public class GridGraphGeneratorTest {
+public class ConsensusGridGraphGeneratorTest {
 
     @Test
     public void testGridGraphGenerator() {
 
-        GridGraphGeneratorImpl graphGenImpl  = new GridGraphGeneratorImpl();
+        ConsensusGridGraphGeneratorImpl graphGenImpl  = new ConsensusGridGraphGeneratorImpl();
         graphGenImpl.getDirectedGridGraph(4,4, Arrays.asList(4,6,8));
 //        assertFalse(Objects.isNull(graphGenImpl));
     }

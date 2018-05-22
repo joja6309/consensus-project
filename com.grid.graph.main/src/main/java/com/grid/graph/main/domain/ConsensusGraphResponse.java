@@ -1,14 +1,10 @@
-package com.grid.graph.generator;
+package com.grid.graph.main.domain;
 
-import java.util.Arrays;
 import java.util.List;
 import java.util.Objects;
 import java.util.Set;
 
-public class ConsensusGridGraph {
-
-
-
+public class ConsensusGraphResponse {
     public int height;
 
     public int width;
@@ -19,22 +15,19 @@ public class ConsensusGridGraph {
 
     public List<String> nodeDegrees;
 
-    @Override
-    public String toString() {
-        return "ConsensusGridGraph{" +
-                "height=" + height +
-                ", width=" + width +
-                ", vertices=" + vertices +
-                ", edges=" + edges +
-                ", nodeDegrees=" + nodeDegrees +
-                '}';
+    public ConsensusGraphResponse(int inputHeight, int inputWidth, Set<String> inputVertices, Set<String> inputEdges, List<String> nodeDeg){
+        height = inputHeight;
+        width = inputWidth;
+        vertices = inputVertices;
+        edges = inputEdges;
+        nodeDegrees = nodeDeg;
     }
 
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
-        if (!(o instanceof ConsensusGridGraph)) return false;
-        ConsensusGridGraph that = (ConsensusGridGraph) o;
+        if (!(o instanceof ConsensusGraphResponse)) return false;
+        ConsensusGraphResponse that = (ConsensusGraphResponse) o;
         return getHeight() == that.getHeight() &&
                 getWidth() == that.getWidth() &&
                 Objects.equals(getVertices(), that.getVertices()) &&
@@ -45,28 +38,8 @@ public class ConsensusGridGraph {
     @Override
     public int hashCode() {
 
-        int result = Objects.hash(getHeight(), getWidth(), getVertices(), getEdges(), getNodeDegrees());
-
-        return result;
+        return Objects.hash(getHeight(), getWidth(), getVertices(), getEdges(), getNodeDegrees());
     }
-
-    public List<String> getNodeDegrees() {
-        return nodeDegrees;
-    }
-
-    public void setNodeDegrees(List<String> nodeDegrees) {
-        this.nodeDegrees = nodeDegrees;
-    }
-
-    public ConsensusGridGraph(int inputHeight, int inputWidth, Set<String> inputVertices, Set<String> inputEdges, List<String> nodeDeg,double[][] weightMatrix){
-        height = inputHeight;
-        width = inputWidth;
-        vertices = inputVertices;
-        edges = inputEdges;
-        nodeDegrees = nodeDeg;
-    }
-
-
 
     public int getHeight() {
         return height;
@@ -92,7 +65,6 @@ public class ConsensusGridGraph {
         this.vertices = vertices;
     }
 
-
     public Set<String> getEdges() {
         return edges;
     }
@@ -101,8 +73,22 @@ public class ConsensusGridGraph {
         this.edges = edges;
     }
 
+    public List<String> getNodeDegrees() {
+        return nodeDegrees;
+    }
+
+    public void setNodeDegrees(List<String> nodeDegrees) {
+        this.nodeDegrees = nodeDegrees;
+    }
+
+    @Override
+    public String toString() {
+        return "ConsensusGraphResponse{" +
+                "height=" + height +
+                ", width=" + width +
+                ", vertices=" + vertices +
+                ", edges=" + edges +
+                ", nodeDegrees=" + nodeDegrees +
+                '}';
+    }
 }
-
-
-
-

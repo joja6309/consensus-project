@@ -2,8 +2,7 @@ package com.grid.graph.main.controller;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.grid.graph.generator.ConsensusGridGraph;
-import com.grid.graph.generator.GridGraphGeneratorImpl;
+import com.grid.graph.generator.ConsensusGridGraphGeneratorImpl;
 
 
 import java.util.ArrayList;
@@ -12,7 +11,7 @@ import java.util.List;
 import java.util.Objects;
 import java.util.stream.Collectors;
 
-import com.grid.graph.main.domain.GraphResponse;
+import com.grid.graph.main.domain.ConsensusGraphResponse;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
@@ -20,11 +19,11 @@ import org.springframework.web.bind.annotation.*;
 import static org.springframework.web.bind.annotation.RequestMethod.GET;
 
 @RestController
-public class GridGraphController {
+public class ConsenususGridGraphController {
 
 
     @Autowired
-    private GridGraphGeneratorImpl gridGraphGenerator;
+    private ConsensusGridGraphGeneratorImpl gridGraphGenerator;
 
     @RequestMapping(path = "/generate-directed", method = GET)
     @CrossOrigin()
@@ -53,14 +52,13 @@ public class GridGraphController {
 
 
             gridGraphGenerator.generateDirectedGridGraph(width, height, degrees);
-            GraphResponse graphResponse = new
-                    GraphResponse(width,height,
+            ConsensusGraphResponse consensusGraphResponse = new
+                    ConsensusGraphResponse(width,height,
                     gridGraphGenerator.directedGridGraph.vertexSet(),
                     gridGraphGenerator.directedGridGraph.edgeSet(),
                     gridGraphGenerator.graphDegrees);
             ObjectMapper mapper = new ObjectMapper();
-            jsonString = mapper.writeValueAsString(graphResponse);
-//            jsonString = mapper.writeValueAsString("OK");
+            jsonString = mapper.writeValueAsString(consensusGraphResponse);
 
         } catch (JsonProcessingException e) {
             e.printStackTrace();

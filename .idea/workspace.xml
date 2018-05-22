@@ -2,422 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ef0480a4-83a0-481b-8962-3c2150408347" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/modules/com.grid.graph.generator.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/com.grid.graph.generator/com.grid.graph.generator_main.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/com.grid.graph.generator/com.grid.graph.generator_test.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/com.grid.graph/com.grid.graph.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/grid-graph-generator.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com.grid.graph.generator/src/main/java/module-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com.grid.graph.generator/src/test/java/GridGraphGeneratorTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com.grid.graph.main/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com.grid.graph.main/src/main/java/com/grid/graph/main/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com.grid.graph.main/src/main/java/com/grid/graph/main/config/GridGraphImplConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com.grid.graph.main/src/main/java/com/grid/graph/main/controller/GridGraphController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com.grid.graph.main/src/main/java/com/grid/graph/main/domain/GraphResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com.grid.graph.main/src/main/java/module-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.5.1/fileContent/annotation-processors.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.5.1/fileContent/annotation-processors.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.5.1/fileContent/fileContent.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.5.1/fileContent/fileContent.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.5.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.5.1/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.5.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.5.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.5.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.5.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.5.1/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.5.1/taskHistory/taskHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.5.1/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.5.1/taskHistory/taskHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.7/fileContent/annotation-processors.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.7/fileContent/annotation-processors.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.7/fileContent/fileContent.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.7/fileContent/fileContent.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.7/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.7/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.7/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.7/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.7/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.7/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.7/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.7/taskHistory/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.7/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.7/taskHistory/taskHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_101tec_zkclient_0_10.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_fasterxml_jackson_core_jackson_annotations_2_9_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_fasterxml_jackson_core_jackson_annotations_2_9_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_fasterxml_jackson_core_jackson_core_2_9_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_fasterxml_jackson_core_jackson_core_2_9_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_fasterxml_jackson_core_jackson_databind_2_9_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_fasterxml_jackson_core_jackson_databind_2_9_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_yammer_metrics_metrics_core_2_2_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__junit_junit_4_12.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__junit_junit_4_12.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__log4j_log4j_1_2_16.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__net_bytebuddy_byte_buddy_1_7_9.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__net_bytebuddy_byte_buddy_agent_1_7_9.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__net_sf_jopt_simple_jopt_simple_5_0_4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_kafka_kafka_2_11_1_0_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_kafka_kafka_2_11_test_1_0_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_kafka_kafka_clients_1_0_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_kafka_kafka_clients_test_1_0_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_zookeeper_zookeeper_3_4_10.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_assertj_assertj_core_3_9_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hamcrest_hamcrest_core_1_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jfree_jcommon_1_0_23.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jfree_jfreechart_1_0_19.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jgrapht_jgrapht_core_1_1_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jgrapht_jgrapht_core_1_1_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_lz4_lz4_java_1_4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_mockito_mockito_core_1_10_19.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_mockito_mockito_core_2_15_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_objenesis_objenesis_2_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_objenesis_objenesis_2_6.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_scala_lang_scala_library_2_11_11.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_slf4j_slf4j_api_1_7_25.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_slf4j_slf4j_api_1_7_25.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_kafka_spring_kafka_2_1_4_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_kafka_spring_kafka_test_2_1_4_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_retry_spring_retry_1_2_2_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_aop_5_0_4_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_beans_5_0_4_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_context_5_0_4_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_core_5_0_4_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_expression_5_0_4_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_jcl_5_0_4_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_messaging_5_0_4_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_test_5_0_4_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_spring_tx_5_0_4_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_xerial_snappy_snappy_java_1_1_4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/com.consensus.grid.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/com.consensus.grid/com.consensus.grid_main.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/com.consensus.grid/com.consensus.grid_test.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/com.consensus.histogram/com.consensus.histogram.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/com.consensus.histogram/com.consensus.histogram_main.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/com.consensus.histogram/com.consensus.histogram_test.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/com.consensus.kafka/com.consensus.kafka.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/com.consensus.kafka/com.consensus.kafka_main.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/com.consensus.kafka/com.consensus.kafka_test.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/com.consensus.main/com.consensus.main.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/com.consensus.node.test/com.consensus.node.test.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/com.consensus.node/com.consensus.node_main.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/com.consensus.node/com.consensus.node_test.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/com.consensus.utils/com.consensus.utils.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/com.consensus.utils/com.consensus.utils_main.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/com.consensus.utils/com.consensus.utils_test.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.grid/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.grid/build/classes/java/main/com/consensus/grid/ConsensusGridGraph.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.grid/build/classes/java/main/com/consensus/grid/GridGraphGeneratorImpl$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.grid/build/classes/java/main/com/consensus/grid/GridGraphGeneratorImpl$StringEdgeFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.grid/build/classes/java/main/com/consensus/grid/GridGraphGeneratorImpl$StringVertexFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.grid/build/classes/java/main/com/consensus/grid/GridGraphGeneratorImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.grid/build/classes/java/main/com/consensus/grid/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.grid/build/libs/com.consensus.grid.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.grid/build/tmp/jar/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.grid/out/production/classes/com/consensus/grid/ConsensusGridGraph.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.grid/out/production/classes/com/consensus/grid/GridGraphGeneratorImpl$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.grid/out/production/classes/com/consensus/grid/GridGraphGeneratorImpl$StringEdgeFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.grid/out/production/classes/com/consensus/grid/GridGraphGeneratorImpl$StringVertexFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.grid/out/production/classes/com/consensus/grid/GridGraphGeneratorImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.grid/out/production/classes/com/consensus/grid/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.grid/src/main/java/com/consensus/grid/ConsensusGridGraph.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.grid/src/main/java/com/consensus/grid/GridGraphGeneratorImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.grid/src/main/java/com/consensus/grid/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.histogram/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.histogram/build/classes/java/main/com/consensus/histogram/App.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.histogram/build/classes/java/main/com/consensus/histogram/domain/Histogram.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.histogram/build/classes/java/main/com/consensus/histogram/domain/Image.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.histogram/build/classes/java/main/com/consensus/histogram/service/HistogramGenerator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.histogram/build/classes/java/main/com/consensus/histogram/service/Utils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.histogram/build/classes/java/main/module-info.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.histogram/build/classes/java/test/HistogramTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.histogram/build/distributions/com.consensus.histogram.tar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.histogram/build/distributions/com.consensus.histogram.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.histogram/build/libs/com.consensus.histogram.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.histogram/build/reports/tests/test/classes/HistogramTest.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.histogram/build/reports/tests/test/css/base-style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.histogram/build/reports/tests/test/css/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.histogram/build/reports/tests/test/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.histogram/build/reports/tests/test/js/report.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.histogram/build/reports/tests/test/packages/default-package.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.histogram/build/scripts/com.consensus.histogram" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.histogram/build/scripts/com.consensus.histogram.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.histogram/build/test-results/test/TEST-HistogramTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.histogram/build/test-results/test/binary/output.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.histogram/build/test-results/test/binary/output.bin.idx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.histogram/build/test-results/test/binary/results.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.histogram/build/tmp/jar/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.histogram/out/production/classes/com/consensus/histogram/App.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.histogram/out/production/classes/com/consensus/histogram/domain/Histogram.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.histogram/out/production/classes/com/consensus/histogram/domain/Image.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.histogram/out/production/classes/com/consensus/histogram/service/HistogramGenerator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.histogram/out/production/classes/com/consensus/histogram/service/Utils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.histogram/out/production/classes/module-info.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.histogram/out/test/classes/HistogramTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.histogram/src/main/java/com/consensus/histogram/App.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.histogram/src/main/java/com/consensus/histogram/domain/Histogram.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.histogram/src/main/java/com/consensus/histogram/domain/Image.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.histogram/src/main/java/com/consensus/histogram/service/HistogramGenerator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.histogram/src/main/java/com/consensus/histogram/service/Utils.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.histogram/src/main/java/module-info.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.histogram/src/test/java/HistogramTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.histogram/working/image0/image0-64.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.histogram/working/image0/image0hist-64.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.histogram/working/image0/image1-64.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.histogram/working/image0/image10-64.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.histogram/working/image0/image10hist-64.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.histogram/working/image0/image11-64.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.histogram/working/image0/image11hist-64.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.histogram/working/image0/image12-64.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.histogram/working/image0/image12hist-64.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.histogram/working/image0/image13-64.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.histogram/working/image0/image13hist-64.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.histogram/working/image0/image14-64.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.histogram/working/image0/image14hist-64.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.histogram/working/image0/image15-64.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.histogram/working/image0/image15hist-64.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.histogram/working/image0/image16-64.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.histogram/working/image0/image16hist-64.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.histogram/working/image0/image17-64.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.histogram/working/image0/image17hist-64.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.histogram/working/image0/image18-64.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.histogram/working/image0/image18hist-64.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.histogram/working/image0/image19-64.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.histogram/working/image0/image19hist-64.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.histogram/working/image0/image1hist-64.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.histogram/working/image0/image2-64.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.histogram/working/image0/image20-64.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.histogram/working/image0/image20hist-64.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.histogram/working/image0/image21-64.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.histogram/working/image0/image21hist-64.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.histogram/working/image0/image22-64.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.histogram/working/image0/image22hist-64.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.histogram/working/image0/image23-64.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.histogram/working/image0/image23hist-64.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.histogram/working/image0/image24-64.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.histogram/working/image0/image24hist-64.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.histogram/working/image0/image25-64.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.histogram/working/image0/image25hist-64.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.histogram/working/image0/image26-64.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.histogram/working/image0/image26hist-64.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.histogram/working/image0/image27-64.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.histogram/working/image0/image27hist-64.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.histogram/working/image0/image28-64.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.histogram/working/image0/image28hist-64.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.histogram/working/image0/image29-64.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.histogram/working/image0/image29hist-64.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.histogram/working/image0/image2hist-64.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.histogram/working/image0/image3-64.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.histogram/working/image0/image30-64.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.histogram/working/image0/image30hist-64.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.histogram/working/image0/image31-64.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.histogram/working/image0/image31hist-64.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.histogram/working/image0/image32-64.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.histogram/working/image0/image32hist-64.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.histogram/working/image0/image33-64.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.histogram/working/image0/image33hist-64.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.histogram/working/image0/image34-64.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.histogram/working/image0/image34hist-64.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.histogram/working/image0/image35-64.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.histogram/working/image0/image35hist-64.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.histogram/working/image0/image36-64.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.histogram/working/image0/image36hist-64.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.histogram/working/image0/image37-64.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.histogram/working/image0/image37hist-64.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.histogram/working/image0/image38-64.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.histogram/working/image0/image38hist-64.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.histogram/working/image0/image39-64.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.histogram/working/image0/image39hist-64.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.histogram/working/image0/image3hist-64.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.histogram/working/image0/image4-64.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.histogram/working/image0/image40-64.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.histogram/working/image0/image40hist-64.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.histogram/working/image0/image41-64.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.histogram/working/image0/image41hist-64.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.histogram/working/image0/image42-64.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.histogram/working/image0/image42hist-64.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.histogram/working/image0/image43-64.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.histogram/working/image0/image43hist-64.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.histogram/working/image0/image44-64.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.histogram/working/image0/image44hist-64.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.histogram/working/image0/image45-64.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.histogram/working/image0/image45hist-64.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.histogram/working/image0/image46-64.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.histogram/working/image0/image46hist-64.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.histogram/working/image0/image47-64.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.histogram/working/image0/image47hist-64.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.histogram/working/image0/image48-64.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.histogram/working/image0/image48hist-64.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.histogram/working/image0/image49-64.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.histogram/working/image0/image49hist-64.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.histogram/working/image0/image4hist-64.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.histogram/working/image0/image5-64.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.histogram/working/image0/image50-64.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.histogram/working/image0/image50hist-64.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.histogram/working/image0/image51-64.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.histogram/working/image0/image51hist-64.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.histogram/working/image0/image52-64.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.histogram/working/image0/image52hist-64.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.histogram/working/image0/image53-64.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.histogram/working/image0/image53hist-64.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.histogram/working/image0/image54-64.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.histogram/working/image0/image54hist-64.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.histogram/working/image0/image55-64.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.histogram/working/image0/image55hist-64.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.histogram/working/image0/image56-64.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.histogram/working/image0/image56hist-64.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.histogram/working/image0/image57-64.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.histogram/working/image0/image57hist-64.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.histogram/working/image0/image58-64.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.histogram/working/image0/image58hist-64.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.histogram/working/image0/image59-64.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.histogram/working/image0/image59hist-64.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.histogram/working/image0/image5hist-64.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.histogram/working/image0/image6-64.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.histogram/working/image0/image60-64.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.histogram/working/image0/image60hist-64.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.histogram/working/image0/image61-64.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.histogram/working/image0/image61hist-64.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.histogram/working/image0/image62-64.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.histogram/working/image0/image62hist-64.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.histogram/working/image0/image63-64.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.histogram/working/image0/image63hist-64.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.histogram/working/image0/image6hist-64.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.histogram/working/image0/image7-64.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.histogram/working/image0/image7hist-64.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.histogram/working/image0/image8-64.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.histogram/working/image0/image8hist-64.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.histogram/working/image0/image9-64.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.histogram/working/image0/image9hist-64.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.kafka/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.kafka/build/classes/java/main/com/consensus/kafka/KafkaConsumerContainerImpl$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.kafka/build/classes/java/main/com/consensus/kafka/KafkaConsumerContainerImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.kafka/build/classes/java/main/com/consensus/kafka/KafkaProducerImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.kafka/build/classes/java/main/com/consensus/kafka/configuration/KafkaConfiguration.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.kafka/build/classes/java/main/com/consensus/kafka/consumer/IKafkaConsumerContainer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.kafka/build/classes/java/main/com/consensus/kafka/main/ConsumerMain.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.kafka/build/classes/java/main/com/consensus/kafka/main/ProducerMain.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.kafka/build/classes/java/main/com/consensus/kafka/producer/IKafkaProducer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.kafka/build/classes/java/main/module-info.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.kafka/build/classes/java/test/CustomRecordFormatter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.kafka/build/classes/java/test/KafkaConsumerImplTests$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.kafka/build/classes/java/test/KafkaConsumerImplTests$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.kafka/build/classes/java/test/KafkaConsumerImplTests$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.kafka/build/classes/java/test/KafkaConsumerImplTests$4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.kafka/build/classes/java/test/KafkaConsumerImplTests$5.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.kafka/build/classes/java/test/KafkaConsumerImplTests$6.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.kafka/build/classes/java/test/KafkaConsumerImplTests$NodeConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.kafka/build/classes/java/test/KafkaConsumerImplTests.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.kafka/build/classes/java/test/KafkaProducerImplTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.kafka/build/distributions/com.consensus.kafka.tar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.kafka/build/distributions/com.consensus.kafka.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.kafka/build/libs/com.consensus.kafka.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.kafka/build/scripts/com.consensus.kafka" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.kafka/build/scripts/com.consensus.kafka.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.kafka/build/test-results/test/binary/output.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.kafka/build/tmp/jar/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.kafka/build/tmp/test/jar_extract_10933981696689605445_tmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.kafka/build/tmp/test/jar_extract_13315955848363090450_tmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.kafka/build/tmp/test/jar_extract_1568414576979600377_tmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.kafka/build/tmp/test/jar_extract_15910124704674640235_tmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.kafka/build/tmp/test/jar_extract_17534842573032828959_tmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.kafka/build/tmp/test/jar_extract_17613859828320223608_tmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.kafka/build/tmp/test/jar_extract_4320717368636804698_tmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.kafka/build/tmp/test/jar_extract_5045750722843669783_tmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.kafka/build/tmp/test/jar_extract_739307471294048339_tmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.kafka/build/tmp/test/jar_extract_9360746967979566174_tmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.kafka/out/production/classes/com/consensus/kafka/KafkaConsumerContainerImpl$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.kafka/out/production/classes/com/consensus/kafka/KafkaConsumerContainerImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.kafka/out/production/classes/com/consensus/kafka/KafkaProducerImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.kafka/out/production/classes/com/consensus/kafka/configuration/KafkaConfiguration.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.kafka/out/production/classes/com/consensus/kafka/consumer/IKafkaConsumerContainer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.kafka/out/production/classes/com/consensus/kafka/main/ConsumerMain.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.kafka/out/production/classes/com/consensus/kafka/main/ProducerMain.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.kafka/out/production/classes/com/consensus/kafka/producer/IKafkaProducer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.kafka/out/production/classes/module-info.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.kafka/out/test/classes/CustomRecordFormatter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.kafka/out/test/classes/KafkaConsumerImplTests$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.kafka/out/test/classes/KafkaConsumerImplTests$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.kafka/out/test/classes/KafkaConsumerImplTests$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.kafka/out/test/classes/KafkaConsumerImplTests$4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.kafka/out/test/classes/KafkaConsumerImplTests$5.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.kafka/out/test/classes/KafkaConsumerImplTests$6.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.kafka/out/test/classes/KafkaConsumerImplTests$NodeConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.kafka/out/test/classes/KafkaConsumerImplTests.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.kafka/out/test/classes/KafkaProducerImplTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.kafka/src/main/java/com/consensus/kafka/KafkaConsumerContainerImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.kafka/src/main/java/com/consensus/kafka/KafkaProducerImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.kafka/src/main/java/com/consensus/kafka/configuration/KafkaConfiguration.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.kafka/src/main/java/com/consensus/kafka/consumer/IKafkaConsumerContainer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.kafka/src/main/java/com/consensus/kafka/main/ConsumerMain.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.kafka/src/main/java/com/consensus/kafka/main/ProducerMain.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.kafka/src/main/java/com/consensus/kafka/producer/IKafkaProducer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.kafka/src/main/java/module-info.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.kafka/src/test/java/CustomRecordFormatter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.kafka/src/test/java/KafkaConsumerImplTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.kafka/src/test/java/KafkaProducerImplTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.node/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.node/build/classes/java/main/com/consensus/node/ConsensusNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.node/build/classes/java/main/com/consensus/node/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.node/build/classes/java/main/module-info.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.node/build/classes/java/test/ConsensusNodeTest$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.node/build/classes/java/test/ConsensusNodeTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.node/build/distributions/com.consensus.node.tar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.node/build/distributions/com.consensus.node.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.node/build/libs/com.consensus.node.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.node/build/reports/tests/test/classes/ConsensusNodeTest.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.node/build/reports/tests/test/css/base-style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.node/build/reports/tests/test/css/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.node/build/reports/tests/test/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.node/build/reports/tests/test/js/report.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.node/build/reports/tests/test/packages/default-package.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.node/build/scripts/com.consensus.node" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.node/build/scripts/com.consensus.node.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.node/build/test-results/test/TEST-ConsensusNodeTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.node/build/test-results/test/binary/output.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.node/build/test-results/test/binary/output.bin.idx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.node/build/test-results/test/binary/results.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.node/build/tmp/jar/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.node/build/tmp/test/jar_extract_14490814773355065846_tmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.node/build/tmp/test/jar_extract_16359629874946252578_tmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.node/build/tmp/test/jar_extract_5803266573725164443_tmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.node/out/production/classes/com/consensus/node/ConsensusNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.node/out/production/classes/com/consensus/node/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.node/out/test/classes/ConsensusNodeTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.node/src/main/java/com/consensus/node/ConsensusNode.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.node/src/main/java/com/consensus/node/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.node/src/main/java/module-info.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.node/src/test/java/ConsensusNodeTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.utils/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.utils/build/classes/java/main/com/consensus/utils/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.utils/build/classes/java/main/com/consensus/utils/base/CmdLineParser.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.utils/build/classes/java/main/com/consensus/utils/base/ThreadRunner.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.utils/build/classes/java/main/com/consensus/utils/domain/ConsensusIteration$ConsensusIterationGenerator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.utils/build/classes/java/main/com/consensus/utils/domain/ConsensusIteration.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.utils/build/classes/java/main/com/consensus/utils/serializer/ConsensusIterationDeserializer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.utils/build/classes/java/main/com/consensus/utils/serializer/ConsensusIterationSerializer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.utils/build/classes/java/main/module-info.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.utils/build/classes/java/test/TestUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.utils/build/distributions/com.consensus.utils.tar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.utils/build/distributions/com.consensus.utils.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.utils/build/libs/com.consensus.utils.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.utils/build/reports/tests/test/classes/TestUtils.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.utils/build/reports/tests/test/css/base-style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.utils/build/reports/tests/test/css/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.utils/build/reports/tests/test/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.utils/build/reports/tests/test/js/report.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.utils/build/reports/tests/test/packages/default-package.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.utils/build/scripts/com.consensus.utils" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.utils/build/scripts/com.consensus.utils.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.utils/build/test-results/test/TEST-TestUtils.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.utils/build/test-results/test/binary/output.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.utils/build/test-results/test/binary/output.bin.idx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.utils/build/test-results/test/binary/results.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.utils/build/tmp/jar/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.utils/out/production/classes/com/consensus/utils/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.utils/out/production/classes/com/consensus/utils/base/CmdLineParser.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.utils/out/production/classes/com/consensus/utils/base/ThreadRunner.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.utils/out/production/classes/com/consensus/utils/domain/ConsensusIteration$ConsensusIterationGenerator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.utils/out/production/classes/com/consensus/utils/domain/ConsensusIteration.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.utils/out/production/classes/com/consensus/utils/serializer/ConsensusIterationDeserializer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.utils/out/production/classes/com/consensus/utils/serializer/ConsensusIterationSerializer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.utils/out/production/classes/module-info.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.utils/src/main/java/com/consensus/utils/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.utils/src/main/java/com/consensus/utils/base/CmdLineParser.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.utils/src/main/java/com/consensus/utils/base/ThreadRunner.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.utils/src/main/java/com/consensus/utils/domain/ConsensusIteration.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.utils/src/main/java/com/consensus/utils/serializer/ConsensusIterationDeserializer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.utils/src/main/java/com/consensus/utils/serializer/ConsensusIterationSerializer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.utils/src/main/java/module-info.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.consensus.utils/src/test/java/TestUtils.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.grid.graph.generator/build/classes/java/main/com/grid/graph/generator/ConsensusGridGraph.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.grid.graph.generator/build/libs/com.grid.graph.generator.jar" beforeDir="false" afterPath="$PROJECT_DIR$/com.grid.graph.generator/build/libs/com.grid.graph.generator.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.grid.graph.generator/src/main/java/com/grid/graph/generator/ConsensusGridGraph.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.grid.graph.generator/src/main/java/com/grid/graph/generator/GridGraphGeneratorImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.grid.graph.generator/src/main/java/com/grid/graph/generator/GridGraphGeneratorImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.grid.graph.main/build/classes/java/main/com/grid/graph/main/controller/GridGraphController.class" beforeDir="false" afterPath="$PROJECT_DIR$/com.grid.graph.main/build/classes/java/main/com/grid/graph/main/controller/GridGraphController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.grid.graph.main/src/main/java/com/grid/graph/main/controller/GridGraphController.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.grid.graph.main/src/main/java/com/grid/graph/main/controller/GridGraphController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/grid-graph-front-end" beforeDir="false" afterPath="$PROJECT_DIR$/grid-graph-front-end" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -573,17 +173,22 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GridGraphController.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="GridGraphController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/com.grid.graph.main/src/main/java/com/grid/graph/main/controller/GridGraphController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="419">
-              <caret line="57" column="20" selection-start-line="57" selection-start-column="20" selection-end-line="57" selection-end-column="20" />
+            <state relative-caret-position="515">
+              <caret line="61" selection-start-line="61" selection-end-line="61" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1068#1077#0" expanded="true" />
+                <element signature="e#1513#1522#0" expanded="true" />
               </folding>
             </state>
           </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="gradle-wrapper.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file leaf-file-name="Application.java" pinned="false" current-in-tab="false">
@@ -618,16 +223,7 @@
         <entry file="file://$PROJECT_DIR$/com.grid.graph.main/src/main/java/module-info.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="105">
-              <caret line="7" column="37" lean-forward="true" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="module-info.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/com.grid.graph.generator/src/main/java/module-info.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="36" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="36" />
+              <caret line="7" column="37" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -641,23 +237,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ConsensusGridGraph.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/com.grid.graph.generator/src/main/java/com/grid/graph/generator/ConsensusGridGraph.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="62" column="27" lean-forward="true" selection-start-line="62" selection-start-column="27" selection-end-line="62" selection-end-column="27" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GridGraphGeneratorImpl.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="GridGraphGeneratorImpl.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/com.grid.graph.generator/src/main/java/com/grid/graph/generator/GridGraphGeneratorImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1288">
-              <caret line="18" column="24" lean-forward="true" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
+            <state relative-caret-position="1916">
+              <caret line="138" column="5" lean-forward="true" selection-start-line="138" selection-start-column="5" selection-end-line="138" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -2466,16 +2050,16 @@
         <option value="$PROJECT_DIR$/com.grid.graph.main/src/main/java/com/grid/graph/main/config/GridGraphImplConfig.java" />
         <option value="$PROJECT_DIR$/com.grid.graph.main/src/main/java/com/grid/graph/main/Application.java" />
         <option value="$PROJECT_DIR$/com.grid.graph.main/src/main/java/com/grid/graph/main/domain/GraphResponse.java" />
-        <option value="$PROJECT_DIR$/com.grid.graph.generator/src/main/java/com/grid/graph/generator/GridGraphGeneratorImpl.java" />
         <option value="$PROJECT_DIR$/com.grid.graph.main/src/main/java/com/grid/graph/main/controller/GridGraphController.java" />
+        <option value="$PROJECT_DIR$/com.grid.graph.generator/src/main/java/com/grid/graph/generator/GridGraphGeneratorImpl.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="30" />
-    <option name="y" value="100" />
+    <option name="x" value="77" />
+    <option name="y" value="27" />
     <option name="width" value="1384" />
-    <option name="height" value="774" />
+    <option name="height" value="872" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -2618,6 +2202,16 @@
               <item name="grid-graph-generator" type="b2602c69:ProjectViewProjectNode" />
               <item name="grid-graph-generator" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="gradle" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="grid-graph-generator" type="b2602c69:ProjectViewProjectNode" />
+              <item name="grid-graph-generator" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="gradle" type="462c0819:PsiDirectoryNode" />
+              <item name="wrapper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="grid-graph-generator" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
@@ -2899,7 +2493,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="30" y="100" width="1384" height="774" extended-state="0" />
+    <frame x="77" y="27" width="1384" height="872" extended-state="0" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3294423" />
@@ -2909,14 +2503,15 @@
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50143063" side_tool="true" weight="0.15272728" />
       <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.8540773" visible="true" weight="0.0605613" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.8540773" visible="true" weight="0.09677419" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.27496758" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.21943574" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22950819" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.35171387" />
       <window_info anchor="bottom" id="sbt-shell-toolwindow" order="7" weight="0.32969698" />
       <window_info anchor="bottom" x="8" y="302" width="1398" height="192" id="Build" order="7" type="FLOATING" weight="0.37333333" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32791728" />
       <window_info anchor="right" id="Gradle" order="3" sideWeight="0.7163636" visible="true" weight="0.19672132" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -2928,7 +2523,6 @@
       <window_info anchor="bottom" id="Messages" order="7" sideWeight="0.47328818" visible="true" weight="0.31559855" />
       <window_info id="Build Variants" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3291536" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -3079,13 +2673,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/com.consensus.grid/src/main/java/com/grid/graph/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/com.consensus.histogram/src/main/java/com/consensus/histogram/App.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="316">
@@ -3364,13 +2951,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/com.grid.graph.generator/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/com.grid.graph.main/src/main/java/com/grid/graph/main/service/GridGraphGeneratorService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -3391,7 +2971,7 @@
     <entry file="file://$PROJECT_DIR$/com.grid.graph.main/src/main/java/module-info.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
-          <caret line="7" column="37" lean-forward="true" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="37" />
+          <caret line="7" column="37" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="37" />
         </state>
       </provider>
     </entry>
@@ -3403,18 +2983,6 @@
             <element signature="imports" expanded="true" />
             <element signature="e#243#244#0" expanded="true" />
             <element signature="e#305#306#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com.grid.graph.main/src/main/java/com/grid/graph/main/config/GridGraphImplConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#281#282#0" expanded="true" />
-            <element signature="e#332#333#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -3452,30 +3020,52 @@
     <entry file="file://$PROJECT_DIR$/com.grid.graph.generator/src/main/java/com/grid/graph/generator/ConsensusGridGraph.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="192">
-          <caret line="62" column="27" lean-forward="true" selection-start-line="62" selection-start-column="27" selection-end-line="62" selection-end-column="27" />
+          <caret line="62" column="27" selection-start-line="62" selection-start-column="27" selection-end-line="62" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/com.grid.graph.generator/src/main/java/com/grid/graph/generator/GridGraphGeneratorImpl.java">
+    <entry file="file://$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com.grid.graph.main/src/main/java/com/grid/graph/main/config/GridGraphImplConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1288">
-          <caret line="18" column="24" lean-forward="true" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
+        <state relative-caret-position="150">
+          <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#281#282#0" expanded="true" />
+            <element signature="e#332#333#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/com.grid.graph.main/src/main/java/com/grid/graph/main/controller/GridGraphController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="419">
-          <caret line="57" column="20" selection-start-line="57" selection-start-column="20" selection-end-line="57" selection-end-column="20" />
+        <state relative-caret-position="515">
+          <caret line="61" selection-start-line="61" selection-end-line="61" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1068#1077#0" expanded="true" />
+            <element signature="e#1513#1522#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com.grid.graph.generator/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com.grid.graph.generator/src/main/java/com/grid/graph/generator/GridGraphGeneratorImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1916">
+          <caret line="138" column="5" lean-forward="true" selection-start-line="138" selection-start-column="5" selection-end-line="138" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
