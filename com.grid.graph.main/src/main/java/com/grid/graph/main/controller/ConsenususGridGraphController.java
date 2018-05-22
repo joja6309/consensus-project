@@ -11,7 +11,7 @@ import java.util.List;
 import java.util.Objects;
 import java.util.stream.Collectors;
 
-import com.grid.graph.main.domain.ConsensusGraphResponse;
+import com.grid.graph.main.domain.ConsensusGraphResponseDTO;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
@@ -52,13 +52,13 @@ public class ConsenususGridGraphController {
 
 
             gridGraphGenerator.generateDirectedGridGraph(width, height, degrees);
-            ConsensusGraphResponse consensusGraphResponse = new
-                    ConsensusGraphResponse(width,height,
+            ConsensusGraphResponseDTO consensusGraphResponseDTO = new
+                    ConsensusGraphResponseDTO(width,height,
                     gridGraphGenerator.directedGridGraph.vertexSet(),
                     gridGraphGenerator.directedGridGraph.edgeSet(),
                     gridGraphGenerator.graphDegrees);
             ObjectMapper mapper = new ObjectMapper();
-            jsonString = mapper.writeValueAsString(consensusGraphResponse);
+            jsonString = mapper.writeValueAsString(consensusGraphResponseDTO);
 
         } catch (JsonProcessingException e) {
             e.printStackTrace();
