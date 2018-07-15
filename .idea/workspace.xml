@@ -2,9 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ef0480a4-83a0-481b-8962-3c2150408347" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/com.grid.graph.main/src/main/java/com/grid/graph/main/controller/GraphGeneratorController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com.grid.graph.main/src/main/java/com/grid/graph/main/domain/GraphGeneratorResponseDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com.grid.graph.main/src/test/java/JgraphTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jgrapht_jgrapht_core_1_2_1_SNAPSHOT.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.grid.graph.main/src/main/java/com/grid/graph/main/GraphGeneratorService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.grid.graph.main/src/main/java/com/grid/graph/main/GraphGeneratorServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.grid.graph.main/src/test/java/BarabasiAlbertGraphGeneratorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.grid.graph.main/src/test/java/ComplementGraphGeneratorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.grid.graph.main/src/test/java/GeneralizedPetersenGraphGeneratorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.grid.graph.main/src/test/java/GnmRandomBipartiteGraphGeneratorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.grid.graph.main/src/test/java/GnmRandomGraphGeneratorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.grid.graph.main/src/test/java/GnpRandomBipartiteGraphGeneratorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.grid.graph.main/src/test/java/GnpRandomGraphGeneratorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.grid.graph.main/src/test/java/GridGraphGeneratorServiceImplTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.grid.graph.main/src/test/java/NamedGraphGeneratorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.grid.graph.main/src/test/java/com/grid/graph/main/config/GraphGeneratorServiceImplConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com.grid.graph.main/src/test/java/com/grid/graph/main/service/GraphGeneratorServiceTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.7/fileContent/annotation-processors.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.7/fileContent/annotation-processors.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.7/fileContent/fileContent.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.7/fileContent/fileContent.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.7/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.7/fileHashes/fileHashes.bin" afterDir="false" />
@@ -14,23 +25,44 @@
       <change beforePath="$PROJECT_DIR$/.gradle/4.7/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.7/taskHistory/taskHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apiguardian_apiguardian_api_1_0_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_junit_jupiter_junit_jupiter_api_5_1_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_junit_jupiter_junit_jupiter_engine_5_1_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_junit_platform_junit_platform_commons_1_1_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_junit_platform_junit_platform_engine_1_1_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_opentest4j_opentest4j_1_0_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_slf4j_slf4j_simple_1_7_25.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/com.grid.graph.generator/com.grid.graph.generator_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/com.grid.graph.generator/com.grid.graph.generator_test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jgrapht_jgrapht_core_1_1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/com.grid.graph.generator/com.grid.graph.generator_main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/com.grid.graph.generator/com.grid.graph.generator_test.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules/com.grid.graph.main/com.grid.graph.main_main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/com.grid.graph.main/com.grid.graph.main_main.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules/com.grid.graph.main/com.grid.graph.main_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/com.grid.graph.main/com.grid.graph.main_test.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.grid.graph.generator/src/test/java/ConsensusGridGraphGeneratorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.grid.graph.generator/src/test/java/ConsensusGridGraphGeneratorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.grid.graph.generator/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.grid.graph.generator/build/classes/java/main/com/grid/graph/generator/ConsensusGridGraphGeneratorImpl$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.grid.graph.generator/build/classes/java/main/com/grid/graph/generator/ConsensusGridGraphGeneratorImpl$StringEdgeFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.grid.graph.generator/build/classes/java/main/com/grid/graph/generator/ConsensusGridGraphGeneratorImpl$StringVertexFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.grid.graph.generator/build/classes/java/main/com/grid/graph/generator/ConsensusGridGraphGeneratorImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.grid.graph.generator/build/classes/java/main/module-info.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.grid.graph.generator/build/libs/com.grid.graph.generator.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.grid.graph.generator/build/tmp/jar/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.grid.graph.generator/src/main/java/com/grid/graph/generator/ConsensusGridGraphGeneratorImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.grid.graph.generator/src/main/java/module-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.grid.graph.generator/src/test/java/ConsensusGridGraphGeneratorTest.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/com.grid.graph.main/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/com.grid.graph.main/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.grid.graph.main/build/libs/com.grid.graph.main-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/com.grid.graph.main/build/libs/com.grid.graph.main-0.0.1-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.grid.graph.main/build/classes/java/main/com/grid/graph/main/Application.class" beforeDir="false" afterPath="$PROJECT_DIR$/com.grid.graph.main/build/classes/java/main/com/grid/graph/main/Application.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.grid.graph.main/build/classes/java/main/com/grid/graph/main/config/ConsensusGridGraphImplConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.grid.graph.main/build/classes/java/main/com/grid/graph/main/controller/ConsenususGridGraphController.class" beforeDir="false" afterPath="$PROJECT_DIR$/com.grid.graph.main/build/classes/java/main/com/grid/graph/main/controller/ConsenususGridGraphController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.grid.graph.main/build/classes/java/main/com/grid/graph/main/controller/GraphGeneratorController.class" beforeDir="false" afterPath="$PROJECT_DIR$/com.grid.graph.main/build/classes/java/main/com/grid/graph/main/controller/GraphGeneratorController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.grid.graph.main/build/classes/java/main/com/grid/graph/main/domain/GraphGeneratorResponseDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/com.grid.graph.main/build/classes/java/main/com/grid/graph/main/domain/GraphGeneratorResponseDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.grid.graph.main/build/classes/java/main/module-info.class" beforeDir="false" afterPath="$PROJECT_DIR$/com.grid.graph.main/build/classes/java/main/module-info.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.grid.graph.main/build/libs/com.grid.graph.main-0.0.1-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.grid.graph.main/build/tmp/bootJar/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.grid.graph.main/src/main/java/com/grid/graph/main/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.grid.graph.main/src/main/java/com/grid/graph/main/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.grid.graph.main/src/main/java/com/grid/graph/main/config/ConsensusGridGraphImplConfig.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/com.grid.graph.main/src/main/java/com/grid/graph/main/controller/ConsenususGridGraphController.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.grid.graph.main/src/main/java/com/grid/graph/main/controller/ConsenususGridGraphController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com.grid.graph.main/src/main/java/com/grid/graph/main/domain/ConsensusGraphResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.grid.graph.main/src/main/java/com/grid/graph/main/domain/ConsensusGraphResponseDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.grid.graph.main/src/main/java/com/grid/graph/main/controller/GraphGeneratorController.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.grid.graph.main/src/main/java/com/grid/graph/main/controller/GraphGeneratorController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.grid.graph.main/src/main/java/com/grid/graph/main/domain/GraphGeneratorResponseDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.grid.graph.main/src/main/java/com/grid/graph/main/domain/GraphGeneratorResponseDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.grid.graph.main/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/com.grid.graph.main/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com.grid.graph.main/src/test/java/JgraphTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -86,6 +118,7 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/consensus_repo$HistogramGeneratorTests_createWorkingDirectory.ic" NAME="HistogramGeneratorTests.createWorkingDirectory Coverage Results" MODIFIED="1526305268672" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/grid_graph_generator$GraphGeneratorControllerTest_generateCompleteGraph__2_.ic" NAME="GraphGeneratorControllerTest.generateCompleteGraph (2) Coverage Results" MODIFIED="1530845888356" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/consensus_repo$TestUtils.ic" NAME="TestUtils Coverage Results" MODIFIED="1526181205056" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/consensus_repo$ConsensusNodeTest.ic" NAME="ConsensusNodeTest Coverage Results" MODIFIED="1526153490131" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
@@ -175,6 +208,12 @@
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
                 <item name="other" type="c8890929:TasksNode$1" />
               </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="grid-graph-generator" type="f1a62948:ProjectNode" />
+                <item name=":com.grid.graph.main" type="2d1252cf:ModuleNode" />
+                <item name="Run Configurations" type="7b0102dc:RunConfigurationsNode" />
+              </path>
             </expand>
             <select />
           </tree_state>
@@ -183,156 +222,56 @@
     </system>
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.62467647">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/com.grid.graph.main/build.gradle">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="232">
-                  <caret line="37" column="44" selection-start-line="37" selection-start-column="44" selection-end-line="37" selection-end-column="44" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="ConsenususGridGraphController.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/com.grid.graph.main/src/main/java/com/grid/graph/main/controller/ConsenususGridGraphController.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="45">
-                  <caret line="18" column="3" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="3" />
-                  <folding>
-                    <element signature="e#1513#1522#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/build.gradle">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="240">
-                  <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="ConsensusGridGraphGeneratorTest.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/com.grid.graph.generator/src/test/java/ConsensusGridGraphGeneratorTest.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="132">
-                  <caret line="31" column="4" selection-start-line="31" selection-start-column="4" selection-end-line="48" selection-end-column="5" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="JgraphTests.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/com.grid.graph.main/src/test/java/JgraphTests.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="141">
-                  <caret line="10" selection-start-line="10" selection-end-line="10" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="GraphGeneratorController.java" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/com.grid.graph.main/src/main/java/com/grid/graph/main/controller/GraphGeneratorController.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="225">
-                  <caret line="15" column="52" selection-start-line="15" selection-start-column="52" selection-end-line="15" selection-end-column="52" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="GraphGeneratorResponseDTO.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/com.grid.graph.main/src/main/java/com/grid/graph/main/domain/GraphGeneratorResponseDTO.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="30">
-                  <caret line="2" column="35" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/com.grid.graph.generator/build.gradle">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="105">
-                  <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="44" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="ConsensusGridGraphGeneratorImpl.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/com.grid.graph.generator/src/main/java/com/grid/graph/generator/ConsensusGridGraphGeneratorImpl.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1231">
-                  <caret line="138" column="5" selection-start-line="138" selection-start-column="5" selection-end-line="138" selection-end-column="5" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="ConsensusGraphResponseDTO.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/com.grid.graph.main/src/main/java/com/grid/graph/main/domain/ConsensusGraphResponseDTO.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="300">
-                  <caret line="20" column="33" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                    <element signature="e#289#290#0" expanded="true" />
-                    <element signature="e#318#319#0" expanded="true" />
-                    <element signature="e#359#360#0" expanded="true" />
-                    <element signature="e#395#396#0" expanded="true" />
-                    <element signature="e#424#425#0" expanded="true" />
-                    <element signature="e#452#453#0" expanded="true" />
-                    <element signature="e#491#492#0" expanded="true" />
-                    <element signature="e#525#526#0" expanded="true" />
-                    <element signature="e#565#566#0" expanded="true" />
-                    <element signature="e#596#597#0" expanded="true" />
-                    <element signature="e#649#650#0" expanded="true" />
-                    <element signature="e#689#690#0" expanded="true" />
-                    <element signature="e#726#727#0" expanded="true" />
-                    <element signature="e#754#755#0" expanded="true" />
-                    <element signature="e#801#802#0" expanded="true" />
-                    <element signature="e#835#836#0" expanded="true" />
-                    <element signature="e#879#880#0" expanded="true" />
-                    <element signature="e#913#914#0" expanded="true" />
-                    <element signature="e#973#974#0" expanded="true" />
-                    <element signature="e#1019#1020#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file leaf-file-name="ConsenususGridGraphController.java" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/com.grid.graph.main/src/main/java/com/grid/graph/main/controller/ConsenususGridGraphController.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="423">
-                  <caret line="65" column="45" lean-forward="true" selection-start-line="65" selection-start-column="8" selection-end-line="65" selection-end-column="45" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="GraphGeneratorController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/com.grid.graph.main/src/main/java/com/grid/graph/main/controller/GraphGeneratorController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1004">
+              <caret line="100" column="2" selection-start-line="100" selection-start-column="2" selection-end-line="100" selection-end-column="2" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GraphGeneratorServiceImpl.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/com.grid.graph.main/src/main/java/com/grid/graph/main/GraphGeneratorServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="108">
+              <caret line="113" column="64" selection-start-line="113" selection-start-column="64" selection-end-line="113" selection-end-column="64" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GraphGeneratorServiceTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/com.grid.graph.main/src/test/java/com/grid/graph/main/service/GraphGeneratorServiceTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="63" selection-start-line="63" selection-end-line="63" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GraphGeneratorService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/com.grid.graph.main/src/main/java/com/grid/graph/main/GraphGeneratorService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="23" column="42" selection-start-line="23" selection-start-column="42" selection-end-line="23" selection-end-column="42" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -345,9 +284,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>getAss</find>
-      <find>get</find>
-      <find>splitEdge[1]</find>
       <find>fromEdge</find>
       <find>,() -&gt; &quot;Assertion messages can be lazily evaluated -- &quot;</find>
       <find>lazily</find>
@@ -357,6 +293,27 @@
       <find>testWithDisplayNameContainingEmoji()</find>
       <find>testOnMessageKafkaConsumerContainerImpl</find>
       <find>testMessageListenerContainerOnMessage</find>
+      <find>hyperCubeGenerator</find>
+      <find>complete</find>
+      <find>getGraph</find>
+      <find>generateCom</find>
+      <find>(int dimensions)</find>
+      <find>(dim)</find>
+      <find>generateCompl</find>
+      <find>vertex</find>
+      <find>int dimensions</find>
+      <find>int dimensions,Class&lt;?&gt; directionClass</find>
+      <find>params,directedClass</find>
+      <find>String... args</find>
+      <find>type</find>
+      <find>JsonNode params</find>
+      <find>JsonNode params</find>
+      <find>params.path(&quot;dimensions&quot;).asInt()</find>
+      <find>dim,directedClass</find>
+      <find>directionClass</find>
+      <find>((Map&lt;String, String&gt; params)</find>
+      <find>Class&lt;?&gt; directionClass,Map&lt;String,String&gt; params</find>
+      <find>directedClass,params</find>
     </findStrings>
     <replaceStrings>
       <replace>fromEdge</replace>
@@ -364,6 +321,24 @@
       <replace>splitEdge[1]</replace>
       <replace>splitEdge[0]</replace>
       <replace>//LOGGER</replace>
+      <replace>linearGraphGenerator</replace>
+      <replace>graphType</replace>
+      <replace>(dim,directedClass)</replace>
+      <replace>(int dimensions,Class&lt;?&gt; directionClass)</replace>
+      <replace>string [] args ...</replace>
+      <replace>string [] ...args</replace>
+      <replace>String... args</replace>
+      <replace>int dimensions,String... args</replace>
+      <replace>Class&lt;?&gt; directionClass,String... args</replace>
+      <replace>directedClass,params.split(&quot;,&quot;)</replace>
+      <replace>JsonNode params</replace>
+      <replace>graphClassification</replace>
+      <replace>Integer.valueOf(params.get(&quot;dimensions&quot;))</replace>
+      <replace>directedClass,params</replace>
+      <replace>getDirectedClass(params.get(&quot;directed&quot;))</replace>
+      <replace>(Map&lt;String, String&gt; params)</replace>
+      <replace>Map&lt;String,String&gt; params</replace>
+      <replace>params</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -394,10 +369,6 @@
               <ExternalProjectPojo>
                 <option name="name" value="grid-graph-generator" />
                 <option name="path" value="$PROJECT_DIR$" />
-              </ExternalProjectPojo>
-              <ExternalProjectPojo>
-                <option name="name" value=":com.grid.graph.generator" />
-                <option name="path" value="$PROJECT_DIR$/com.grid.graph.generator" />
               </ExternalProjectPojo>
               <ExternalProjectPojo>
                 <option name="name" value=":com.grid.graph.main" />
@@ -566,1069 +537,6 @@
             </list>
           </value>
         </entry>
-        <entry key="$PROJECT_DIR$/com.consensus.grid">
-          <value>
-            <list>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the components produced by project ':com.consensus.grid'. [incubating]" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.grid" />
-                <option name="name" value="components" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Assembles and tests this project and all projects that depend on it." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.grid" />
-                <option name="name" value="buildDependents" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the sub-projects of project ':com.consensus.grid'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.grid" />
-                <option name="name" value="projects" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Assembles main classes." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.grid" />
-                <option name="name" value="classes" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the dependent components of components in project ':com.consensus.grid'. [incubating]" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.grid" />
-                <option name="name" value="dependentComponents" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays all buildscript dependencies declared in project ':com.consensus.grid'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.grid" />
-                <option name="name" value="buildEnvironment" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Assembles test classes." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.grid" />
-                <option name="name" value="testClasses" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Generates Javadoc API documentation for the main source code." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.grid" />
-                <option name="name" value="javadoc" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Assembles a jar archive containing the main classes." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.grid" />
-                <option name="name" value="jar" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the configuration model of project ':com.consensus.grid'. [incubating]" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.grid" />
-                <option name="name" value="model" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Processes main resources." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.grid" />
-                <option name="name" value="processResources" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the tasks runnable from project ':com.consensus.grid'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.grid" />
-                <option name="name" value="tasks" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Runs the unit tests." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.grid" />
-                <option name="name" value="test" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Compiles main Java source." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.grid" />
-                <option name="name" value="compileJava" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the insight into a specific dependency in project ':com.consensus.grid'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.grid" />
-                <option name="name" value="dependencyInsight" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Runs all checks." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.grid" />
-                <option name="name" value="check" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Assembles the outputs of this project." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.grid" />
-                <option name="name" value="assemble" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Deletes the build directory." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.grid" />
-                <option name="name" value="clean" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Compiles test Java source." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.grid" />
-                <option name="name" value="compileTestJava" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays all dependencies declared in project ':com.consensus.grid'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.grid" />
-                <option name="name" value="dependencies" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Processes test resources." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.grid" />
-                <option name="name" value="processTestResources" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays a help message." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.grid" />
-                <option name="name" value="help" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Assembles and tests this project." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.grid" />
-                <option name="name" value="build" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Assembles and tests this project and all projects it depends on." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.grid" />
-                <option name="name" value="buildNeeded" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the properties of project ':com.consensus.grid'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.grid" />
-                <option name="name" value="properties" />
-              </ExternalTaskPojo>
-            </list>
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/com.consensus.histogram">
-          <value>
-            <list>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the components produced by project ':com.consensus.histogram'. [incubating]" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.histogram" />
-                <option name="name" value="components" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Assembles and tests this project and all projects that depend on it." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.histogram" />
-                <option name="name" value="buildDependents" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the sub-projects of project ':com.consensus.histogram'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.histogram" />
-                <option name="name" value="projects" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Assembles main classes." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.histogram" />
-                <option name="name" value="classes" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the dependent components of components in project ':com.consensus.histogram'. [incubating]" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.histogram" />
-                <option name="name" value="dependentComponents" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays all buildscript dependencies declared in project ':com.consensus.histogram'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.histogram" />
-                <option name="name" value="buildEnvironment" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Assembles test classes." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.histogram" />
-                <option name="name" value="testClasses" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Generates Javadoc API documentation for the main source code." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.histogram" />
-                <option name="name" value="javadoc" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Assembles a jar archive containing the main classes." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.histogram" />
-                <option name="name" value="jar" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the configuration model of project ':com.consensus.histogram'. [incubating]" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.histogram" />
-                <option name="name" value="model" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Processes main resources." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.histogram" />
-                <option name="name" value="processResources" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the tasks runnable from project ':com.consensus.histogram'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.histogram" />
-                <option name="name" value="tasks" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Runs the unit tests." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.histogram" />
-                <option name="name" value="test" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Compiles main Java source." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.histogram" />
-                <option name="name" value="compileJava" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the insight into a specific dependency in project ':com.consensus.histogram'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.histogram" />
-                <option name="name" value="dependencyInsight" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Runs all checks." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.histogram" />
-                <option name="name" value="check" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Assembles the outputs of this project." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.histogram" />
-                <option name="name" value="assemble" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Deletes the build directory." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.histogram" />
-                <option name="name" value="clean" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Compiles test Java source." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.histogram" />
-                <option name="name" value="compileTestJava" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays all dependencies declared in project ':com.consensus.histogram'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.histogram" />
-                <option name="name" value="dependencies" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Processes test resources." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.histogram" />
-                <option name="name" value="processTestResources" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays a help message." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.histogram" />
-                <option name="name" value="help" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Assembles and tests this project." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.histogram" />
-                <option name="name" value="build" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Assembles and tests this project and all projects it depends on." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.histogram" />
-                <option name="name" value="buildNeeded" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the properties of project ':com.consensus.histogram'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.histogram" />
-                <option name="name" value="properties" />
-              </ExternalTaskPojo>
-            </list>
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/com.consensus.kafka">
-          <value>
-            <list>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the components produced by project ':com.consensus.kafka'. [incubating]" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.kafka" />
-                <option name="name" value="components" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Assembles and tests this project and all projects that depend on it." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.kafka" />
-                <option name="name" value="buildDependents" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the sub-projects of project ':com.consensus.kafka'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.kafka" />
-                <option name="name" value="projects" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Assembles main classes." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.kafka" />
-                <option name="name" value="classes" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the dependent components of components in project ':com.consensus.kafka'. [incubating]" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.kafka" />
-                <option name="name" value="dependentComponents" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays all buildscript dependencies declared in project ':com.consensus.kafka'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.kafka" />
-                <option name="name" value="buildEnvironment" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Assembles test classes." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.kafka" />
-                <option name="name" value="testClasses" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Generates Javadoc API documentation for the main source code." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.kafka" />
-                <option name="name" value="javadoc" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Assembles a jar archive containing the main classes." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.kafka" />
-                <option name="name" value="jar" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the configuration model of project ':com.consensus.kafka'. [incubating]" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.kafka" />
-                <option name="name" value="model" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Processes main resources." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.kafka" />
-                <option name="name" value="processResources" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the tasks runnable from project ':com.consensus.kafka'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.kafka" />
-                <option name="name" value="tasks" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Runs the unit tests." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.kafka" />
-                <option name="name" value="test" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Compiles main Java source." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.kafka" />
-                <option name="name" value="compileJava" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the insight into a specific dependency in project ':com.consensus.kafka'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.kafka" />
-                <option name="name" value="dependencyInsight" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Runs all checks." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.kafka" />
-                <option name="name" value="check" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Assembles the outputs of this project." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.kafka" />
-                <option name="name" value="assemble" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Deletes the build directory." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.kafka" />
-                <option name="name" value="clean" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Compiles test Java source." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.kafka" />
-                <option name="name" value="compileTestJava" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays all dependencies declared in project ':com.consensus.kafka'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.kafka" />
-                <option name="name" value="dependencies" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Processes test resources." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.kafka" />
-                <option name="name" value="processTestResources" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays a help message." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.kafka" />
-                <option name="name" value="help" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Assembles and tests this project." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.kafka" />
-                <option name="name" value="build" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Assembles and tests this project and all projects it depends on." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.kafka" />
-                <option name="name" value="buildNeeded" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the properties of project ':com.consensus.kafka'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.kafka" />
-                <option name="name" value="properties" />
-              </ExternalTaskPojo>
-            </list>
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/com.consensus.node">
-          <value>
-            <list>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the components produced by project ':com.consensus.node'. [incubating]" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.node" />
-                <option name="name" value="components" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Assembles and tests this project and all projects that depend on it." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.node" />
-                <option name="name" value="buildDependents" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the sub-projects of project ':com.consensus.node'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.node" />
-                <option name="name" value="projects" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Assembles main classes." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.node" />
-                <option name="name" value="classes" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the dependent components of components in project ':com.consensus.node'. [incubating]" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.node" />
-                <option name="name" value="dependentComponents" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays all buildscript dependencies declared in project ':com.consensus.node'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.node" />
-                <option name="name" value="buildEnvironment" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Assembles test classes." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.node" />
-                <option name="name" value="testClasses" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Generates Javadoc API documentation for the main source code." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.node" />
-                <option name="name" value="javadoc" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Assembles a jar archive containing the main classes." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.node" />
-                <option name="name" value="jar" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the configuration model of project ':com.consensus.node'. [incubating]" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.node" />
-                <option name="name" value="model" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Processes main resources." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.node" />
-                <option name="name" value="processResources" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the tasks runnable from project ':com.consensus.node'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.node" />
-                <option name="name" value="tasks" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Runs the unit tests." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.node" />
-                <option name="name" value="test" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Compiles main Java source." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.node" />
-                <option name="name" value="compileJava" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the insight into a specific dependency in project ':com.consensus.node'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.node" />
-                <option name="name" value="dependencyInsight" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Runs all checks." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.node" />
-                <option name="name" value="check" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Assembles the outputs of this project." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.node" />
-                <option name="name" value="assemble" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Deletes the build directory." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.node" />
-                <option name="name" value="clean" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Compiles test Java source." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.node" />
-                <option name="name" value="compileTestJava" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays all dependencies declared in project ':com.consensus.node'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.node" />
-                <option name="name" value="dependencies" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Processes test resources." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.node" />
-                <option name="name" value="processTestResources" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays a help message." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.node" />
-                <option name="name" value="help" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Assembles and tests this project." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.node" />
-                <option name="name" value="build" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Assembles and tests this project and all projects it depends on." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.node" />
-                <option name="name" value="buildNeeded" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the properties of project ':com.consensus.node'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.node" />
-                <option name="name" value="properties" />
-              </ExternalTaskPojo>
-            </list>
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/com.consensus.utils">
-          <value>
-            <list>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the components produced by project ':com.consensus.utils'. [incubating]" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.utils" />
-                <option name="name" value="components" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Assembles and tests this project and all projects that depend on it." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.utils" />
-                <option name="name" value="buildDependents" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the sub-projects of project ':com.consensus.utils'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.utils" />
-                <option name="name" value="projects" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Assembles main classes." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.utils" />
-                <option name="name" value="classes" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the dependent components of components in project ':com.consensus.utils'. [incubating]" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.utils" />
-                <option name="name" value="dependentComponents" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays all buildscript dependencies declared in project ':com.consensus.utils'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.utils" />
-                <option name="name" value="buildEnvironment" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Assembles test classes." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.utils" />
-                <option name="name" value="testClasses" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Generates Javadoc API documentation for the main source code." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.utils" />
-                <option name="name" value="javadoc" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Assembles a jar archive containing the main classes." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.utils" />
-                <option name="name" value="jar" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the configuration model of project ':com.consensus.utils'. [incubating]" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.utils" />
-                <option name="name" value="model" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Processes main resources." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.utils" />
-                <option name="name" value="processResources" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the tasks runnable from project ':com.consensus.utils'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.utils" />
-                <option name="name" value="tasks" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Runs the unit tests." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.utils" />
-                <option name="name" value="test" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Compiles main Java source." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.utils" />
-                <option name="name" value="compileJava" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the insight into a specific dependency in project ':com.consensus.utils'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.utils" />
-                <option name="name" value="dependencyInsight" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Runs all checks." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.utils" />
-                <option name="name" value="check" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Assembles the outputs of this project." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.utils" />
-                <option name="name" value="assemble" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Deletes the build directory." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.utils" />
-                <option name="name" value="clean" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Compiles test Java source." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.utils" />
-                <option name="name" value="compileTestJava" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays all dependencies declared in project ':com.consensus.utils'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.utils" />
-                <option name="name" value="dependencies" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Processes test resources." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.utils" />
-                <option name="name" value="processTestResources" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays a help message." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.utils" />
-                <option name="name" value="help" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Assembles and tests this project." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.utils" />
-                <option name="name" value="build" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Assembles and tests this project and all projects it depends on." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.utils" />
-                <option name="name" value="buildNeeded" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the properties of project ':com.consensus.utils'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.consensus.utils" />
-                <option name="name" value="properties" />
-              </ExternalTaskPojo>
-            </list>
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/com.grid.graph">
-          <value>
-            <list>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the components produced by project ':com.grid.graph'. [incubating]" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.grid.graph" />
-                <option name="name" value="components" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Assembles and tests this project and all projects that depend on it." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.grid.graph" />
-                <option name="name" value="buildDependents" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the sub-projects of project ':com.grid.graph'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.grid.graph" />
-                <option name="name" value="projects" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Assembles main classes." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.grid.graph" />
-                <option name="name" value="classes" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the dependent components of components in project ':com.grid.graph'. [incubating]" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.grid.graph" />
-                <option name="name" value="dependentComponents" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays all buildscript dependencies declared in project ':com.grid.graph'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.grid.graph" />
-                <option name="name" value="buildEnvironment" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Assembles test classes." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.grid.graph" />
-                <option name="name" value="testClasses" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Generates Javadoc API documentation for the main source code." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.grid.graph" />
-                <option name="name" value="javadoc" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Assembles a jar archive containing the main classes." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.grid.graph" />
-                <option name="name" value="jar" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the configuration model of project ':com.grid.graph'. [incubating]" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.grid.graph" />
-                <option name="name" value="model" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Processes main resources." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.grid.graph" />
-                <option name="name" value="processResources" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the tasks runnable from project ':com.grid.graph'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.grid.graph" />
-                <option name="name" value="tasks" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Runs the unit tests." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.grid.graph" />
-                <option name="name" value="test" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Compiles main Java source." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.grid.graph" />
-                <option name="name" value="compileJava" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the insight into a specific dependency in project ':com.grid.graph'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.grid.graph" />
-                <option name="name" value="dependencyInsight" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Runs all checks." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.grid.graph" />
-                <option name="name" value="check" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Assembles the outputs of this project." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.grid.graph" />
-                <option name="name" value="assemble" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Deletes the build directory." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.grid.graph" />
-                <option name="name" value="clean" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Compiles test Java source." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.grid.graph" />
-                <option name="name" value="compileTestJava" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays all dependencies declared in project ':com.grid.graph'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.grid.graph" />
-                <option name="name" value="dependencies" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Processes test resources." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.grid.graph" />
-                <option name="name" value="processTestResources" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays a help message." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.grid.graph" />
-                <option name="name" value="help" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Assembles and tests this project." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.grid.graph" />
-                <option name="name" value="build" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Assembles and tests this project and all projects it depends on." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.grid.graph" />
-                <option name="name" value="buildNeeded" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the properties of project ':com.grid.graph'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.grid.graph" />
-                <option name="name" value="properties" />
-              </ExternalTaskPojo>
-            </list>
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/com.grid.graph.controller">
-          <value>
-            <list>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the components produced by project ':com.grid.graph.controller'. [incubating]" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.grid.graph.controller" />
-                <option name="name" value="components" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Assembles and tests this project and all projects that depend on it." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.grid.graph.controller" />
-                <option name="name" value="buildDependents" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the sub-projects of project ':com.grid.graph.controller'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.grid.graph.controller" />
-                <option name="name" value="projects" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Assembles main classes." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.grid.graph.controller" />
-                <option name="name" value="classes" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the dependent components of components in project ':com.grid.graph.controller'. [incubating]" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.grid.graph.controller" />
-                <option name="name" value="dependentComponents" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays all buildscript dependencies declared in project ':com.grid.graph.controller'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.grid.graph.controller" />
-                <option name="name" value="buildEnvironment" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Assembles test classes." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.grid.graph.controller" />
-                <option name="name" value="testClasses" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Generates Javadoc API documentation for the main source code." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.grid.graph.controller" />
-                <option name="name" value="javadoc" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Assembles an executable jar archive containing the main classes and their dependencies." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.grid.graph.controller" />
-                <option name="name" value="bootJar" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Assembles a jar archive containing the main classes." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.grid.graph.controller" />
-                <option name="name" value="jar" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the configuration model of project ':com.grid.graph.controller'. [incubating]" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.grid.graph.controller" />
-                <option name="name" value="model" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Processes main resources." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.grid.graph.controller" />
-                <option name="name" value="processResources" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the tasks runnable from project ':com.grid.graph.controller'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.grid.graph.controller" />
-                <option name="name" value="tasks" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Runs the unit tests." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.grid.graph.controller" />
-                <option name="name" value="test" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the dependency management declared in project ':com.grid.graph.controller'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.grid.graph.controller" />
-                <option name="name" value="dependencyManagement" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Runs this project as a Spring Boot application." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.grid.graph.controller" />
-                <option name="name" value="bootRun" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Compiles main Java source." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.grid.graph.controller" />
-                <option name="name" value="compileJava" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the insight into a specific dependency in project ':com.grid.graph.controller'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.grid.graph.controller" />
-                <option name="name" value="dependencyInsight" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Runs all checks." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.grid.graph.controller" />
-                <option name="name" value="check" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Assembles the outputs of this project." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.grid.graph.controller" />
-                <option name="name" value="assemble" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Deletes the build directory." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.grid.graph.controller" />
-                <option name="name" value="clean" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Compiles test Java source." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.grid.graph.controller" />
-                <option name="name" value="compileTestJava" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays all dependencies declared in project ':com.grid.graph.controller'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.grid.graph.controller" />
-                <option name="name" value="dependencies" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Processes test resources." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.grid.graph.controller" />
-                <option name="name" value="processTestResources" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays a help message." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.grid.graph.controller" />
-                <option name="name" value="help" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Assembles and tests this project." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.grid.graph.controller" />
-                <option name="name" value="build" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Assembles and tests this project and all projects it depends on." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.grid.graph.controller" />
-                <option name="name" value="buildNeeded" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the properties of project ':com.grid.graph.controller'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.grid.graph.controller" />
-                <option name="name" value="properties" />
-              </ExternalTaskPojo>
-            </list>
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/com.grid.graph.generator">
-          <value>
-            <list>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the components produced by project ':com.grid.graph.generator'. [incubating]" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.grid.graph.generator" />
-                <option name="name" value="components" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Assembles and tests this project and all projects that depend on it." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.grid.graph.generator" />
-                <option name="name" value="buildDependents" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the sub-projects of project ':com.grid.graph.generator'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.grid.graph.generator" />
-                <option name="name" value="projects" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Assembles main classes." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.grid.graph.generator" />
-                <option name="name" value="classes" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the dependent components of components in project ':com.grid.graph.generator'. [incubating]" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.grid.graph.generator" />
-                <option name="name" value="dependentComponents" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays all buildscript dependencies declared in project ':com.grid.graph.generator'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.grid.graph.generator" />
-                <option name="name" value="buildEnvironment" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Assembles test classes." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.grid.graph.generator" />
-                <option name="name" value="testClasses" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Generates Javadoc API documentation for the main source code." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.grid.graph.generator" />
-                <option name="name" value="javadoc" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Assembles a jar archive containing the main classes." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.grid.graph.generator" />
-                <option name="name" value="jar" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the configuration model of project ':com.grid.graph.generator'. [incubating]" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.grid.graph.generator" />
-                <option name="name" value="model" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Processes main resources." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.grid.graph.generator" />
-                <option name="name" value="processResources" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the tasks runnable from project ':com.grid.graph.generator'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.grid.graph.generator" />
-                <option name="name" value="tasks" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Runs the unit tests." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.grid.graph.generator" />
-                <option name="name" value="test" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Compiles main Java source." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.grid.graph.generator" />
-                <option name="name" value="compileJava" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the insight into a specific dependency in project ':com.grid.graph.generator'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.grid.graph.generator" />
-                <option name="name" value="dependencyInsight" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Runs all checks." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.grid.graph.generator" />
-                <option name="name" value="check" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Assembles the outputs of this project." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.grid.graph.generator" />
-                <option name="name" value="assemble" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Deletes the build directory." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.grid.graph.generator" />
-                <option name="name" value="clean" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Compiles test Java source." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.grid.graph.generator" />
-                <option name="name" value="compileTestJava" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays all dependencies declared in project ':com.grid.graph.generator'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.grid.graph.generator" />
-                <option name="name" value="dependencies" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Processes test resources." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.grid.graph.generator" />
-                <option name="name" value="processTestResources" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays a help message." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.grid.graph.generator" />
-                <option name="name" value="help" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Assembles and tests this project." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.grid.graph.generator" />
-                <option name="name" value="build" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Assembles and tests this project and all projects it depends on." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.grid.graph.generator" />
-                <option name="name" value="buildNeeded" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="description" value="Displays the properties of project ':com.grid.graph.generator'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/com.grid.graph.generator" />
-                <option name="name" value="properties" />
-              </ExternalTaskPojo>
-            </list>
-          </value>
-        </entry>
         <entry key="$PROJECT_DIR$/com.grid.graph.main">
           <value>
             <list>
@@ -1780,7 +688,7 @@
     <option name="modificationStamps">
       <map>
         <entry key="$USER_HOME$/.gradle/gradle.properties" value="3020531835" />
-        <entry key="$PROJECT_DIR$" value="9157430047000" />
+        <entry key="$PROJECT_DIR$" value="7640464998000" />
         <entry key="$PROJECT_DIR$/.gradle" value="0" />
         <entry key="$PROJECT_DIR$/ColoredOutput.gradle" value="2558418440" />
         <entry key="$PROJECT_DIR$/build.gradle" value="843827278" />
@@ -1792,12 +700,12 @@
         <entry key="$PROJECT_DIR$/com.consensus.node/build.gradle" value="1912372621" />
         <entry key="$PROJECT_DIR$/com.consensus.utils/build.gradle" value="3822465927" />
         <entry key="$PROJECT_DIR$/com.grid.graph.controller/build.gradle" value="1537381548" />
-        <entry key="$PROJECT_DIR$/com.grid.graph.generator/build.gradle" value="4146742202" />
-        <entry key="$PROJECT_DIR$/com.grid.graph.main/build.gradle" value="2751577403" />
+        <entry key="$PROJECT_DIR$/com.grid.graph.generator/build.gradle" value="1290651589" />
+        <entry key="$PROJECT_DIR$/com.grid.graph.main/build.gradle" value="4248676365" />
         <entry key="$PROJECT_DIR$/consensus.main/build.gradle" value="122919428" />
         <entry key="$PROJECT_DIR$/java8/build.gradle" value="219214898" />
         <entry key="$PROJECT_DIR$/java9main.main/build.gradle" value="3552525747" />
-        <entry key="$PROJECT_DIR$/settings.gradle" value="3108632919" />
+        <entry key="$PROJECT_DIR$/settings.gradle" value="1562826804" />
       </map>
     </option>
     <option name="projectBuildClasspath">
@@ -2052,31 +960,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/com.consensus.kafka/build.gradle" />
-        <option value="$PROJECT_DIR$/com.consensus.utils/build.gradle" />
-        <option value="$PROJECT_DIR$/com.consensus.kafka/src/test/java/KafkaProducerImplTest.java" />
-        <option value="$PROJECT_DIR$/com.consensus.kafka/src/test/java/KafkaConsumerImplTests.java" />
-        <option value="$PROJECT_DIR$/com.consensus.node/src/main/java/module-info.java" />
-        <option value="$PROJECT_DIR$/com.consensus.histogram/build.gradle" />
-        <option value="$PROJECT_DIR$/com.consensus.grid/build.gradle" />
-        <option value="$PROJECT_DIR$/com.consensus.node/build.gradle" />
-        <option value="$PROJECT_DIR$/com.consensus.histogram/src/main/java/com/consensus/histogram/service/HistogramGenerator.java" />
-        <option value="$PROJECT_DIR$/com.consensus.histogram/src/main/java/com/consensus/histogram/App.java" />
-        <option value="$PROJECT_DIR$/com.consensus.histogram/src/test/java/HistogramTest.java" />
-        <option value="$PROJECT_DIR$/com.consensus.histogram/src/main/java/com/consensus/histogram/domain/Histogram.java" />
-        <option value="$PROJECT_DIR$/com.consensus.histogram/src/main/java/com/consensus/histogram/service/Utils.java" />
-        <option value="$PROJECT_DIR$/com.consensus.node/src/test/java/HistogramGeneratorTests.java" />
-        <option value="$PROJECT_DIR$/com.consensus.node/src/main/java/com/consensus/node/ConsensusNode.java" />
-        <option value="$PROJECT_DIR$/com.consensus.histogram/src/main/java/com/consensus/histogram/domain/Image.java" />
-        <option value="$PROJECT_DIR$/com.consensus.kafka/src/main/java/com/consensus/kafka/KafkaConsumerContainerImpl.java" />
-        <option value="$PROJECT_DIR$/com.consensus.utils/src/main/java/com/consensus/utils/domain/ConsensusIteration.java" />
-        <option value="$PROJECT_DIR$/com.consensus.node/src/test/java/ConsensusNodeTest.java" />
-        <option value="$PROJECT_DIR$/com.consensus.grid/src/main/java/com/consensus/grid/ConsensusGridGraph.java" />
-        <option value="$PROJECT_DIR$/com.consensus.grid/src/main/java/com/consensus/grid/GridGraphGeneratorImpl.java" />
-        <option value="$PROJECT_DIR$/com.consensus.grid/src/main/java/module-info.java" />
-        <option value="$PROJECT_DIR$/com.consensus.grid/src/test/java/GridGraphGeneratorTest.java" />
-        <option value="$PROJECT_DIR$/com.grid.graph.generator/src/main/main/java/module-info.java" />
-        <option value="$PROJECT_DIR$/com.grid.graph.generator/src/test/java/java/GridGraphGeneratorTest.java" />
         <option value="$PROJECT_DIR$/com.grid.graph.controller/src/main/java/Main.java" />
         <option value="$PROJECT_DIR$/com.grid.graph.controller/src/main/java/Application.java" />
         <option value="$PROJECT_DIR$/com.grid.graph.controller/build.gradle" />
@@ -2085,32 +968,57 @@
         <option value="$PROJECT_DIR$/com.grid.graph.controller/src/main/java/com/grid/graph/controller/controller/GridGraphController.java" />
         <option value="$PROJECT_DIR$/com.grid.graph.controller/src/main/java/com/grid/graph/main/controller/GridGraphController.java" />
         <option value="$PROJECT_DIR$/com.grid.graph.controller/src/main/java/module-info.java" />
-        <option value="$PROJECT_DIR$/settings.gradle" />
-        <option value="$PROJECT_DIR$/com.grid.graph.generator/build.gradle" />
         <option value="$PROJECT_DIR$/com.grid.graph.main/src/main/java/com/grid/graph/main/GridGraphController.java" />
-        <option value="$PROJECT_DIR$/com.grid.graph.main/src/main/java/module-info.java" />
-        <option value="$PROJECT_DIR$/com.grid.graph.main/src/main/java/com/grid/graph/main/service/GridGraphGeneratorService.java" />
         <option value="$PROJECT_DIR$/com.grid.graph.generator/src/main/java/com/grid/graph/generator/ConsensusGridGraph.java" />
         <option value="$PROJECT_DIR$/com.grid.graph.main/src/main/java/com/grid/graph/main/config/GridGraphImplConfig.java" />
-        <option value="$PROJECT_DIR$/com.grid.graph.main/src/main/java/com/grid/graph/main/Application.java" />
         <option value="$PROJECT_DIR$/com.grid.graph.main/src/main/java/com/grid/graph/main/domain/GraphResponse.java" />
         <option value="$PROJECT_DIR$/com.grid.graph.main/src/main/java/com/grid/graph/main/controller/GridGraphController.java" />
         <option value="$PROJECT_DIR$/com.grid.graph.generator/src/main/java/com/grid/graph/generator/GridGraphGeneratorImpl.java" />
-        <option value="$PROJECT_DIR$/com.grid.graph.generator/src/main/java/com/grid/graph/generator/ConsensusGridGraphGeneratorImpl.java" />
-        <option value="$PROJECT_DIR$/com.grid.graph.main/src/main/java/com/grid/graph/main/config/ConsensusGridGraphImplConfig.java" />
         <option value="$PROJECT_DIR$/com.grid.graph.generator/src/test/java/ConsensusGridGraphGeneratorTest.java" />
-        <option value="$PROJECT_DIR$/com.grid.graph.main/build.gradle" />
-        <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/com.grid.graph.main/src/main/java/com/grid/graph/main/domain/ConsensusGraphResponseDTO.java" />
+        <option value="$PROJECT_DIR$/com.grid.graph.main/src/main/java/com/grid/graph/main/controller/ConsenususGridGraphController.java" />
+        <option value="$PROJECT_DIR$/com.grid.graph.main/src/test/java/GridGraphGeneratorServiceTest.java" />
+        <option value="$PROJECT_DIR$/com.grid.graph.generator/src/main/java/com/grid/graph/generator/ConsensusGridGraphGeneratorImpl.java" />
         <option value="$PROJECT_DIR$/com.grid.graph.main/src/test/java/JgraphTests.java" />
+        <option value="$PROJECT_DIR$/com.grid.graph.generator/build.gradle" />
+        <option value="$PROJECT_DIR$/com.grid.graph.generator/src/main/java/module-info.java" />
+        <option value="$PROJECT_DIR$/com.grid.graph.main/src/main/java/com/grid/graph/main/config/ConsensusGridGraphImplConfig.java" />
+        <option value="$PROJECT_DIR$/com.grid.graph.main/src/main/java/com/grid/graph/main/Application.java" />
+        <option value="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" />
+        <option value="$PROJECT_DIR$/settings.gradle" />
+        <option value="$PROJECT_DIR$/com.grid.graph.main/src/main/java/com/grid/graph/main/domain/GraphGeneratorResponseDTO.java" />
+        <option value="$PROJECT_DIR$/com.grid.graph.main/src/test/resources/application.properties" />
+        <option value="$PROJECT_DIR$/com.grid.graph.main/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/com.grid.graph.main/src/test/java/GnmRandomGraphGeneratorTest.java" />
+        <option value="$PROJECT_DIR$/com.grid.graph.main/src/test/java/GeneralizedPetersenGraphGeneratorTest.java" />
+        <option value="$PROJECT_DIR$/com.grid.graph.main/src/main/java/com/grid/graph/main/service/GraphGeneratorService.java" />
+        <option value="$PROJECT_DIR$/com.grid.graph.main/src/main/java/com/grid/graph/main/service/GridGraphGeneratorService.java" />
+        <option value="$PROJECT_DIR$/com.grid.graph.main/src/main/java/com/grid/graph/main/service/GridGraphGeneratorImpl.java" />
+        <option value="$PROJECT_DIR$/com.grid.graph.main/src/main/java/com/grid/graph/main/service/GraphGeneratorServiceImpl.java" />
+        <option value="$PROJECT_DIR$/com.grid.graph.main/src/test/java/GraphGeneratorControllerTest.java" />
+        <option value="$PROJECT_DIR$/com.grid.graph.main/src/test/java/com/grid/graph/main/GraphGeneratorControllerTest.java" />
+        <option value="$PROJECT_DIR$/com.grid.graph.main/src/main/java/com/grid/graph/main/config/Configs.java" />
+        <option value="$PROJECT_DIR$/com.grid.graph.main/src/test/java/com/grid/graph/main/config/Configs.java" />
+        <option value="$PROJECT_DIR$/com.grid.graph.main/src/test/java/NamedGraphGeneratorTest.java" />
+        <option value="$PROJECT_DIR$/com.grid.graph.main/src/test/java/GridGraphGeneratorServiceImplTest.java" />
+        <option value="$PROJECT_DIR$/com.grid.graph.main/src/test/java/com/grid/graph/main/config/GraphGeneratorServiceImplConfig.java" />
+        <option value="$PROJECT_DIR$/com.grid.graph.main/src/main/java/module-info.java" />
+        <option value="$PROJECT_DIR$/com.grid.graph.main/src/test/java/com/grid/graph/main/service/GraphGeneratorControllerTest.java" />
+        <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/com.grid.graph.main/build.gradle" />
+        <option value="$PROJECT_DIR$/com.grid.graph.main/src/main/java/com/grid/graph/main/GraphGeneratorService.java" />
         <option value="$PROJECT_DIR$/com.grid.graph.main/src/main/java/com/grid/graph/main/controller/GraphGeneratorController.java" />
+        <option value="$PROJECT_DIR$/com.grid.graph.main/src/test/java/com/grid/graph/main/service/GraphGeneratorServiceTest.java" />
+        <option value="$PROJECT_DIR$/com.grid.graph.main/src/main/java/com/grid/graph/main/GraphGeneratorServiceImpl.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="58" />
-    <option name="y" value="64" />
-    <option name="width" value="1384" />
-    <option name="height" value="872" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="3" />
+    <option name="y" value="23" />
+    <option name="width" value="1440" />
+    <option name="height" value="826" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -2118,6 +1026,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
       <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
@@ -2130,56 +1039,6 @@
             <path>
               <item name="grid-graph-generator" type="b2602c69:ProjectViewProjectNode" />
               <item name="grid-graph-generator" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="com.grid.graph.generator" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="grid-graph-generator" type="b2602c69:ProjectViewProjectNode" />
-              <item name="grid-graph-generator" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="com.grid.graph.generator" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="grid-graph-generator" type="b2602c69:ProjectViewProjectNode" />
-              <item name="grid-graph-generator" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="com.grid.graph.generator" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="grid-graph-generator" type="b2602c69:ProjectViewProjectNode" />
-              <item name="grid-graph-generator" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="com.grid.graph.generator" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="grid-graph-generator" type="b2602c69:ProjectViewProjectNode" />
-              <item name="grid-graph-generator" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="com.grid.graph.generator" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="generator" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="grid-graph-generator" type="b2602c69:ProjectViewProjectNode" />
-              <item name="grid-graph-generator" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="com.grid.graph.generator" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="grid-graph-generator" type="b2602c69:ProjectViewProjectNode" />
-              <item name="grid-graph-generator" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="com.grid.graph.generator" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="grid-graph-generator" type="b2602c69:ProjectViewProjectNode" />
-              <item name="grid-graph-generator" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="com.grid.graph.main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
             <path>
@@ -2211,16 +1070,6 @@
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="grid-graph-generator" type="b2602c69:ProjectViewProjectNode" />
-              <item name="grid-graph-generator" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="com.grid.graph.main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="grid-graph-generator" type="b2602c69:ProjectViewProjectNode" />
@@ -2237,17 +1086,24 @@
               <item name="grid-graph-generator" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="com.grid.graph.main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="grid-graph-generator" type="b2602c69:ProjectViewProjectNode" />
+              <item name="grid-graph-generator" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="com.grid.graph.main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="grid-graph-generator" type="b2602c69:ProjectViewProjectNode" />
+              <item name="grid-graph-generator" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="com.grid.graph.main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="domain" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="grid-graph-generator" type="b2602c69:ProjectViewProjectNode" />
-              <item name="grid-graph-generator" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="com.grid.graph.main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
             <path>
               <item name="grid-graph-generator" type="b2602c69:ProjectViewProjectNode" />
@@ -2256,27 +1112,13 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="grid-graph-generator" type="b2602c69:ProjectViewProjectNode" />
-              <item name="grid-graph-generator" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="gradle" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="grid-graph-generator" type="b2602c69:ProjectViewProjectNode" />
-              <item name="grid-graph-generator" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="gradle" type="462c0819:PsiDirectoryNode" />
-              <item name="wrapper" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="grid-graph-generator" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -2295,13 +1137,14 @@
       <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/com.grid.graph.main/src/main/java/com/grid/graph/main/service" />
+      <recent name="$PROJECT_DIR$/com.grid.graph.main/src/test/java" />
       <recent name="$PROJECT_DIR$/com.grid.graph.main" />
       <recent name="$PROJECT_DIR$/com.grid.graph.generator/src/test" />
       <recent name="$PROJECT_DIR$/com.grid.graph.generator/src/main" />
-      <recent name="$PROJECT_DIR$/com.consensus.node/src/test/resources" />
-      <recent name="$PROJECT_DIR$/gradle" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.grid.graph.main.service" />
       <recent name="" />
       <recent name="com.consensus.node" />
     </key>
@@ -2325,7 +1168,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.JgraphTests">
+  <component name="RunManager" selected="Gradle.GraphGeneratorServiceTest.generatePetersonGraph">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HEIGHT" value="0" />
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
@@ -2334,12 +1177,12 @@
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="JgraphTests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="GraphGeneratorControllerTest.generateUnDirectedCompleteGraph" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/com.grid.graph.main" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests JgraphTests" />
+        <option name="scriptParameters" value="--tests &quot;com.grid.graph.main.service.GraphGeneratorControllerTest.generateUnDirectedCompleteGraph&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -2352,12 +1195,12 @@
         <option name="vmOptions" />
       </ExternalSystemSettings>
     </configuration>
-    <configuration name="JgraphTests.hyperCubeGenerator" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="GraphGeneratorServiceTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/com.grid.graph.main" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;JgraphTests.hyperCubeGenerator&quot;" />
+        <option name="scriptParameters" value="--tests com.grid.graph.main.service.GraphGeneratorServiceTest" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -2370,24 +1213,43 @@
         <option name="vmOptions" />
       </ExternalSystemSettings>
     </configuration>
-    <configuration name="grid-graph-generator [bootJar]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="GraphGeneratorServiceTest.generatePetersonGraph" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/com.grid.graph.main" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
+        <option name="scriptParameters" value="--tests &quot;com.grid.graph.main.service.GraphGeneratorServiceTest.generatePetersonGraph&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
         <option name="taskNames">
           <list>
-            <option value="bootJar" />
+            <option value=":com.grid.graph.main:cleanTest" />
+            <option value=":com.grid.graph.main:test" />
           </list>
         </option>
         <option name="vmOptions" />
       </ExternalSystemSettings>
     </configuration>
-    <configuration name="grid-graph-generator:com.grid.graph.main [assemble]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="GraphGeneratorServiceTest.stringToJsonTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/com.grid.graph.main" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;com.grid.graph.main.service.GraphGeneratorServiceTest.stringToJsonTest&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":com.grid.graph.main:cleanTest" />
+            <option value=":com.grid.graph.main:test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+    </configuration>
+    <configuration name="grid-graph-generator:com.grid.graph.main [runDebug]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/com.grid.graph.main" />
@@ -2398,24 +1260,7 @@
         </option>
         <option name="taskNames">
           <list>
-            <option value="assemble" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-    </configuration>
-    <configuration name="grid-graph-generator:com.grid.graph.main [bootRun]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/com.grid.graph.main" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="bootRun" />
+            <option value="runDebug" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -2482,19 +1327,19 @@
     </configuration>
     <list>
       <item itemvalue="Remote.Remote" />
-      <item itemvalue="Gradle.grid-graph-generator [bootJar]" />
-      <item itemvalue="Gradle.grid-graph-generator:com.grid.graph.main [bootRun]" />
-      <item itemvalue="Gradle.grid-graph-generator:com.grid.graph.main [assemble]" />
-      <item itemvalue="Gradle.JgraphTests.hyperCubeGenerator" />
-      <item itemvalue="Gradle.JgraphTests" />
+      <item itemvalue="Gradle.GraphGeneratorControllerTest.generateUnDirectedCompleteGraph" />
+      <item itemvalue="Gradle.GraphGeneratorServiceTest.stringToJsonTest" />
+      <item itemvalue="Gradle.GraphGeneratorServiceTest" />
+      <item itemvalue="Gradle.grid-graph-generator:com.grid.graph.main [runDebug]" />
+      <item itemvalue="Gradle.GraphGeneratorServiceTest.generatePetersonGraph" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.JgraphTests" />
-        <item itemvalue="Gradle.JgraphTests.hyperCubeGenerator" />
-        <item itemvalue="Gradle.grid-graph-generator:com.grid.graph.main [assemble]" />
-        <item itemvalue="Gradle.grid-graph-generator:com.grid.graph.main [bootRun]" />
-        <item itemvalue="Gradle.grid-graph-generator [bootJar]" />
+        <item itemvalue="Gradle.GraphGeneratorServiceTest.generatePetersonGraph" />
+        <item itemvalue="Gradle.grid-graph-generator:com.grid.graph.main [runDebug]" />
+        <item itemvalue="Gradle.GraphGeneratorServiceTest.stringToJsonTest" />
+        <item itemvalue="Gradle.GraphGeneratorServiceTest" />
+        <item itemvalue="Gradle.GraphGeneratorControllerTest.generateUnDirectedCompleteGraph" />
       </list>
     </recent_temporary>
   </component>
@@ -2512,35 +1357,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="GridGraphGeneratorTest_testConsensusWeightMatrix - 2018.05.20 at 16h 19m 05s.xml">
-      <configuration name="GridGraphGeneratorTest.testConsensusWeightMatrix" configurationId="GradleRunConfiguration" />
+    <history-entry file="GraphGeneratorServiceTest_stringToJsonTest - 2018.07.14 at 11h 47m 04s.xml">
+      <configuration name="GraphGeneratorServiceTest.stringToJsonTest" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="GridGraphGeneratorTest_hyperCubeGenerator - 2018.05.20 at 16h 19m 19s.xml">
-      <configuration name="GridGraphGeneratorTest.hyperCubeGenerator" configurationId="GradleRunConfiguration" />
+    <history-entry file="GraphGeneratorServiceTest_stringToJsonTest - 2018.07.14 at 11h 47m 49s.xml">
+      <configuration name="GraphGeneratorServiceTest.stringToJsonTest" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="GridGraphGeneratorTest - 2018.05.20 at 16h 19m 33s.xml">
-      <configuration name="GridGraphGeneratorTest" configurationId="GradleRunConfiguration" />
+    <history-entry file="GraphGeneratorServiceTest_stringToJsonTest - 2018.07.14 at 12h 36m 32s.xml">
+      <configuration name="GraphGeneratorServiceTest.stringToJsonTest" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="GridGraphGeneratorTest_validateGridGraphGenerator - 2018.05.20 at 16h 19m 47s.xml">
-      <configuration name="GridGraphGeneratorTest.validateGridGraphGenerator" configurationId="GradleRunConfiguration" />
+    <history-entry file="GraphGeneratorServiceTest_stringToJsonTest - 2018.07.14 at 12h 36m 51s.xml">
+      <configuration name="GraphGeneratorServiceTest.stringToJsonTest" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="GridGraphGeneratorTest_validateGridGraphGenerator - 2018.05.20 at 16h 21m 15s.xml">
-      <configuration name="GridGraphGeneratorTest.validateGridGraphGenerator" configurationId="GradleRunConfiguration" />
+    <history-entry file="GraphGeneratorServiceTest_stringToJsonTest - 2018.07.14 at 13h 16m 27s.xml">
+      <configuration name="GraphGeneratorServiceTest.stringToJsonTest" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="GridGraphGeneratorTest - 2018.05.20 at 16h 21m 45s.xml">
-      <configuration name="GridGraphGeneratorTest" configurationId="GradleRunConfiguration" />
+    <history-entry file="GraphGeneratorServiceTest_generatePetersonGraph - 2018.07.14 at 14h 46m 25s.xml">
+      <configuration name="GraphGeneratorServiceTest.generatePetersonGraph" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="GridGraphGeneratorTest_(1) - 2018.05.20 at 16h 35m 13s.xml">
-      <configuration name="GridGraphGeneratorTest (1)" configurationId="GradleRunConfiguration" />
+    <history-entry file="GraphGeneratorServiceTest_generatePetersonGraph - 2018.07.14 at 14h 47m 55s.xml">
+      <configuration name="GraphGeneratorServiceTest.generatePetersonGraph" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="JgraphTests_hyperCubeGenerator - 2018.05.21 at 22h 12m 25s.xml">
-      <configuration name="JgraphTests.hyperCubeGenerator" configurationId="GradleRunConfiguration" />
+    <history-entry file="GraphGeneratorServiceTest_generatePetersonGraph - 2018.07.14 at 14h 48m 15s.xml">
+      <configuration name="GraphGeneratorServiceTest.generatePetersonGraph" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="JgraphTests - 2018.05.21 at 22h 12m 48s.xml">
-      <configuration name="JgraphTests" configurationId="GradleRunConfiguration" />
+    <history-entry file="GraphGeneratorServiceTest_generatePetersonGraph - 2018.07.14 at 14h 48m 51s.xml">
+      <configuration name="GraphGeneratorServiceTest.generatePetersonGraph" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="JgraphTests - 2018.05.21 at 22h 15m 28s.xml">
-      <configuration name="JgraphTests" configurationId="GradleRunConfiguration" />
+    <history-entry file="GraphGeneratorServiceTest_generatePetersonGraph - 2018.07.14 at 14h 49m 12s.xml">
+      <configuration name="GraphGeneratorServiceTest.generatePetersonGraph" configurationId="GradleRunConfiguration" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -2553,41 +1398,42 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="58" y="64" width="1384" height="872" extended-state="0" />
+    <frame x="3" y="23" width="1440" height="826" extended-state="1" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.3294423" />
       <window_info anchor="right" id="sbt" order="4" />
-      <window_info anchor="right" id="Palette&#9;" order="3" />
-      <window_info id="Image Layers" order="2" />
-      <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50143063" side_tool="true" weight="0.15272728" />
       <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.8540773" weight="0.118709676" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.27496758" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.21943574" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2928465" />
-      <window_info anchor="bottom" id="sbt-shell-toolwindow" order="7" weight="0.32969698" />
       <window_info anchor="bottom" x="8" y="302" width="1398" height="192" id="Build" order="7" type="FLOATING" weight="0.37333333" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32516128" />
-      <window_info anchor="right" id="Gradle" order="3" sideWeight="0.7163636" visible="true" weight="0.025335321" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.4985694" visible="true" weight="0.46227708" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3294423" />
+      <window_info anchor="bottom" id="Messages" order="7" sideWeight="0.47328818" weight="0.31559855" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info id="Image Layers" order="2" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.8540773" weight="0.2798354" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.27496758" />
+      <window_info anchor="right" id="Coverage" order="4" sideWeight="0.2857143" side_tool="true" weight="0.09012876" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.21943574" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.10014306" />
+      <window_info anchor="bottom" id="sbt-shell-toolwindow" order="7" weight="0.32969698" />
+      <window_info anchor="right" id="Gradle" order="3" sideWeight="0.71428573" visible="true" weight="0.21173105" />
       <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4985694" weight="0.06666667" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="bottom" id="Messages" order="7" sideWeight="0.47328818" visible="true" weight="0.31559855" />
       <window_info id="Build Variants" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32303733" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Coverage" order="4" sideWeight="0.28363636" side_tool="true" weight="0.1788269" />
     </layout>
     <layout-to-restore>
       <window_info anchor="bottom" x="8" y="302" width="1398" height="192" id="Build" order="7" type="FLOATING" weight="0.37333333" />
@@ -2596,8 +1442,7 @@
       <window_info id="Build Variants" order="3" side_tool="true" />
       <window_info anchor="right" id="sbt" order="9" />
       <window_info anchor="bottom" id="sbt-shell-toolwindow" order="8" weight="0.32969698" />
-      <window_info id="Image Layers" order="4" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.8540773" visible="true" weight="0.25167337" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.8540773" weight="0.40129033" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="Capture Tool" order="5" />
@@ -2608,21 +1453,22 @@
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50143063" side_tool="true" weight="0.15272728" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3294423" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" order="11" show_stripe_button="false" weight="0.27496758" />
+      <window_info anchor="bottom" id="Version Control" order="11" weight="0.27496758" />
       <window_info anchor="right" id="Maven Projects" order="5" />
-      <window_info anchor="right" id="Gradle" order="6" sideWeight="0.7163636" weight="0.11230329" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21971408" />
+      <window_info anchor="right" id="Gradle" order="6" sideWeight="0.7163636" visible="true" weight="0.11802575" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22103004" />
       <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.47328818" visible="true" weight="0.31559855" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.3294423" />
+      <window_info id="Image Layers" order="4" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Coverage" order="10" sideWeight="0.28363636" side_tool="true" weight="0.1788269" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3291536" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4985694" weight="0.053547524" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32516128" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4985694" visible="true" weight="0.1948387" />
     </layout-to-restore>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -2728,260 +1574,363 @@
           <properties />
           <option name="timeStamp" value="144" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/com.grid.graph.main/src/test/java/GridGraphGeneratorServiceImplTest.java</url>
+          <line>32</line>
+          <properties />
+          <option name="timeStamp" value="168" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/com.grid.graph.main/src/test/java/NamedGraphGeneratorTest.java</url>
+          <line>184</line>
+          <properties />
+          <option name="timeStamp" value="170" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/com.grid.graph.main/src/main/java/com/grid/graph/main/GraphGeneratorServiceImpl.java</url>
+          <line>269</line>
+          <properties />
+          <option name="timeStamp" value="188" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/com.grid.graph.main/src/main/java/com/grid/graph/main/GraphGeneratorServiceImpl.java</url>
+          <line>369</line>
+          <properties />
+          <option name="timeStamp" value="190" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/com.grid.graph.main/src/main/java/com/grid/graph/main/controller/GraphGeneratorController.java</url>
+          <line>45</line>
+          <properties />
+          <option name="timeStamp" value="235" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/com.grid.graph.main/src/main/java/com/grid/graph/main/GraphGeneratorServiceImpl.java</url>
+          <line>120</line>
+          <properties />
+          <option name="timeStamp" value="238" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="164" />
+      <option name="time" value="239" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/com.consensus.histogram/src/test/java/HistogramTest.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/jgrapht/jgrapht-core/1.2.1-SNAPSHOT/jgrapht-core-1.2.1-SNAPSHOT.jar!/org/jgrapht/graph/AbstractBaseGraph.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        <state relative-caret-position="82">
+          <caret line="229" selection-start-line="229" selection-end-line="229" />
+          <folding>
+            <element signature="e#6004#6005#0" expanded="true" />
+            <element signature="e#6068#6069#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.kafka/spring-kafka-test/2.1.4.RELEASE/d13a82755fba1a4f15464f8782bacfa0aabded8d/spring-kafka-test-2.1.4.RELEASE-sources.jar!/org/springframework/kafka/test/utils/ContainerTestUtils.java">
+    <entry file="file://$PROJECT_DIR$/com.grid.graph.main/src/main/java/com/grid/graph/main/service/GridGraphGeneratorImpl.java" />
+    <entry file="file://$PROJECT_DIR$/com.grid.graph.main/src/test/java/BarabasiAlbertGraphGeneratorTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="29">
-          <caret line="48" column="23" selection-start-line="48" selection-start-column="23" selection-end-line="48" selection-end-column="23" />
+        <state relative-caret-position="285">
+          <caret line="35" column="13" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/com.consensus.utils/src/main/java/com/consensus/utils/serializer/ConsensusIterationSerializer.java">
+    <entry file="file://$PROJECT_DIR$/com.grid.graph.main/src/test/java/ComplementGraphGeneratorTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="29">
+        <state relative-caret-position="121">
+          <caret line="36" column="13" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/Assert.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/jgrapht/jgrapht-core/1.2.1-SNAPSHOT/jgrapht-core-1.2.1-SNAPSHOT.jar!/org/jgrapht/generate/GraphGenerator.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com.grid.graph.main/src/test/java/GnmRandomBipartiteGraphGeneratorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1180">
+          <caret line="36" column="13" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com.grid.graph.main/src/test/java/GeneralizedPetersenGraphGeneratorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-546">
+          <caret line="59" column="57" selection-start-line="59" selection-start-column="57" selection-end-line="59" selection-end-column="57" />
+          <folding>
+            <element signature="e#0#3659#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com.grid.graph.main/src/main/java/com/grid/graph/main/domain/GraphGeneratorResponseDTO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-216">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/jgrapht/jgrapht-core/1.2.1-SNAPSHOT/jgrapht-core-1.2.1-SNAPSHOT.jar!/org/jgrapht/graph/SimpleDirectedGraph.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="12" column="64" selection-start-line="12" selection-start-column="39" selection-end-line="12" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-9.0.4.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/Class.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="2500" column="26" selection-start-line="2500" selection-start-column="26" selection-end-line="2500" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/jgrapht/jgrapht-core/1.2.1-SNAPSHOT/jgrapht-core-1.2.1-SNAPSHOT.jar!/org/jgrapht/graph/SimpleGraph.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="19" column="93" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="93" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-9.0.4.jdk/Contents/Home/lib/src.zip!/java.base/java/util/function/Supplier.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="40" column="17" selection-start-line="40" selection-start-column="17" selection-end-line="40" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/jgrapht/jgrapht-core/1.2.1-SNAPSHOT/jgrapht-core-1.2.1-SNAPSHOT.jar!/org/jgrapht/Graph.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="79">
+          <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com.grid.graph.main/src/test/java/com/grid/graph/main/config/GraphGeneratorServiceImplConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" selection-start-line="9" selection-end-line="12" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#356#357#0" expanded="true" />
+            <element signature="e#418#419#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com.grid.graph.main/src/test/java/GridGraphGeneratorServiceImplTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="30" column="2" selection-start-line="30" selection-start-column="2" selection-end-line="30" selection-end-column="2" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com.grid.graph.main/src/test/java/NamedGraphGeneratorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="150" column="45" selection-start-line="150" selection-start-column="45" selection-end-line="150" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/jgrapht/jgrapht-core/1.2.1-SNAPSHOT/jgrapht-core-1.2.1-SNAPSHOT.jar!/org/jgrapht/generate/BarabasiAlbertGraphGenerator.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="51" column="5" lean-forward="true" selection-start-line="18" selection-end-line="51" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/jgrapht/jgrapht-core/1.2.1-SNAPSHOT/jgrapht-core-1.2.1-SNAPSHOT.jar!/org/jgrapht/generate/ComplementGraphGenerator.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-111">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/jgrapht/jgrapht-core/1.2.1-SNAPSHOT/jgrapht-core-1.2.1-SNAPSHOT.jar!/org/jgrapht/generate/CompleteBipartiteGraphGenerator.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="249">
+          <caret line="24" column="5" lean-forward="true" selection-start-line="14" selection-start-column="4" selection-end-line="24" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/jgrapht/jgrapht-core/1.2.1-SNAPSHOT/jgrapht-core-1.2.1-SNAPSHOT.jar!/org/jgrapht/generate/CompleteGraphGenerator.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="13" column="63" lean-forward="true" selection-start-line="13" selection-start-column="63" selection-end-line="13" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/jgrapht/jgrapht-core/1.2.1-SNAPSHOT/jgrapht-core-1.2.1-SNAPSHOT.jar!/org/jgrapht/generate/EmptyGraphGenerator.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
           <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/com.consensus.utils/src/main/java/com/consensus/utils/serializer/ConsensusIterationDeserializer.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/jgrapht/jgrapht-core/1.2.1-SNAPSHOT/jgrapht-core-1.2.1-SNAPSHOT.jar!/org/jgrapht/generate/GnmRandomBipartiteGraphGenerator.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        <state relative-caret-position="487">
+          <caret line="48" column="5" lean-forward="true" selection-start-line="16" selection-start-column="4" selection-end-line="48" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-9.0.4.jdk/Contents/Home/lib/src.zip!/jdk.hotspot.agent/sun/jvm/hotspot/gc/cms/AdaptiveFreeList.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/jgrapht/jgrapht-core/1.2.1-SNAPSHOT/jgrapht-core-1.2.1-SNAPSHOT.jar!/org/jgrapht/generate/GnmRandomGraphGenerator.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="73" column="21" selection-start-line="73" selection-start-column="21" selection-end-line="73" selection-end-column="21" />
+        <state relative-caret-position="509">
+          <caret line="48" column="5" lean-forward="true" selection-start-line="14" selection-start-column="4" selection-end-line="48" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/com.consensus.histogram/src/main/java/com/consensus/histogram/domain/Image.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/jgrapht/jgrapht-core/1.2.1-SNAPSHOT/jgrapht-core-1.2.1-SNAPSHOT.jar!/org/jgrapht/generate/GnpRandomBipartiteGraphGenerator.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="12" column="15" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="15" />
+        <state relative-caret-position="483">
+          <caret line="48" column="5" lean-forward="true" selection-start-line="16" selection-start-column="3" selection-end-line="48" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/com.consensus.histogram/src/main/java/com/consensus/histogram/service/Utils.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/jgrapht/jgrapht-core/1.2.1-SNAPSHOT/jgrapht-core-1.2.1-SNAPSHOT.jar!/org/jgrapht/generate/GnpRandomGraphGenerator.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="31">
-          <caret line="80" selection-start-line="80" selection-end-line="80" />
+        <state relative-caret-position="68">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/com.consensus.utils/src/test/java/TestUtils.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/jgrapht/jgrapht-core/1.2.1-SNAPSHOT/jgrapht-core-1.2.1-SNAPSHOT.jar!/org/jgrapht/generate/GridGraphGenerator.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        <state relative-caret-position="90">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/com.consensus.kafka/src/main/java/com/consensus/kafka/configuration/KafkaConfiguration.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/jgrapht/jgrapht-core/1.2.1-SNAPSHOT/jgrapht-core-1.2.1-SNAPSHOT.jar!/org/jgrapht/generate/KleinbergSmallWorldGraphGenerator.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        <state relative-caret-position="529">
+          <caret line="55" column="5" lean-forward="true" selection-start-line="17" selection-start-column="4" selection-end-line="55" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/com.consensus.kafka/src/main/java/com/consensus/kafka/KafkaConsumerContainerImpl.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/jgrapht/jgrapht-core/1.2.1-SNAPSHOT/jgrapht-core-1.2.1-SNAPSHOT.jar!/org/jgrapht/generate/LinearGraphGenerator.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="140" selection-start-line="140" selection-end-line="140" />
+        <state relative-caret-position="90">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.kafka/spring-kafka-test/2.1.4.RELEASE/d13a82755fba1a4f15464f8782bacfa0aabded8d/spring-kafka-test-2.1.4.RELEASE-sources.jar!/org/springframework/kafka/test/rule/KafkaEmbedded.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/jgrapht/jgrapht-core/1.2.1-SNAPSHOT/jgrapht-core-1.2.1-SNAPSHOT.jar!/org/jgrapht/generate/LinearizedChordDiagramGraphGenerator.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-193">
-          <caret line="117" column="11" selection-start-line="117" selection-start-column="11" selection-end-line="117" selection-end-column="11" />
+        <state relative-caret-position="405">
+          <caret line="39" column="5" lean-forward="true" selection-start-line="15" selection-start-column="3" selection-end-line="39" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/com.consensus.kafka/src/main/java/com/consensus/kafka/KafkaProducerImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-67">
-          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com.consensus.utils/src/main/java/com/consensus/utils/domain/ConsensusIteration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
-          <caret line="18" column="27" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com.consensus.utils/src/main/java/com/consensus/utils/generics/MyComparable.java" />
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jgrapht/jgrapht-core/1.1.0/69f57c41fd2caf8405fb1bbda44cb0aee3936687/jgrapht-core-1.1.0-sources.jar!/org/jgrapht/Graph.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="265" column="11" selection-start-line="265" selection-start-column="11" selection-end-line="265" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com.consensus.node/src/test/java/ConsensusNodeTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1303">
-          <caret line="525" column="58" selection-start-line="525" selection-start-column="58" selection-end-line="525" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com.consensus.node/src/test/java/DynamicTestsDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-476">
-          <caret line="15" column="6" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com.consensus.node/src/test/java/HistogramGeneratorTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="136" column="23" selection-start-line="136" selection-end-line="137" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com.consensus.histogram/src/main/java/com/consensus/histogram/domain/Histogram.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="855">
-          <caret line="69" selection-start-line="69" selection-end-line="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com.consensus.node/src/main/java/com/consensus/node/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com.consensus.node/src/main/java/com/consensus/node/ConsensusNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com.consensus.grid/src/main/java/com/grid/graph/GridGraphGeneratorImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1335">
-          <caret line="106" selection-start-line="106" selection-end-line="106" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com.consensus.grid/src/test/java/GridGraphGeneratorTest.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/jgrapht/jgrapht-core/1.2.1-SNAPSHOT/jgrapht-core-1.2.1-SNAPSHOT.jar!/org/jgrapht/generate/NamedGraphGenerator.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="259">
-          <caret line="26" column="38" selection-start-line="26" selection-end-line="27" />
+          <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/jgrapht/jgrapht-core/1.2.1-SNAPSHOT/jgrapht-core-1.2.1-SNAPSHOT.jar!/org/jgrapht/generate/ScaleFreeGraphGenerator.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="26" column="34" selection-start-line="26" selection-start-column="11" selection-end-line="26" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/jgrapht/jgrapht-core/1.2.1-SNAPSHOT/jgrapht-core-1.2.1-SNAPSHOT.jar!/org/jgrapht/generate/RingGraphGenerator.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="9" column="25" lean-forward="true" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/jgrapht/jgrapht-core/1.2.1-SNAPSHOT/jgrapht-core-1.2.1-SNAPSHOT.jar!/org/jgrapht/generate/RandomRegularGraphGenerator.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-28">
+          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/jgrapht/jgrapht-core/1.2.1-SNAPSHOT/jgrapht-core-1.2.1-SNAPSHOT.jar!/org/jgrapht/generate/PlantedPartitionGraphGenerator.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="83">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/jgrapht/jgrapht-core/1.2.1-SNAPSHOT/jgrapht-core-1.2.1-SNAPSHOT.jar!/org/jgrapht/generate/SimpleWeightedBipartiteGraphMatrixGenerator.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-109">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/jgrapht/jgrapht-core/1.2.1-SNAPSHOT/jgrapht-core-1.2.1-SNAPSHOT.jar!/org/jgrapht/generate/SimpleWeightedGraphMatrixGenerator.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="71">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/jgrapht/jgrapht-core/1.2.1-SNAPSHOT/jgrapht-core-1.2.1-SNAPSHOT.jar!/org/jgrapht/generate/WattsStrogatzGraphGenerator.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="89">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/jgrapht/jgrapht-core/1.2.1-SNAPSHOT/jgrapht-core-1.2.1-SNAPSHOT.jar!/org/jgrapht/generate/WheelGraphGenerator.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="24" column="30" selection-start-line="24" selection-start-column="11" selection-end-line="24" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/jgrapht/jgrapht-core/1.2.1-SNAPSHOT/jgrapht-core-1.2.1-SNAPSHOT.jar!/org/jgrapht/generate/WindmillGraphsGenerator.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/jgrapht/jgrapht-core/1.2.1-SNAPSHOT/jgrapht-core-1.2.1-SNAPSHOT.jar!/org/jgrapht/generate/StarGraphGenerator.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#390#391#0" expanded="true" />
+            <element signature="e#424#425#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/com.consensus.grid/src/main/java/com/grid/graph/ConsensusGridGraph.java">
+    <entry file="file://$PROJECT_DIR$/com.grid.graph.main/src/main/java/com/grid/graph/main/controller/ConsenususGridGraphController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1156">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com.consensus.grid/src/main/java/module-info.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="26" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com.consensus.grid/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="22" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com.grid.graph.controller/src/main/java/Main.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com.grid.graph.controller/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="36" column="32" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com.grid.graph.controller/src/main/java/com/grid/graph/main/Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#213#214#0" expanded="true" />
-            <element signature="e#286#287#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com.grid.graph.controller/src/main/java/module-info.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com.grid.graph.controller/src/main/java/com/grid/graph/main/controller/GridGraphController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com.grid.graph.main/build/tmp/bootJar/MANIFEST.MF">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/settings.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com.grid.graph.generator/src/main/java/com/grid/graph/generator/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com.grid.graph.generator/src/main/java/module-info.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="36" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com.grid.graph.main/src/main/java/com/grid/graph/main/service/GridGraphGeneratorService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="41" selection-start-line="8" selection-start-column="41" selection-end-line="8" selection-end-column="41" />
+        <state relative-caret-position="251">
+          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -2990,150 +1939,72 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/com.grid.graph.main/src/main/java/module-info.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="37" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com.grid.graph.main/src/main/java/com/grid/graph/main/Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="54" selection-start-line="10" selection-end-line="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#243#244#0" expanded="true" />
-            <element signature="e#305#306#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com.grid.graph.generator/src/main/java/com/grid/graph/generator/ConsensusGridGraph.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="62" column="27" selection-start-line="62" selection-start-column="27" selection-end-line="62" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com.grid.graph.main/src/main/java/com/grid/graph/main/config/ConsensusGridGraphImplConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#281#282#0" expanded="true" />
-            <element signature="e#332#333#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com.grid.graph.generator/src/main/java/com/grid/graph/generator/ConsensusGridGraphGeneratorImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1231">
-          <caret line="138" column="5" selection-start-line="138" selection-start-column="5" selection-end-line="138" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com.grid.graph.generator/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com.grid.graph.generator/src/test/java/ConsensusGridGraphGeneratorTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="31" column="4" selection-start-line="31" selection-start-column="4" selection-end-line="48" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com.grid.graph.main/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="37" column="44" selection-start-line="37" selection-start-column="44" selection-end-line="37" selection-end-column="44" />
+        <state relative-caret-position="120">
+          <caret line="8" column="44" selection-start-line="8" selection-start-column="44" selection-end-line="8" selection-end-column="44" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+        <state relative-caret-position="105">
+          <caret line="7" column="17" selection-start-line="7" selection-end-line="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/com.grid.graph.main/src/test/java/JgraphTests.java">
+    <entry file="file://$PROJECT_DIR$/com.grid.graph.main/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        <state relative-caret-position="317">
+          <caret line="62" selection-start-line="62" selection-start-column="2" selection-end-line="65" selection-end-column="3" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <marker date="1531600212156" expanded="true" signature="2133:2382" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/com.grid.graph.main/src/main/java/com/grid/graph/main/domain/GraphGeneratorResponseDTO.java">
+    <entry file="file://$PROJECT_DIR$/settings.gradle">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/jgrapht/jgrapht-core/1.2.1-SNAPSHOT/jgrapht-core-1.2.1-SNAPSHOT.jar!/org/jgrapht/generate/GeneralizedPetersenGraphGenerator.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="35" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
+        <state relative-caret-position="263">
+          <caret line="24" column="16" lean-forward="true" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/com.grid.graph.main/src/main/java/com/grid/graph/main/domain/ConsensusGraphResponseDTO.java">
+    <entry file="file://$PROJECT_DIR$/com.grid.graph.main/src/main/java/com/grid/graph/main/GraphGeneratorService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="33" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
+        <state relative-caret-position="345">
+          <caret line="23" column="42" selection-start-line="23" selection-start-column="42" selection-end-line="23" selection-end-column="42" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#289#290#0" expanded="true" />
-            <element signature="e#318#319#0" expanded="true" />
-            <element signature="e#359#360#0" expanded="true" />
-            <element signature="e#395#396#0" expanded="true" />
-            <element signature="e#424#425#0" expanded="true" />
-            <element signature="e#452#453#0" expanded="true" />
-            <element signature="e#491#492#0" expanded="true" />
-            <element signature="e#525#526#0" expanded="true" />
-            <element signature="e#565#566#0" expanded="true" />
-            <element signature="e#596#597#0" expanded="true" />
-            <element signature="e#649#650#0" expanded="true" />
-            <element signature="e#689#690#0" expanded="true" />
-            <element signature="e#726#727#0" expanded="true" />
-            <element signature="e#754#755#0" expanded="true" />
-            <element signature="e#801#802#0" expanded="true" />
-            <element signature="e#835#836#0" expanded="true" />
-            <element signature="e#879#880#0" expanded="true" />
-            <element signature="e#913#914#0" expanded="true" />
-            <element signature="e#973#974#0" expanded="true" />
-            <element signature="e#1019#1020#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com.grid.graph.main/src/main/java/com/grid/graph/main/controller/ConsenususGridGraphController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="18" column="3" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="3" />
-          <folding>
-            <element signature="e#1513#1522#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/com.grid.graph.main/src/main/java/com/grid/graph/main/controller/GraphGeneratorController.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1004">
+          <caret line="100" column="2" selection-start-line="100" selection-start-column="2" selection-end-line="100" selection-end-column="2" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com.grid.graph.main/src/test/java/com/grid/graph/main/service/GraphGeneratorServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
-          <caret line="15" column="52" selection-start-line="15" selection-start-column="52" selection-end-line="15" selection-end-column="52" />
+          <caret line="63" selection-start-line="63" selection-end-line="63" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com.grid.graph.main/src/main/java/com/grid/graph/main/GraphGeneratorServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="113" column="64" selection-start-line="113" selection-start-column="64" selection-end-line="113" selection-end-column="64" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

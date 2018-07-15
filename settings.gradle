@@ -1,4 +1,3 @@
 rootProject.name = 'grid-graph-generator'
-include 'com.grid.graph.generator'
 include 'com.grid.graph.main'
 

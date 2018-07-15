@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.grid.graph.generator.iml" filepath="$PROJECT_DIR$/.idea/modules/com.grid.graph.generator.iml" group="com.grid.graph.generator" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.grid.graph.generator/com.grid.graph.generator_main.iml" filepath="$PROJECT_DIR$/.idea/modules/com.grid.graph.generator/com.grid.graph.generator_main.iml" group="com.grid.graph.generator" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.grid.graph.generator/com.grid.graph.generator_test.iml" filepath="$PROJECT_DIR$/.idea/modules/com.grid.graph.generator/com.grid.graph.generator_test.iml" group="com.grid.graph.generator" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.grid.graph.main/com.grid.graph.main.iml" filepath="$PROJECT_DIR$/.idea/modules/com.grid.graph.main/com.grid.graph.main.iml" group="com.grid.graph.main" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.grid.graph.main/com.grid.graph.main_main.iml" filepath="$PROJECT_DIR$/.idea/modules/com.grid.graph.main/com.grid.graph.main_main.iml" group="com.grid.graph.main" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.grid.graph.main/com.grid.graph.main_test.iml" filepath="$PROJECT_DIR$/.idea/modules/com.grid.graph.main/com.grid.graph.main_test.iml" group="com.grid.graph.main" />
